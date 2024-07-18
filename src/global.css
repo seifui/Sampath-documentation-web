@@ -3,8 +3,54 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Inter';
-    src: url('../public/fonts/inter.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "Inter";
+  src: url("../public/fonts/inter.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px; /* Smooth, rounded scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin; /* Width of the scrollbar */
+  scrollbar-color: #888 #f1f1f1; /* Thumb color and track color */
+}
+
+/* For Internet Explorer, Edge */
+body {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
