@@ -1,5 +1,5 @@
 import React, { ComponentType } from "react";
-import { Chevron, HomeIcon, CircleIcon } from "../../../../components";
+import { ChevronIcon, HomeIcon, CircleIcon } from "../../../../components";
 import { TailwindColors } from "../../../../types";
 
 //TODO:: Change below bg color type to a enum based type
@@ -8,6 +8,7 @@ type SideBarItemProps = {
   subItems?: String[];
   itemHoverBackgroundColor?: TailwindColors;
   itemHeading: String;
+  disableChevron?: boolean;
 };
 
 export function SideBarItem({
@@ -15,6 +16,7 @@ export function SideBarItem({
   subItems = undefined,
   itemHoverBackgroundColor = "brand-50",
   itemHeading,
+  disableChevron = false,
 }: SideBarItemProps) {
   return (
     <div className={`flex flex-col  content-center  `}>
@@ -28,9 +30,9 @@ export function SideBarItem({
           {itemHeading}
         </div>
 
-        {subItems && subItems.length > 0 && (
+        {subItems && subItems.length > 0 && disableChevron == false && (
           <div className="self-center">
-            <Chevron direction="down" />
+            <ChevronIcon direction="down" />
           </div>
         )}
       </div>
@@ -39,7 +41,7 @@ export function SideBarItem({
           {subItems.map((subItem, index) => (
             <SideBarItem
               key={index}
-              LeftIcon={() => <CircleIcon color="brand-500" />} // Example of using HomeIcon as LeftIcon
+              LeftIcon={() => <CircleIcon color="#ea580c" />} // Example of using HomeIcon as LeftIcon
               itemHeading={subItem}
             />
           ))}

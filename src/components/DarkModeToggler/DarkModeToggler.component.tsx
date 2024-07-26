@@ -1,18 +1,23 @@
+import { IconBaseProps } from "components/icons/IconBaseProps";
 import React from "react";
 
-export function DarkModeToggler() {
+export function DarkModeToggler({
+  color,
+  height = "20px",
+  width = "20px",
+}: IconBaseProps) {
   return (
     <div>
       <button
         type="button"
-        className="hs-dark-mode-active:hidden block hs-dark-mode group flex items-center text-gray-600 hover:text-blue-600 font-medium dark:text-neutral-400 dark:hover:text-neutral-500"
+        className="hs-dark-mode-active:hidden block hs-dark-mode group flex items-center text-gray-600 hover:text-brand-600 font-medium dark:text-neutral-400 dark:hover:text-neutral-500"
         data-hs-theme-click-value="dark"
       >
         <svg
-          className="flex-shrink-0 size-4"
+          className="flex-shrink-0 "
           xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
+          width={width}
+          height={height}
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -25,14 +30,14 @@ export function DarkModeToggler() {
       </button>
       <button
         type="button"
-        className="hs-dark-mode-active:block hidden hs-dark-mode group flex items-center text-gray-600 hover:text-blue-600 font-medium dark:text-neutral-400 dark:hover:text-neutral-500"
+        className="hs-dark-mode-active:block hidden hs-dark-mode group flex items-center text-gray-600 hover:text-brand-600 font-medium dark:text-neutral-400 dark:hover:text-neutral-500"
         data-hs-theme-click-value="light"
       >
         <svg
-          className="flex-shrink-0 size-4"
+          className="flex-shrink-0 "
           xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
+          width={width}
+          height={height}
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"

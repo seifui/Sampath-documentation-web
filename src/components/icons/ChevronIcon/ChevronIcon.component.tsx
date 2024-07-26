@@ -5,15 +5,16 @@ type ChevronIconProps = IconBaseProps & {
   direction: "left" | "down" | "right" | "up";
 };
 
-export function Chevron({
+export function ChevronIcon({
   direction,
   height = "20",
   width = "20",
+  color = "#23355780",
 }: ChevronIconProps) {
-  if (direction == "down") {
+  if (direction === "down") {
     return (
       <svg
-        color="red"
+        color={color}
         width={width}
         height={height}
         viewBox="0 0 24 24"
@@ -26,6 +27,7 @@ export function Chevron({
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
+          fill="none"
         />
       </svg>
     );
