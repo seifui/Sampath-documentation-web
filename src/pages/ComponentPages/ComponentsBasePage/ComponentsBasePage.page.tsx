@@ -28,7 +28,7 @@ export function ComponentBasePage() {
 
   return (
     <div className="flex">
-      <div className="h-screen  lg:border-e pt-4">
+      <div className="h-screen  lg:border-e pt-4 dark:border-e-gray-dark-200">
         <SideBar sideBarItemList={sideBarItemList} />
       </div>
       <Outlet />
