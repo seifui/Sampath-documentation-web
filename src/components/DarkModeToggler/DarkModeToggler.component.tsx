@@ -10,7 +10,7 @@ export function DarkModeToggler({
     <div>
       <button
         type="button"
-        className="hs-dark-mode-active:hidden block hs-dark-mode group flex items-center text-gray-600 hover:text-brand-600 font-medium dark:text-neutral-400 dark:hover:text-neutral-500"
+        className="hs-dark-mode-active:hidden  hs-dark-mode group flex items-center text-solid-dark-base dark:text-solid-base hover:text-brand-600 font-medium "
         data-hs-theme-click-value="dark"
       >
         <svg
@@ -30,7 +30,7 @@ export function DarkModeToggler({
       </button>
       <button
         type="button"
-        className="hs-dark-mode-active:block hidden hs-dark-mode group flex items-center text-gray-600 hover:text-brand-600 font-medium dark:text-neutral-400 dark:hover:text-neutral-500"
+        className="hs-dark-mode-active:block hidden hs-dark-mode group flex items-center text-solid-dark-base dark:text-solid-base hover:text-brand-600 font-medium dark:hover:text-brand-600"
         data-hs-theme-click-value="light"
       >
         <svg

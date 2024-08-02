@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import { Routes, useLocation, Route } from "react-router-dom";
 import "preline/preline";
 import { IStaticMethods } from "preline/preline";
-import { ComponentBasePage } from "@pages";
 
 import { NavBar, SubHeader } from "@components";
 import { ComponentRoutes } from "routes/ComponentRoutes";
+import { NavBarItem } from "@types";
 
 declare global {
   interface Window {
@@ -20,17 +20,25 @@ function App() {
     window.HSStaticMethods.autoInit();
   }, [location.pathname]);
 
+  const navBarItemList: NavBarItem[] = [
+    { name: "Home", path: "/" },
+    { name: "Foundation", path: "Foundation" },
+    { name: "Components", path: "components" },
+    { name: "Patterns", path: "patterns" },
+  ];
   return (
-    <div className="bg-white dark:bg-gray-800">
+    <div className="bg-white dark:bg-solid-dark-base">
       <div className="flex flex-col justify-center content-center">
-        <div className="px-10 xl:px-40 border-b dark:border-b-black">
-          <NavBar menuList={["Home", "Foundation", "Components", "Patterns"]} />
+        <div className="border-b-gray-200 border-b dark:border-b-gray-dark-200">
+          <div className="px-3 xl:px-6 m-auto ">
+            <NavBar navBarItemList={navBarItemList} />
+          </div>
         </div>
-        <div className="px-10 lg:px-40 border-b lg:hidden">
+        <div className="px-3 xl:px-6 border-b-gray-200 border-b dark:border-b-gray-dark-200 lg:hidden">
           <SubHeader />
         </div>
       </div>
-      <div className="mx-10 xl:mx-40">
+      <div className="lg:pl-3 xl:pl-6 m-auto">
         <Routes>
           <Route path="/components/*" element={<ComponentRoutes />} />
         </Routes>

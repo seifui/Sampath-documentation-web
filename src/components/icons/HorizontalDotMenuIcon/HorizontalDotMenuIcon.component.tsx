@@ -2,12 +2,13 @@ import React from "react";
 import { IconBaseProps } from "../IconBaseProps";
 
 export function HorizontalDotMenuIcon({
-  color = "#000D21CC",
+  color,
   height = "20px",
   width = "20px",
 }: IconBaseProps) {
   return (
     <svg
+      className="text-solid-dark-base dark:text-solid-base"
       color={color}
       width={width}
       height={height}

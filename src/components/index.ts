@@ -4,3 +4,6 @@ export * from "./SubHeader";
 export * from "./SideBar";
 export * from "./DarkModeToggler";
 export * from "./SearchBarButton";
+export * from "./PageHeader";
+export * from "./ComponentsPreviewCard";
+export * from "./ScrollSpy";
