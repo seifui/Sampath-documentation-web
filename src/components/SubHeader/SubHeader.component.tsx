@@ -15,7 +15,7 @@ export function SubHeader() {
       >
         <HamburgerMenuIcon />
       </button>
-      <span className="text-xs text-gray-500">Sample &gt; Breadcrum</span>
+      <span className="text-sm text-gray-500">Sample &gt; Breadcrum</span>
     </div>
   );
 }

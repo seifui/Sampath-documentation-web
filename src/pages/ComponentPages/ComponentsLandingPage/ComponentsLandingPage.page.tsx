@@ -1,6 +1,12 @@
 import { ComponentsPreviewCard, PageHeader } from "@components";
 import React from "react";
-import { COMPONENT_HOME_HEADER_IMAGE } from "@assets";
+import {
+  COMPONENT_HOME_HEADER_IMAGE,
+  ATLASSIN_BUTTON_SVG,
+  ATLASSIN_CALENDAR_SVG,
+  ATLASSIN_CHECKBOX_SVG,
+  ATLASSIN_DRAWER,
+} from "@assets";
 import { ComponentsPreviewCardProps } from "@types";
 
 const sampleComponentCardsList: ComponentsPreviewCardProps[] = [
@@ -8,63 +14,70 @@ const sampleComponentCardsList: ComponentsPreviewCardProps[] = [
     heading: "Button",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
+    imageUrl: ATLASSIN_BUTTON_SVG,
+    onClickNavigationPath: "",
+  },
+  {
+    heading: "Calendar",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
+    imageUrl: ATLASSIN_CALENDAR_SVG,
+    onClickNavigationPath: "",
+  },
+  {
+    heading: "CheckBox",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
+    imageUrl: ATLASSIN_CHECKBOX_SVG,
+    onClickNavigationPath: "",
+  },
+  {
+    heading: "Drawer",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
+    imageUrl: ATLASSIN_DRAWER,
+    onClickNavigationPath: "",
+  },
+  {
+    heading: "CheckBox",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
+    imageUrl: ATLASSIN_CHECKBOX_SVG,
+    onClickNavigationPath: "",
+  },
+  {
+    heading: "Drawer",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
+    imageUrl: ATLASSIN_DRAWER,
     onClickNavigationPath: "",
   },
   {
     heading: "Button",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
+    imageUrl: ATLASSIN_BUTTON_SVG,
+    onClickNavigationPath: "",
+  },
+  {
+    heading: "Calendar",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
+    imageUrl: ATLASSIN_CALENDAR_SVG,
     onClickNavigationPath: "",
   },
   {
     heading: "Button",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
+    imageUrl: ATLASSIN_BUTTON_SVG,
     onClickNavigationPath: "",
   },
   {
-    heading: "Button",
+    heading: "Calendar",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Button",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Button",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Button",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Button",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Button",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: "",
+    imageUrl: ATLASSIN_CALENDAR_SVG,
     onClickNavigationPath: "",
   },
 ];

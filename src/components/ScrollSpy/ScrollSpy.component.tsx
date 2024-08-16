@@ -29,17 +29,20 @@ export const ScrollSpy: React.FC<ScrollSpyProps> = ({ sections }) => {
   }, [sections]);
 
   return (
-    <nav className=" p-4 border-l border-l-gray-200 dark:border-l-gray-dark-200 sticky top-0">
-      <ul className="space-y-2">
+    <nav className=" sticky top-8 w-fit">
+      <h5 className="text-sm font-semibold text-gray-700 dark:text-gray-dark-700">
+        One this page
+      </h5>
+      <ul className="py-4">
         {sections.map((section) => (
-          <li key={section}>
+          <li key={section} className="block ">
             <a
               href={`#${section}`}
               className={`${
                 activeSection === section
-                  ? "text-brand-600 "
-                  : "text-gray-700 dark:text-gray-dark-700"
-              } text-xs`}
+                  ? "text-brand-600 border-l border-l-brand-600"
+                  : "text-gray-700 dark:text-gray-dark-700  border-l border-l-gray-200 dark:border-l-gray-dark-200 "
+              } text-sm block px-4 py-1`}
             >
               {section}
             </a>

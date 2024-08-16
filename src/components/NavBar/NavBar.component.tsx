@@ -24,7 +24,7 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     navBarItemList.map((navBarItem, index) => (
       <a
         key={index}
-        className={`text-xs text-gray-700  hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-colors duration-200 ${
+        className={`text-sm text-gray-700  hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-colors duration-200 ${
           activeLink === index
             ? "border-b-2 border-brand-600"
             : "border-b-2 border-transparent"
@@ -37,14 +37,14 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     ));
 
   return (
-    <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white text-sm  dark:bg-solid-dark-base sticky top-0 h-14 items-center">
+    <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white text-base  dark:bg-solid-dark-base sticky top-0 h-14 items-center">
       <nav
         className=" w-full mx-auto  lg:flex lg:items-center lg:justify-between"
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
           <a
-            className="flex-none text-xl font-semibold dark:text-white"
+            className="flex-none text-2xl font-semibold dark:text-white"
             href="#"
           >
             Sampath Design System
