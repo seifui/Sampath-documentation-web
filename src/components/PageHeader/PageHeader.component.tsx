@@ -14,7 +14,7 @@ export function PageHeader({
 }: PageHeaderProps) {
   return (
     <section
-      className={`flex  items-center content-center bg-gray-100 dark:bg-gray-dark-200 px-3 xl:px-6 w-full ${
+      className={`flex  items-center content-center bg-gray-200 dark:bg-gray-dark-200 px-3 xl:px-6 w-full ${
         imageUrl ? "py-6" : "py-6 md:py-28"
       }`}
     >
