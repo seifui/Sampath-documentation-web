@@ -24,7 +24,7 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     navBarItemList.map((navBarItem, index) => (
       <a
         key={index}
-        className={`text-sm text-gray-700  hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-colors duration-200 ${
+        className={`text-sm font-bold text-gray-400  hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-colors duration-200 ${
           activeLink === index
             ? "border-b-2 border-brand-600"
             : "border-b-2 border-transparent"
@@ -66,7 +66,7 @@ export function NavBar({ navBarItemList }: NavBarProps) {
           id="navbar-with-mega-menu"
           className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block"
         >
-          <div className="flex flex-col gap-5 mt-5 lg:flex-row lg:items-center lg:justify-end lg:mt-0 lg:ps-5">
+          <div className="flex flex-col gap-5 mt-5 lg:flex-row lg:items-center lg:justify-end lg:mt-0 lg:ps-5 menu-list">
             {renderMenuList()}
 
             <DarkModeToggler width={"16px"} height={"16px"} />

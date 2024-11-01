@@ -18,8 +18,8 @@ export function PageHeader({
         imageUrl ? "py-6" : "py-6 md:py-28"
       }`}
     >
-      <div className="flex flex-col text-gray-700 dark:text-gray-dark-700  gap-4">
-        <h1 className="text-3xl font-semibold ">{heading}</h1>
+      <div className="flex flex-col text-gray-700 dark:text-gray-dark-700 gap-4">
+        <h1 className="text-4xl font-extrabold">{heading}</h1>
         <p className="text-base">{content}</p>
       </div>
       {imageUrl && (

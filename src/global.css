@@ -8,7 +8,42 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: 'Lineseed';
+  src: url('../public/fonts/lineseed/EOT/LINESeedSans_W_Rg.eot');
+  src: url('../public/fonts/lineseed/EOT/LINESeedSans_W_Rg.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/lineseed/WOFF2/LINESeedSans_W_Rg.woff2') format('woff2'),
+       url('../public/fonts/lineseed/WOFF/LINESeedSans_W_Rg.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lineseed';
+  src: url('../public/fonts/lineseed/EOT/LINESeedSans_W_Th.eot');
+  src: url('../public/fonts/lineseed/EOT/LINESeedSans_W_Th.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/lineseed/WOFF2/LINESeedSans_W_Th.woff2') format('woff2'),
+       url('../public/fonts/lineseed/WOFF/LINESeedSans_W_Th.woff') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lineseed';
+  src: url('../public/fonts/lineseed/EOT/LINESeedSans_W_Bd.eot');
+  src: url('../public/fonts/lineseed/EOT/LINESeedSans_W_Bd.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/lineseed/WOFF2/LINESeedSans_W_Bd.woff2') format('woff2'),
+       url('../public/fonts/lineseed/WOFF/LINESeedSans_W_Bd.woff') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lineseed';
+  src: url('../public/fonts/lineseed/EOT/LINESeedSans_W_XBd.eot');
+  src: url('../public/fonts/lineseed/EOT/LINESeedSans_W_XBd.eot?#iefix') format('embedded-opentype'),
+       url('../public/fonts/lineseed/WOFF2/LINESeedSans_W_XBd.woff2') format('woff2'),
+       url('../public/fonts/lineseed/WOFF/LINESeedSans_W_XBd.woff') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 3px;
@@ -53,4 +88,10 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+h1 {
+  font-family: 'Lineseed', sans-serif;
+}
+.menu-list{
+  font-family: 'Lineseed', sans-serif;
 }

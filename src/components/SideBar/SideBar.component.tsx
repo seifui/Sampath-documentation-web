@@ -33,10 +33,10 @@ export function SideBar({ sideBarItemList }: SideBarProps) {
           <div onClick={() => handleNavigation(sideBarItem.linkPath, index)}>
             <button
               type="button"
-              className={`hs-accordion-toggle w-full text-start flex items-center text-sm gap-x-3.5 px-2.5 focus:outline-none border-l border-transparent hover:text-brand-600   ${
+              className={`hs-accordion-toggle w-full text-start flex items-center text-sm gap-x-3.5 px-2.5 py-2.5 focus:outline-none border-l border-transparent hover:text-brand-600   ${
                 isActive
                   ? "text-brand-600 font-semibold border-s-brand-600 "
-                  : "text-gray-700 dark:text-gray-dark-700 dark:hover:text-brand-600"
+                  : "text-gray-500 dark:text-gray-dark-700 dark:hover:text-brand-600 font-medium"
               } hover:border-s-brand-600 `}
             >
               {sideBarItem.linkName}
