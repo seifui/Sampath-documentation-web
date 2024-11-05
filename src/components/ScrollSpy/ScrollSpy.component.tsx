@@ -29,7 +29,7 @@ export const ScrollSpy: React.FC<ScrollSpyProps> = ({ sections }) => {
   }, [sections]);
 
   return (
-    <nav className=" sticky top-8 w-fit">
+    <nav className="sticky top-8 w-fit">
       <h5 className="text-sm font-semibold text-gray-700 dark:text-gray-dark-700">
         One this page
       </h5>

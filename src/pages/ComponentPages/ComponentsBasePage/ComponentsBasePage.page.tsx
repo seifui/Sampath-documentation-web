@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 export function ComponentBasePage() {
   const sideBarItemList = [
     { linkName: "Button", linkPath: "Button" },
-    { linkName: "Text", linkPath: "text" },
+    { linkName: "Text Feild", linkPath: "TextFeild" },
     { linkName: "Card", linkPath: "DRTest" },
     { linkName: "Modal", linkPath: "modal" },
     { linkName: "Tooltip", linkPath: "tooltip" },
@@ -28,7 +28,7 @@ export function ComponentBasePage() {
 
   return (
     <div className="flex relative">
-      <div className="h-screen  lg:border-e pt-4 dark:border-e-gray-dark-200 sticky top-0 z-[80]">
+      <div className="h-screen lg:border-e pt-4 dark:border-e-gray-dark-200 sticky top-0 z-[80]">
         <SideBar sideBarItemList={sideBarItemList} />
       </div>
       <Outlet />

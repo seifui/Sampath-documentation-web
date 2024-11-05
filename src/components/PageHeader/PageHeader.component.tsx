@@ -14,19 +14,19 @@ export function PageHeader({
 }: PageHeaderProps) {
   return (
     <section
-      className={`flex  items-center content-center bg-gray-200 dark:bg-gray-dark-200 px-3 xl:px-6 w-full ${
+      className={`flex  items-center content-centerpx-3 xl:px-6 w-full ${
         imageUrl ? "py-6" : "py-6 md:py-28"
       }`}
     >
-      <div className="flex flex-col text-gray-700 dark:text-gray-dark-700 gap-4">
-        <h1 className="text-4xl font-extrabold">{heading}</h1>
+      <div className="flex flex-col text-gray-700 dark:text-gray-dark-700 gap-4 h-40 ">
+        <h1 className="text-4xl font-extrabold mt-10">{heading}</h1>
         <p className="text-base">{content}</p>
       </div>
-      {imageUrl && (
+      {/* {imageUrl && (
         <div className="w-1/2 max-w-xs hidden md:block">
           <img src={imageUrl} alt="COMPONENT_HOME_HEADER_IMAGE" />
         </div>
-      )}
+      )} */}
     </section>
   );
 }

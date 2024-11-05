@@ -36,7 +36,7 @@ export function SideBar({ sideBarItemList }: SideBarProps) {
               className={`hs-accordion-toggle w-full text-start flex items-center text-sm gap-x-3.5 px-2.5 py-2.5 focus:outline-none border-l border-transparent hover:text-brand-600   ${
                 isActive
                   ? "text-brand-600 font-semibold border-s-brand-600 "
-                  : "text-gray-500 dark:text-gray-dark-700 dark:hover:text-brand-600 font-medium"
+                  : "text-gray-400 dark:text-gray-dark-700 dark:hover:text-brand-600 font-medium"
               } hover:border-s-brand-600 `}
             >
               {sideBarItem.linkName}

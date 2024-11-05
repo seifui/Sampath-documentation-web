@@ -2,6 +2,7 @@ import {
   ButtonComponentPage,
   ComponentBasePage,
   ComponentsLandingPage,
+  TextFeildComponentPage,
 } from "@pages";
 import { DarkModeToggler } from "@components";
 import React from "react";
@@ -13,6 +14,7 @@ export function ComponentRoutes() {
       <Route path="/" element={<ComponentBasePage />}>
         <Route path="/" element={<ComponentsLandingPage />} />
         <Route path="Button" element={<ButtonComponentPage />} />
+        <Route path="TextFeild" element={<TextFeildComponentPage />} />
       </Route>
     </Routes>
   );
