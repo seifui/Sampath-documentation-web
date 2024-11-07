@@ -14,12 +14,11 @@ export function PageHeader({
 }: PageHeaderProps) {
   return (
     <section
-      className={`flex  items-center content-centerpx-3 xl:px-6 w-full ${
-        imageUrl ? "py-6" : "py-6 md:py-28"
+      className={`flex  items-center content-center px-3 xl:px-6 w-full pt-8 pb-16 
       }`}
     >
       <div className="flex flex-col text-gray-700 dark:text-gray-dark-700 gap-4 h-40 ">
-        <h1 className="text-4xl font-extrabold mt-10">{heading}</h1>
+        <h1 className="text-5xl font-extrabold mt-10">{heading}</h1>
         <p className="text-base">{content}</p>
       </div>
       {/* {imageUrl && (

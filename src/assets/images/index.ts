@@ -1,4 +1,5 @@
-import LOGO from "./logo/logo.png"
+import LOGO_WHITE from "./logo/logo_white.png"
+import LOGO_DARK from "./logo/logo.png"
 
 import COMPONENT_HOME_HEADER_IMAGE from "./components-home-header-image.png";
 import ATLASSIN_BUTTON_SVG from "./atlassin-button.svg";
@@ -18,7 +19,8 @@ import TEXT_FEILD_IMAGE_5 from "./textfeild/5.png";
 
 
 export {
-  LOGO,
+  LOGO_WHITE,
+  LOGO_DARK,
   COMPONENT_HOME_HEADER_IMAGE,
   ATLASSIN_BUTTON_SVG,
   ATLASSIN_CALENDAR_SVG,

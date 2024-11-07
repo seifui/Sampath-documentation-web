@@ -3,9 +3,8 @@ import { DarkModeToggler } from "../DarkModeToggler";
 import { HorizontalDotMenuIcon, SearchIcon } from "../icons";
 import { useNavigate } from "react-router-dom";
 import { NavBarProps } from "@types";
-import logo from '../../assets/images/logo/logo.png';
 import {
-  LOGO,
+  LOGO_WHITE,
 } from "@assets";
 
 
@@ -47,7 +46,7 @@ export function NavBar({ navBarItemList }: NavBarProps) {
       >
         <div className="flex items-center justify-between">
           <a href="#">
-           <img src={LOGO} alt="logo" />
+           <img src={LOGO_WHITE} alt="logo" />
           </a>
           
 

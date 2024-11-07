@@ -101,7 +101,7 @@ export function ComponentsLandingPage() {
         content="Components are the reusable building blocks of our design system. Each component meets a specific interaction or UI need, and has been specifically created to work together to create patterns and intuitive user experiences."
         imageUrl={COMPONENT_HOME_HEADER_IMAGE}
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 gap-y-8  my-8 mx-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 gap-y-8  my-8 mx-3 pt-20 border-t border-gray-200 dark:border-neutral-700">
         {renderComponentPreviewCards()}
       </div>
     </section>
