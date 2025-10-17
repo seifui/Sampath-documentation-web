@@ -9,34 +9,20 @@ import {
 } from "@assets";
 
 export function TextUsageTabSection() {
-  const scrollSpySections = ["Principles", "Anatomy", "Leading", "Behavior"];
+  const scrollSpySections = ["Anatomy", "Leading", "Behavior"];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
       <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
-        <div id="Principles">
-          <h2 className="text-3xl font-bold mb-6 ">Principles</h2>
-          <div className="p-2 bg-gray-200 dark:bg-gray-dark-200">
-            <img
-              className=""
-              src={TEXT_FEILD_IMAGE_1}
-              alt="BUTTON_USAGE_IMAGE_1"
-            />
-          </div>
-          <h3 className="text-xl font-semibold mt-6 mb-2">Common alteratve names</h3>
-          <p>
-            Input, Input feild, Form control
-          </p>
-        </div>
         <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
           <p>
-          A text field, like most form controls, contains 3 main elements – a form label, Input control, and form hint.
+            The most basic setup of a text field consists of a container and an input area where users can enter text. However, a text field can also be customized to include additional elements such as a label, a placeholder, and helper text to guide users. It can support leading and trailing icons for added functionality, such as a search icon. Furthermore, text fields can display validation messages, such as error or success states, and may include a character counter to provide feedback on input length.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={TEXT_FEILD_IMAGE_2} alt="BUTTON_USAGE_IMAGE_2" />
-          </div>
+          </div> 
         </div>
         <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Shape section */}

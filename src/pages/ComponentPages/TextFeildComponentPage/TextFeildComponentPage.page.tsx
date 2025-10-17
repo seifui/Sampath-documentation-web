@@ -9,7 +9,7 @@ export function TextFeildComponentPage() {
     <section className="w-full">
       <PageHeader
         heading="Text Feild"
-        content="Text fields are used to gather text-based input using a keyboard. They are a type of input that allows users to enter and edit text. The page typically represents this as a rectangular box where the user can type their input."
+        content="ext fields are interactive components that allow users to input, edit, and review text-based data using a keyboard. They are one of the most common input types in user interfaces."
       />
       <div className="flex px-3 xl:px-6">
         <div className="min-w-full ">

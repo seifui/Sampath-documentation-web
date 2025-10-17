@@ -12,10 +12,10 @@ export function ButtonComponentPage() {
     "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-700 hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-dark-700 dark:hover:text-brand-500";
   return (
     <section className="flex flex-col lg:flex-row">
-       <section className="w-full lg:w-[70%]">
+       <section className="w-full">
           <PageHeader
             heading="Button"
-            content="A button triggers an event or action. They let users know what will happen next."
+            content="A component used to trigger an action or event when clicked or tapped."
           />
           <div className="flex px-3 xl:px-6">
             <div className="min-w-full ">
@@ -96,9 +96,9 @@ export function ButtonComponentPage() {
             </div> */}
           </div>
        </section>
-       <section className="hidden lg:block lg:w-[30%]">
+       {/* <section className="hidden lg:block lg:w-[30%]"> */}
         {/* <ScrollSpy sections={scrollSpySections} /> */}
-       </section>
+       {/* </section> */}
     </section>
     
   );
