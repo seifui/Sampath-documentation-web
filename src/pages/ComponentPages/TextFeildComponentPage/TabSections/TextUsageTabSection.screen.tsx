@@ -1,7 +1,7 @@
 import React from "react";
 import { BaseTabSectionScreen } from "./BaseTabSectionScreen.screen";
 import {
-  TEXT_FEILD_IMAGE_1,
+  TEXT_FEILD_ANATOMY,
   TEXT_FEILD_IMAGE_2,
   TEXT_FEILD_IMAGE_3,
   TEXT_FEILD_IMAGE_4,
@@ -54,7 +54,7 @@ export function TextUsageTabSection() {
             an additional label below the button's container.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
-            <img src={TEXT_FEILD_IMAGE_1} alt="BUTTON_USAGE_IMAGE_2" />
+            <img src={TEXT_FEILD_ANATOMY} alt="BUTTON_USAGE_IMAGE_2" />
           </div>
           <ul className="list-disc mb-3">
             <li>Lorem, ipsum dolor.</li>
