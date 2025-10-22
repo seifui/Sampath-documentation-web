@@ -1,5 +1,6 @@
  
 import React from "react";
+import { ScrollSpy } from "@components";
 type BaseTabSectionScreen = {
   children: React.ReactNode;
   scrollSpySections: string[];
@@ -14,7 +15,7 @@ export function BaseTabSectionScreen({
         {children}
       </div>
       <div className="mt-14 mr-14 hidden md:block">
-        {/* <ScrollSpy sections={scrollSpySections} /> */}
+        <ScrollSpy sections={scrollSpySections} />
       </div>
     </section>
   );

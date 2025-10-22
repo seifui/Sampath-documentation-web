@@ -16,36 +16,10 @@ import {
 
 
 export function ButtonUsageTabSection() {
-  const scrollSpySections = ["Anatomy","Shape", "Usage", "Hierarchy", "States", "Icon Usage", "Sizes" , "Do’s & Don’ts"];
+  const scrollSpySections = ["Anatomy","Shape", "Usage", "Hierarchy", "States", "Icon Usage", "Size" , "Do’s & Don’ts"];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
       <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
-        {/* <div id="Principles">
-          <h2 className="text-3xl font-bold mb-6 ">Principles</h2>
-          <div className="p-2 bg-gray-200 dark:bg-gray-dark-200">
-            <img
-              className=""
-              src={BUTTON_USAGE_IMAGE_1}
-              alt="BUTTON_USAGE_IMAGE_1"
-            />
-          </div>
-          <h3 className="text-xl font-semibold mt-6 mb-2">Actionable</h3>
-          <p>
-            button label indicates what happens when the user taps the button,
-            even if it's just to acknowledge something.
-          </p>
-          <h3 className="text-xl font-semibold mt-6 mb-2">Contextual</h3>
-          <p>
-            Buttons work with other elements on a screen to surface the most
-            important actions the user wants to take in that context.
-          </p>
-          <h3 className="text-xl font-semibold mt-6 mb-2">Incisive</h3>
-          <p>
-            Buttons capture user intent concisely, distilling the action a user
-            wants to take into an inclusive word or phrase.
-          </p>
-        </div> */}
-        {/* <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" /> */}
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
@@ -147,7 +121,7 @@ export function ButtonUsageTabSection() {
           </div>
         </div>
         <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
-        <div id="Sizes">
+        <div id="Size">
           <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
           <p className="mb-3">
             The Button is available in various sizes to fit different environments and use cases. Each size is designed to maintain visual balance and usability while adapting to the context of the interface.
