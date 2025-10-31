@@ -27,6 +27,14 @@ import TEXT_FEILD_ICON_USAGE from "./textfeild/icon_usage.png";
 import TEXT_FEILD_DODONT_01 from "./textfeild/do&dont_1.png";
 import TEXT_FEILD_DODONT_02 from "./textfeild/do&dont_2.png";
 
+import RADIOBUTTON_ANATOMY from "./radiobutton/anatomy.png";
+import RADIOBUTTON_SIZES from "./radiobutton/sizes.png";
+import RADIOBUTTON_VARIANTS from "./radiobutton/variants.png";
+import RADIOBUTTON_STATES from "./radiobutton/states.png";
+import RADIOBUTTON_DODONT_01 from "./radiobutton/dodont1.png";
+import RADIOBUTTON_DODONT_02 from "./radiobutton/dodont2.png";
+
+import BADGE_ANATOMY from "./badge/anatomy.png";
 
 export {
   LOGO_WHITE,
@@ -57,4 +65,12 @@ export {
   TEXT_FEILD_DODONT_01,
   TEXT_FEILD_DODONT_02,
 
+  RADIOBUTTON_ANATOMY,
+  RADIOBUTTON_SIZES,
+  RADIOBUTTON_VARIANTS,
+  RADIOBUTTON_STATES,
+  RADIOBUTTON_DODONT_01,
+  RADIOBUTTON_DODONT_02,
+
+  BADGE_ANATOMY,
 };

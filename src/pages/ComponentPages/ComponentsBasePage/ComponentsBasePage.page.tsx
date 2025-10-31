@@ -5,7 +5,9 @@ import { Outlet } from "react-router-dom";
 export function ComponentBasePage() {
   const sideBarItemList = [
     { linkName: "Button", linkPath: "Button" },
-    { linkName: "Text Feild", linkPath: "TextFeild" },
+    { linkName: "Text Field", linkPath: "TextField" },
+    { linkName: "Radio Button", linkPath: "RadioButton" },
+    { linkName: "Badge", linkPath: "Badge" },
     { linkName: "Card", linkPath: "DRTest" },
     { linkName: "Modal", linkPath: "modal" },
     { linkName: "Tooltip", linkPath: "tooltip" },
