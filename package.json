@@ -24,9 +24,9 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "carco build",
-    "test": "carco test",
-    "eject": "carco eject",
+     "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
     "generate-color-types": "node generateTailwindColorTypes.js"
   },
   "eslintConfig": {

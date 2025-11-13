@@ -16,16 +16,16 @@ import BUTTON_DODONT_02 from "./button/btn_do&dont_2.png";
 import BUTTON_DODONT_03 from "./button/btn_do&dont_3.png";
 import BUTTON_DODONT_04 from "./button/btn_do&dont_4.png";
 
-import TEXT_FEILD_ANATOMY from "./textfeild/anatomy.png";
-import TEXT_FEILD_SIZE_SM from "./textfeild/sm.png";
-import TEXT_FEILD_SIZE_MD from "./textfeild/md.png";
-import TEXT_FEILD_SIZE_LG from "./textfeild/lg.png";
-import TEXT_FEILD_SIZE_XL from "./textfeild/xl.png";
-import TEXT_FEILD_STATES from "./textfeild/states.png";
-import TEXT_FEILD_PROPERTY from "./textfeild/property.png";
-import TEXT_FEILD_ICON_USAGE from "./textfeild/icon_usage.png";
-import TEXT_FEILD_DODONT_01 from "./textfeild/do&dont_1.png";
-import TEXT_FEILD_DODONT_02 from "./textfeild/do&dont_2.png";
+import TEXT_FEILD_ANATOMY from "./textfield/anatomy.png";
+import TEXT_FEILD_SIZE_SM from "./textfield/sm.png";
+import TEXT_FEILD_SIZE_MD from "./textfield/md.png";
+import TEXT_FEILD_SIZE_LG from "./textfield/lg.png";
+import TEXT_FEILD_SIZE_XL from "./textfield/xl.png";
+import TEXT_FEILD_STATES from "./textfield/states.png";
+import TEXT_FEILD_PROPERTY from "./textfield/property.png";
+import TEXT_FEILD_ICON_USAGE from "./textfield/icon_usage.png";
+import TEXT_FEILD_DODONT_01 from "./textfield/do&dont_1.png";
+import TEXT_FEILD_DODONT_02 from "./textfield/do&dont_2.png";
 
 import RADIOBUTTON_ANATOMY from "./radiobutton/anatomy.png";
 import RADIOBUTTON_SIZES from "./radiobutton/sizes.png";

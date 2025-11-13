@@ -2,7 +2,7 @@ import {
   ButtonComponentPage,
   ComponentBasePage,
   ComponentsLandingPage,
-  TextFeildComponentPage,
+  TextFieldComponentPage,
   RadioButtonComponentPage,
   BadgeComponentPage,
 
@@ -17,7 +17,7 @@ export function ComponentRoutes() {
       <Route path="/" element={<ComponentBasePage />}>
         <Route path="/" element={<ComponentsLandingPage />} />
         <Route path="Button" element={<ButtonComponentPage />} />
-        <Route path="TextFeild" element={<TextFeildComponentPage />} />
+        <Route path="TextField" element={<TextFieldComponentPage />} />
         <Route path="RadioButton" element={<RadioButtonComponentPage />} />
         <Route path="Badge" element={<BadgeComponentPage />} />
       </Route>
