@@ -21,10 +21,10 @@ function App() {
   }, [location.pathname]);
 
   const navBarItemList: NavBarItem[] = [
-    { name: "Home", path: "/" },
-    { name: "Foundation", path: "Foundation" },
-    { name: "Components", path: "components" },
-    { name: "Patterns", path: "patterns" },
+    // { name: "Home", path: "/" },
+    // { name: "Foundation", path: "Foundation" },
+    { name: "Components", path: "/" },
+    // { name: "Patterns", path: "patterns" },
   ];
   return (
     <div className="bg-white dark:bg-solid-dark-base">
@@ -40,7 +40,7 @@ function App() {
       </div>
       <div className="lg:pl-3 xl:pl-6 m-auto">
         <Routes>
-          <Route path="/components/*" element={<ComponentRoutes />} />
+          <Route path="/*" element={<ComponentRoutes />} />
         </Routes>
       </div>
     </div>

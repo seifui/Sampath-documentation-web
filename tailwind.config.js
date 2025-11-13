@@ -113,7 +113,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ['Satoshi', 'Inter', 'sans-serif'],
       },
     },
   },

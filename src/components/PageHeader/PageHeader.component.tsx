@@ -18,7 +18,7 @@ export function PageHeader({
       }`}
     >
       <div className="flex flex-col text-gray-700 dark:text-gray-dark-700 gap-4 h-40 ">
-        <h1 className="text-5xl font-extrabold mt-10">{heading}</h1>
+        <h1 className="text-3xl sm:text-7xl font-black mt-10">{heading}</h1>
         <p className="text-base">{content}</p>
       </div>
       {/* {imageUrl && (
