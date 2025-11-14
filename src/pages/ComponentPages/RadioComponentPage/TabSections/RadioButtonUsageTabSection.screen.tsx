@@ -49,7 +49,7 @@ export function RadioButtonUsageTabSection() {
         <div id="Property"> 
           <h2 className="text-3xl font-bold mb-6 ">States</h2>
           <p className="mb-3">
-            The checkbox has three key states—default, focused, and disabled—each serving a specific purpose to ensure usability and accessibility. The default state allows users to select or deselect an option, the focused state provides visual feedback to indicate interactivity, and the disabled state prevents interaction while signaling unavailability.
+            The radio button includes four key states default, hover, focused, and disabled each designed to support clarity, usability, and accessibility. The default state shows the unselected option, the hover state provides visual feedback before interaction, the focused state highlights keyboard or assistive-tech navigation, and the disabled state prevents selection while clearly indicating unavailability.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={RADIOBUTTON_STATES} alt="RADIOBUTTON_STATES" />
@@ -60,7 +60,7 @@ export function RadioButtonUsageTabSection() {
         <div id="Do’s & Don’ts"> 
           <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
-             Do's and Don'ts are practical guidelines that outline best practices to follow and common mistakes to avoid, ensuring checkboxes are intuitive, accessible, and enhance user interaction.
+            Do’s and Don’ts provide clear guidelines to ensure radio buttons are intuitive, accessible, and easy to use—highlighting best practices to follow and common mistakes to avoid for a better user experience.
           </p>
           <div className="my-6">
             <img src={RADIOBUTTON_DODONT_01} alt="ICON_DO_&_DONT" />

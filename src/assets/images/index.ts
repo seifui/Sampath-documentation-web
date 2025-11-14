@@ -35,6 +35,13 @@ import RADIOBUTTON_DODONT_01 from "./radiobutton/dodont1.png";
 import RADIOBUTTON_DODONT_02 from "./radiobutton/dodont2.png";
 
 import BADGE_ANATOMY from "./badge/anatomy.png";
+import BADGE_SHAPES from "./badge/shapes.png";
+import BADGE_SIZES from "./badge/sizes.png";
+import BADGE_VARIANTS from "./badge/variants.png";
+import BADGE_TYPES from "./badge/types.png";
+import BADGE_ICON_USAGE from "./badge/icon.png";
+import BADGE_DODONT_01 from "./badge/do&dont_1.png";
+import BADGE_DODONT_02 from "./badge/do&dont_2.png";
 
 export {
   LOGO_WHITE,
@@ -73,4 +80,12 @@ export {
   RADIOBUTTON_DODONT_02,
 
   BADGE_ANATOMY,
+  BADGE_SHAPES,
+  BADGE_SIZES,
+  BADGE_VARIANTS,
+  BADGE_TYPES,
+  BADGE_ICON_USAGE,
+  BADGE_DODONT_01,
+  BADGE_DODONT_02
+
 };
