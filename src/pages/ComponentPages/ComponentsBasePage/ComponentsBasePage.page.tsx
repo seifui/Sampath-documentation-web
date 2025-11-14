@@ -30,7 +30,7 @@ export function ComponentBasePage() {
 
   return (
     <div className="flex relative">
-      <div className="h-screen lg:border-e pt-4 dark:border-e-gray-dark-200 sticky top-0 z-[80]">
+      <div className="h-screen sticky top-0 z-[80]">
         <SideBar sideBarItemList={sideBarItemList} />
       </div>
       <Outlet />

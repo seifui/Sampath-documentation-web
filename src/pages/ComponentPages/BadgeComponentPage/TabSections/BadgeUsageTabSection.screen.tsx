@@ -29,7 +29,7 @@ export function BadgeUsageTabSection() {
         <div id="Sizes">
           <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
           <p className="mb-3">
-           The radio button comes in two sizes—small (sm) and medium (md)—to accommodate different interface needs and visual hierarchies. The small size is ideal for compact layouts or dense UI elements, ensuring a minimal footprint without compromising usability. The medium size provides a more prominent selection area, improving accessibility and ease of interaction, making it suitable for standard form inputs and settings.
+            The Badge is available in multiple sizes to accommodate different design needs and contexts. Each size is carefully designed to ensure readability, visual harmony, and usability while seamlessly integrating into various interface elements.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={RADIOBUTTON_SIZES} alt="BUTTON_USAGE_IMAGE_2" />

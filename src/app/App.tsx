@@ -21,15 +21,15 @@ function App() {
   }, [location.pathname]);
 
   const navBarItemList: NavBarItem[] = [
-    // { name: "Home", path: "/" },
-    // { name: "Foundation", path: "Foundation" },
-    { name: "Components", path: "/" },
+    { name: "Home", path: "/" },
+    { name: "Foundation", path: "Foundation" },
+    { name: "Components", path: "/Components" },
     // { name: "Patterns", path: "patterns" },
   ];
   return (
     <div className="bg-white dark:bg-solid-dark-base">
       <div className="flex flex-col justify-center content-center">
-        <div className="border-b-gray-200 border-b dark:border-b-gray-dark-200">
+        <div className="">
           <div className="px-3 xl:px-6 m-auto ">
             <NavBar navBarItemList={navBarItemList} />
           </div>
@@ -40,7 +40,7 @@ function App() {
       </div>
       <div className="lg:pl-3 xl:pl-6 m-auto">
         <Routes>
-          <Route path="/*" element={<ComponentRoutes />} />
+          <Route path="/Components/*" element={<ComponentRoutes />} />
         </Routes>
       </div>
     </div>
