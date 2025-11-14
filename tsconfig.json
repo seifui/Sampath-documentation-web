@@ -16,7 +16,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "./src",
-  "types": ["jest", "@testing-library/jest-dom"],
+    "types": ["jest", "@testing-library/jest-dom"],
     "paths": {
       "@components": ["./components/index"],
       "@pages": ["./pages/index"],
