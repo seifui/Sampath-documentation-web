@@ -5,6 +5,7 @@ import {
   TextFieldComponentPage,
   RadioButtonComponentPage,
   BadgeComponentPage,
+  CheckboxComponentPage,
 
 } from "@pages";
 import { DarkModeToggler } from "@components";
@@ -20,6 +21,7 @@ export function ComponentRoutes() {
         <Route path="TextField" element={<TextFieldComponentPage />} />
         <Route path="RadioButton" element={<RadioButtonComponentPage />} />
         <Route path="Badge" element={<BadgeComponentPage />} />
+        <Route path="Checkbox" element={<CheckboxComponentPage />} />
       </Route>
     </Routes>
   );

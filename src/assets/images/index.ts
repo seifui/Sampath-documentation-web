@@ -43,6 +43,13 @@ import BADGE_ICON_USAGE from "./badge/icon.png";
 import BADGE_DODONT_01 from "./badge/do&dont_1.png";
 import BADGE_DODONT_02 from "./badge/do&dont_2.png";
 
+import CHECKBOX_ANATOMY from "./checkbox/anatomy.png";
+import CHECKBOX_SIZES from "./checkbox/sizes.png";
+import CHECKBOX_VARIANTS from "./checkbox/variants.png";
+import CHECKBOX_STATES from "./checkbox/states.png";
+import CHECKBOX_DODONT_01 from "./checkbox/do&dont_1.png";
+import CHECKBOX_DODONT_02 from "./checkbox/do&dont_2.png";
+
 export {
   LOGO_WHITE,
   LOGO_DARK,
@@ -86,6 +93,13 @@ export {
   BADGE_TYPES,
   BADGE_ICON_USAGE,
   BADGE_DODONT_01,
-  BADGE_DODONT_02
+  BADGE_DODONT_02,
+
+  CHECKBOX_ANATOMY,
+  CHECKBOX_SIZES,
+  CHECKBOX_VARIANTS,
+  CHECKBOX_STATES,
+  CHECKBOX_DODONT_01,
+  CHECKBOX_DODONT_02
 
 };

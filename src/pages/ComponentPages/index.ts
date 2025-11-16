@@ -4,3 +4,4 @@ export * from "./ButtonComponentPage";
 export * from "./RadioComponentPage";
 export * from "./BadgeComponentPage";
 export * from "./TextFieldComponentPage";
+export * from "./CheckboxComponentPage";
