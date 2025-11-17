@@ -2,10 +2,13 @@ import LOGO_WHITE from "./logo/logo_white.png"
 import LOGO_DARK from "./logo/logo.png"
 
 import COMPONENT_HOME_HEADER_IMAGE from "./components-home-header-image.png";
-import ATLASSIN_BUTTON_SVG from "./atlassin-button.svg";
-import ATLASSIN_CALENDAR_SVG from "./atlassin-calendar.svg";
-import ATLASSIN_CHECKBOX_SVG from "./atlassin-checkbox.svg";
-import ATLASSIN_DRAWER from "./atlassin-drawer.svg";
+
+import BUTTON_COMPONENT_IMAGE from "./component/button.png";
+import TEXT_FIELD_COMPONENT_IMAGE from "./component/textfield.png";
+import RADIO_BUTTON_COMPONENT_IMAGE from "./component/radiobutton.png";
+import BADGE_COMPONENT_IMAGE from "./component/badge.png";    
+import CHECKBOX_COMPONENT_IMAGE from "./component/checkbox.png";
+
 import BUTTON_ANATOMY from "./button/anatomy.png";
 import BUTTON_HIERARCHY from "./button/hierarchy.png";
 import BUTTON_STATES from "./button/states.png";
@@ -50,14 +53,23 @@ import CHECKBOX_STATES from "./checkbox/states.png";
 import CHECKBOX_DODONT_01 from "./checkbox/do&dont_1.png";
 import CHECKBOX_DODONT_02 from "./checkbox/do&dont_2.png";
 
+import SWITCH_ANATOMY from "./switch/anatomy.png";
+import SWITCH_SIZES from "./switch/sizes.png";
+import SWITCH_VARIANTS from "./switch/variants.png";
+import SWITCH_STATES from "./switch/states.png";
+import SWITCH_DODONT_01 from "./switch/do&dont_1.png";
+
 export {
   LOGO_WHITE,
   LOGO_DARK,
   COMPONENT_HOME_HEADER_IMAGE,
-  ATLASSIN_BUTTON_SVG,
-  ATLASSIN_CALENDAR_SVG,
-  ATLASSIN_CHECKBOX_SVG,
-  ATLASSIN_DRAWER,
+  
+  BUTTON_COMPONENT_IMAGE,
+  TEXT_FIELD_COMPONENT_IMAGE,
+  RADIO_BUTTON_COMPONENT_IMAGE,
+  BADGE_COMPONENT_IMAGE,
+  CHECKBOX_COMPONENT_IMAGE,
+
   BUTTON_ANATOMY,
   BUTTON_HIERARCHY,
   BUTTON_STATES,
@@ -100,6 +112,11 @@ export {
   CHECKBOX_VARIANTS,
   CHECKBOX_STATES,
   CHECKBOX_DODONT_01,
-  CHECKBOX_DODONT_02
+  CHECKBOX_DODONT_02,
 
+  SWITCH_ANATOMY,
+  SWITCH_SIZES,
+  SWITCH_VARIANTS,
+  SWITCH_STATES,
+  SWITCH_DODONT_01
 };

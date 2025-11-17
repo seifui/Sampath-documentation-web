@@ -9,6 +9,7 @@ export function ComponentBasePage() {
     { linkName: "Radio Button", linkPath: "RadioButton" },
     { linkName: "Badge", linkPath: "Badge" },
     { linkName: "Checkbox", linkPath: "Checkbox" },
+    { linkName: "Switch", linkPath: "Switch" },
 
   ];
 

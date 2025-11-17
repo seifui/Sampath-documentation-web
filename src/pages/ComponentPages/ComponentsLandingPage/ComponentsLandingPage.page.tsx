@@ -2,10 +2,11 @@ import { ComponentsPreviewCard, PageHeader } from "@components";
 import React from "react";
 import {
   COMPONENT_HOME_HEADER_IMAGE,
-  ATLASSIN_BUTTON_SVG,
-  ATLASSIN_CALENDAR_SVG,
-  ATLASSIN_CHECKBOX_SVG,
-  ATLASSIN_DRAWER,
+  BUTTON_COMPONENT_IMAGE,
+  TEXT_FIELD_COMPONENT_IMAGE,
+  RADIO_BUTTON_COMPONENT_IMAGE,
+  BADGE_COMPONENT_IMAGE,
+  CHECKBOX_COMPONENT_IMAGE,
 } from "@assets";
 import { ComponentsPreviewCardProps } from "@types";
 
@@ -13,73 +14,39 @@ const sampleComponentCardsList: ComponentsPreviewCardProps[] = [
   {
     heading: "Button",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_BUTTON_SVG,
-    onClickNavigationPath: "",
+      "A component used to trigger an action or event when clicked or tapped.",
+    imageUrl: BUTTON_COMPONENT_IMAGE,
+    onClickNavigationPath: "Components/Button",
   },
   {
-    heading: "Calendar",
+    heading: "Text Field",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_CALENDAR_SVG,
-    onClickNavigationPath: "",
+      "A component used to capture user input in a single-line text field.",
+    imageUrl: TEXT_FIELD_COMPONENT_IMAGE,
+    onClickNavigationPath: "Components/TextField",
+  },
+  {
+    heading: "Radio Button",
+    description:
+      "A selectable component used to choose one option from a group of choices.",
+    imageUrl: RADIO_BUTTON_COMPONENT_IMAGE,
+    onClickNavigationPath: "Components/RadioButton",
+  },
+  {
+    heading: "Badge",
+    description:
+      "A small, rounded component used to display labels, categories, or tags.",
+    imageUrl: BADGE_COMPONENT_IMAGE,
+    onClickNavigationPath: "Components/Badge",
   },
   {
     heading: "CheckBox",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_CHECKBOX_SVG,
-    onClickNavigationPath: "",
+      "A component used to select one or multiple options from a set.",
+    imageUrl: CHECKBOX_COMPONENT_IMAGE,
+    onClickNavigationPath: "/Components/Checkbox",
   },
-  {
-    heading: "Drawer",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_DRAWER,
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "CheckBox",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_CHECKBOX_SVG,
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Drawer",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_DRAWER,
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Button",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_BUTTON_SVG,
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Calendar",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_CALENDAR_SVG,
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Button",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_BUTTON_SVG,
-    onClickNavigationPath: "",
-  },
-  {
-    heading: "Calendar",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, impedit.",
-    imageUrl: ATLASSIN_CALENDAR_SVG,
-    onClickNavigationPath: "",
-  },
+
 ];
 
 const renderComponentPreviewCards = () =>
