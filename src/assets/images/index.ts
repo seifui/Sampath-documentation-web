@@ -8,6 +8,8 @@ import TEXT_FIELD_COMPONENT_IMAGE from "./component/textfield.png";
 import RADIO_BUTTON_COMPONENT_IMAGE from "./component/radiobutton.png";
 import BADGE_COMPONENT_IMAGE from "./component/badge.png";    
 import CHECKBOX_COMPONENT_IMAGE from "./component/checkbox.png";
+import TEXTAREA_COMPONENT_IMAGE from "./component/textarea.png";
+import AVATAR_COMPONENT_IMAGE from "./component/avatar.png";
 
 import BUTTON_ANATOMY from "./button/anatomy.png";
 import BUTTON_HIERARCHY from "./button/hierarchy.png";
@@ -59,6 +61,18 @@ import SWITCH_VARIANTS from "./switch/variants.png";
 import SWITCH_STATES from "./switch/states.png";
 import SWITCH_DODONT_01 from "./switch/do&dont_1.png";
 
+import TEXTAREA_ANATOMY from "./textarea/anatomy.png";
+import TEXTAREA_STATES from "./textarea/states.png";
+import TEXTAREA_DODONT_01 from "./textarea/do&dont_1.png";
+import TEXTAREA_DODONT_02 from "./textarea/do&dont_2.png";
+import TEXTAREA_DODONT_03 from "./textarea/do&dont_3.png";
+
+import AVATAR_ANATOMY from "./avatar/anatomy.png";
+import AVATAR_SHAPES from "./avatar/shapes.png";
+import AVATAR_SIZES from "./avatar/sizes.png";
+import AVATAR_TYPES from "./avatar/types.png";
+import AVATAR_VARIANTS from "./avatar/variants.png";
+import AVATAR_DODONT_01 from "./avatar/do&dont_1.png";
 
 
 export {
@@ -71,6 +85,8 @@ export {
   RADIO_BUTTON_COMPONENT_IMAGE,
   BADGE_COMPONENT_IMAGE,
   CHECKBOX_COMPONENT_IMAGE,
+  TEXTAREA_COMPONENT_IMAGE,
+  AVATAR_COMPONENT_IMAGE,
 
   BUTTON_ANATOMY,
   BUTTON_HIERARCHY,
@@ -120,5 +136,19 @@ export {
   SWITCH_SIZES,
   SWITCH_VARIANTS,
   SWITCH_STATES,
-  SWITCH_DODONT_01
+  SWITCH_DODONT_01,
+
+  TEXTAREA_ANATOMY,
+  TEXTAREA_STATES,
+  TEXTAREA_DODONT_01,
+  TEXTAREA_DODONT_02,
+  TEXTAREA_DODONT_03,
+
+  AVATAR_ANATOMY,
+  AVATAR_SHAPES,
+  AVATAR_SIZES,
+  AVATAR_TYPES,
+  AVATAR_VARIANTS,
+  AVATAR_DODONT_01,
+                    
 };

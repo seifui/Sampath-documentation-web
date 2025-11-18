@@ -1,15 +1,15 @@
 import React from "react";
 import { PageHeader, ScrollSpy } from "@components";
-import { TextareaUsageTabSection } from "./TabSections/TextareaUsageTabSection.screen";
+import { AvatarUsageTabSection } from "./TabSections/AvatarUsageTabSection.screen";
 
-export function TextareaComponentPage() {
+export function AvatarComponentPage() {
   const preLineTabClassNames =
     "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-700 hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-dark-700 dark:hover:text-brand-500";
   return (
     <section className="w-full">
       <PageHeader
-        heading="Textarea"
-        content="A component used to capture multi-line text input from the user."
+        heading="Avatar"
+        content="A component used to represent an avatar with an icon or letter."
       />
       <div className="flex px-3 xl:px-6">
         <div className="min-w-full ">
@@ -61,7 +61,7 @@ export function TextareaComponentPage() {
               role="tabpanel"
               aria-labelledby="tabs-with-underline-item-1"
             >
-              <TextareaUsageTabSection />
+              <AvatarUsageTabSection />
             </div>
             <div
               id="tabs-with-underline-2"

@@ -7,6 +7,9 @@ import {
   RADIO_BUTTON_COMPONENT_IMAGE,
   BADGE_COMPONENT_IMAGE,
   CHECKBOX_COMPONENT_IMAGE,
+  TEXTAREA_COMPONENT_IMAGE,
+  AVATAR_COMPONENT_IMAGE,
+
 } from "@assets";
 import { ComponentsPreviewCardProps } from "@types";
 
@@ -45,6 +48,20 @@ const sampleComponentCardsList: ComponentsPreviewCardProps[] = [
       "A component used to select one or multiple options from a set.",
     imageUrl: CHECKBOX_COMPONENT_IMAGE,
     onClickNavigationPath: "/Components/Checkbox",
+  },
+  {
+    heading: "Textarea",
+    description:
+      "A component used to select one or multiple options from a set.",
+      imageUrl: TEXTAREA_COMPONENT_IMAGE,
+      onClickNavigationPath: "/Components/Textarea",
+  },
+  {
+    heading: "Avatar",
+    description:
+      "A component used to represent an avatar with an icon or letter.",
+    imageUrl: AVATAR_COMPONENT_IMAGE,
+    onClickNavigationPath: "/Components/Avatar",
   },
 
 ];

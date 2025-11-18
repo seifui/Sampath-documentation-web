@@ -10,6 +10,8 @@ export function ComponentBasePage() {
     { linkName: "Badge", linkPath: "Badge" },
     { linkName: "Checkbox", linkPath: "Checkbox" },
     { linkName: "Switch", linkPath: "Switch" },
+    { linkName: "Textarea", linkPath: "Textarea" },
+    { linkName: "Avatar", linkPath: "Avatar" },
 
   ];
 

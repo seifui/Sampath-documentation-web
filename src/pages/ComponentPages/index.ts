@@ -6,3 +6,5 @@ export * from "./BadgeComponentPage";
 export * from "./TextFieldComponentPage";
 export * from "./CheckboxComponentPage";
 export * from "./SwitchComponentPage";
+export * from "./TextareaComponentPage";
+export * from "./AvatarComponentPage";
