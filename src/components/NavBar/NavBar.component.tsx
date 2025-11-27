@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { NavBarProps } from "@types";
 import {
   LOGO_WHITE,
+  LOGO_DARK,
 } from "@assets";
 
 
@@ -28,7 +29,7 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     navBarItemList.map((navBarItem, index) => (
       <a
         key={index}
-        className={`text-md font-semibold px-3  hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-colors duration-200 ${
+        className={`text-md font-semibold text-md px-5 hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-colors duration-200 ${
           activeLink === index ? "text-brand-600 " : "text-gray-400"
         }`}
         href="#"
@@ -46,30 +47,38 @@ export function NavBar({ navBarItemList }: NavBarProps) {
       >
         <div className="flex items-center justify-between">
           <a href="#">
-           <img src={LOGO_WHITE} alt="logo" />
+           <img className="w-24 md:w-32 h-full block dark:hidden" src={LOGO_DARK} alt="logo" />
+           <img className="w-24 md:w-32 h-full hidden dark:block" src={LOGO_WHITE} alt="logo" />
           </a>
           
-
           <div className="lg:hidden flex gap-4 items-center">
-            <div className="cursor-pointer">
+            {/* <div className="cursor-pointer">
               <SearchIcon width={"16px"} height={"16px"} />
-            </div>
+            </div> */}
             <div className="cursor-pointer">
-              <DarkModeToggler width={"16px"} height={"16px"} />
+              <DarkModeToggler width={"26px"} height={"26px"} />
             </div>
-            <div className="cursor-pointer">
+            {/* <div className="cursor-pointer">
               <HorizontalDotMenuIcon width={"16px"} height={"16px"} />
-            </div>
+            </div> */}
           </div>
         </div>
         <div
           id="navbar-with-mega-menu"
           className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block"
         >
-          <div className="flex flex-col gap-4 mt-5 lg:flex-row lg:items-center lg:justify-end lg:mt-0 lg:ps-5 menu-list">
-            {renderMenuList()}
+           <div className="flex items-center justify-between lg:ps-5">
 
-            <DarkModeToggler width={"20px"} height={"20px"} />
+            {/* CENTER — Menu (stays centered) */}
+            <div className="flex flex-1 justify-center">
+              {renderMenuList()}
+            </div>
+
+            {/* RIGHT — Dark mode toggler */}
+            <div className="flex justify-end">
+              <DarkModeToggler width="20px" height="20px" />
+            </div>
+
           </div>
         </div>
       </nav>

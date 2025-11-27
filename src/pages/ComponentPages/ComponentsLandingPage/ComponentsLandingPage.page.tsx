@@ -81,10 +81,15 @@ export function ComponentsLandingPage() {
   return (
     <section className="w-full">
       <PageHeader
-        heading="COMPONENTS" content="Components are the reusable building blocks of our design system. Each component meets a specific interaction or UI need, and has been specifically created to work together to create patterns and intuitive user experiences."
+        heading="Components" content="Components are the reusable building blocks of our design system. Each component meets a specific interaction or UI need, and has been specifically created to work together to create patterns and intuitive user experiences."
         imageUrl={COMPONENT_HOME_HEADER_IMAGE}
+        
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 gap-y-8  my-8 mx-3 pt-20 border-t border-gray-200 dark:border-neutral-700">
+      <div className="mx-6 md:mx-10">
+        <hr className=" bg-gray-200 dark:bg-gray-dark-200" />
+      </div>
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 gap-y-8  my-8 px-6 md:px-10  ">
         {renderComponentPreviewCards()}
       </div>
     </section>

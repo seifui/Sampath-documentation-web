@@ -2,6 +2,7 @@ import React from "react";
 import { BaseTabSectionScreen } from "./BaseTabSectionScreen.screen";
 import {
   BUTTON_ANATOMY,
+  BUTTON_SHAPES,
   BUTTON_HIERARCHY,
   BUTTON_STATES,
   BUTTON_ICON_USAGE,
@@ -10,13 +11,20 @@ import {
   BUTTON_DODONT_02,
   BUTTON_DODONT_03,
   BUTTON_DODONT_04,
-
 } from "@assets";
 // import Anatomy_img from "./button/anatomy.png";
 
-
 export function ButtonUsageTabSection() {
-  const scrollSpySections = ["Anatomy","Shape", "Usage", "Hierarchy", "States", "Icon Usage", "Size" , "Do’s & Don’ts"];
+  const scrollSpySections = [
+    "Anatomy",
+    "Shape",
+    "Usage",
+    "Hierarchy",
+    "States",
+    "Icon Usage",
+    "Size",
+    "Do’s & Don’ts",
+  ];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
       <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
@@ -24,20 +32,26 @@ export function ButtonUsageTabSection() {
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
           <p>
-            The most basic setup of a button includes only a single label or icon. Still, a button can also be customized to include a label with a leading icon and a trailing icon. Circle buttons can also support an additional label below the button's container.
+            The most basic setup of a button includes only a single label or
+            icon. Still, a button can also be customized to include a label with
+            a leading icon and a trailing icon. Circle buttons can also support
+            an additional label below the button's container.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={BUTTON_ANATOMY} alt="Button Anatomy Image" />
           </div>
         </div>
-        <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
+        <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Shape section */}
         <div id="Shape">
           <h2 className="text-3xl font-bold mb-6 ">Shape</h2>
           <p className="mb-3">
             Buttons come in rectangular, circle, square, and pill shapes.
           </p>
-          <div className="flex gap-4">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+            <img src={BUTTON_SHAPES} alt="BUTTON_SHAPES" />
+          </div>
+          {/* <div className="flex gap-4">
             <div className="w-1/4 p-4">
               <button className="bg-brand-600 hover:bg-brand-700 text-white py-2 px-6 rounded-full flex items-center gap-2 mt-2">Button text</button>
             </div>
@@ -72,13 +86,14 @@ export function ButtonUsageTabSection() {
               <h2 className="font-semibold text-lg">Square</h2>
               <p className="mt-2 text-md">Square buttons can display a text label, an icon, or both. They maintain equal width and height for a balanced look. An optional label below can be added if needed.</p>
             </div>
-          </div>
+          </div> */}
         </div>
-        <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
+        <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Usage">
           <h2 className="text-3xl font-bold mb-6 ">Usage</h2>
           <p className="mb-3">
-              Buttons are interactive elements that help users take action, make decisions, and move forward in a process. Use buttons to:
+            Buttons are interactive elements that help users take action, make
+            decisions, and move forward in a process. Use buttons to:
           </p>
           <ul className="list-disc mb-3">
             <li>Submit forms</li>
@@ -87,54 +102,63 @@ export function ButtonUsageTabSection() {
           </ul>
 
           <p className="mb-3">
-            They should be clearly labeled and placed where users expect to find them, ensuring accessibility and ease of use.
+            They should be clearly labeled and placed where users expect to find
+            them, ensuring accessibility and ease of use.
           </p>
         </div>
-        <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
+        <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Hierarchy">
           <h2 className="text-3xl font-bold mb-6 ">Hierarchy</h2>
           <p className="mb-3">
-            Button hierarchy emphasizes which button is more important in the context so the user can take action immediately. 
+            Button hierarchy emphasizes which button is more important in the
+            context so the user can take action immediately.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={BUTTON_HIERARCHY} alt="BUTTON_HIERARCHY" />
           </div>
         </div>
-        <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
+        <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="States">
           <h2 className="text-3xl font-bold mb-6 ">States</h2>
           <p className="mb-3">
-              Button hierarchy emphasizes which button is more important in the context so the user can take action immediately. 
+            Button hierarchy emphasizes which button is more important in the
+            context so the user can take action immediately.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={BUTTON_STATES} alt="BUTTON_STATES" />
           </div>
         </div>
-        <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
+        <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Icon Usage">
           <h2 className="text-3xl font-bold mb-6 ">Icon Usage</h2>
           <p className="mb-3">
-            Icons enhance the clarity and functionality of buttons by visually supporting the action they represent.
+            Icons enhance the clarity and functionality of buttons by visually
+            supporting the action they represent.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={BUTTON_ICON_USAGE} alt="BUTTON_USAGE_IMAGE_2" />
           </div>
         </div>
-        <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
+        <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Size">
           <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
           <p className="mb-3">
-            The Button is available in various sizes to fit different environments and use cases. Each size is designed to maintain visual balance and usability while adapting to the context of the interface.
+            The Button is available in various sizes to fit different
+            environments and use cases. Each size is designed to maintain visual
+            balance and usability while adapting to the context of the
+            interface.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={BUTTON_SIZES} alt="BUTTON_USAGE_IMAGE_2" />
           </div>
         </div>
-        <hr className="my-8 bg-gray-200 dark:bg-gray-dark-200" />
+        <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Do’s & Don’ts">
           <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
-            Do's and Don'ts are practical guidelines that outline best practices to follow and mistakes to avoid, ensuring effective and user-friendly button designs.
+            Do's and Don'ts are practical guidelines that outline best practices
+            to follow and mistakes to avoid, ensuring effective and
+            user-friendly button designs.
           </p>
           <div className="p-4 my-6">
             <img src={BUTTON_DODONT_01} alt="BUTTON_DO&DONT_01" />
@@ -149,7 +173,7 @@ export function ButtonUsageTabSection() {
             <img src={BUTTON_DODONT_04} alt="BUTTON_DO&DONT_04" />
           </div>
         </div>
-      </div> 
+      </div>
     </BaseTabSectionScreen>
   );
 }

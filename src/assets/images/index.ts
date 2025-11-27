@@ -1,5 +1,10 @@
-import LOGO_WHITE from "./logo/logo_white.png"
-import LOGO_DARK from "./logo/logo.png"
+import LOGO_DARK from "./logo/logo-dark.png";
+import LOGO_WHITE from "./logo/logo-white.png";
+
+import HTML_LOGO from "./framework/html.png";
+import REACT_LOGO from "./framework/react.png";
+import ANGULAR_LOGO from "./framework/angular.png";
+import VUE_LOGO from "./framework/vue.png";
 
 import COMPONENT_HOME_HEADER_IMAGE from "./components-home-header-image.png";
 
@@ -12,6 +17,7 @@ import TEXTAREA_COMPONENT_IMAGE from "./component/textarea.png";
 import AVATAR_COMPONENT_IMAGE from "./component/avatar.png";
 
 import BUTTON_ANATOMY from "./button/anatomy.png";
+import BUTTON_SHAPES from "./button/shapes.png";
 import BUTTON_HIERARCHY from "./button/hierarchy.png";
 import BUTTON_STATES from "./button/states.png";
 import BUTTON_ICON_USAGE from "./button/icon_usage.png";
@@ -79,8 +85,14 @@ export {
   LOGO_WHITE,
   LOGO_DARK,
   COMPONENT_HOME_HEADER_IMAGE,
+
+  HTML_LOGO,
+  REACT_LOGO,
+  ANGULAR_LOGO,
+  VUE_LOGO,
   
   BUTTON_COMPONENT_IMAGE,
+  BUTTON_SHAPES,
   TEXT_FIELD_COMPONENT_IMAGE,
   RADIO_BUTTON_COMPONENT_IMAGE,
   BADGE_COMPONENT_IMAGE,

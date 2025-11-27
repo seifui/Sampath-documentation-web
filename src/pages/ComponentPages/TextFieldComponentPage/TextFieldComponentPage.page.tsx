@@ -1,6 +1,7 @@
 import React from "react";
 import { PageHeader, ScrollSpy } from "@components";
 import { TextUsageTabSection } from "./TabSections/TextUsageTabSection.screen";
+import { TextCodeTabSection } from "./TabSections/TextCodeTabSection.screen";
 
 export function TextFieldComponentPage() {
   const preLineTabClassNames =
@@ -11,7 +12,7 @@ export function TextFieldComponentPage() {
         heading="Text Feild"
         content="Text fields are interactive components that allow users to input, edit, and review text-based data using a keyboard. They are one of the most common input types in user interfaces."
       />
-      <div className="flex px-3 xl:px-6">
+      <div className="flex px-6 md:px-16">
         <div className="min-w-full ">
           <div className="border-b border-gray-200 dark:border-neutral-700">
             <nav
@@ -40,17 +41,7 @@ export function TextFieldComponentPage() {
                 aria-controls="tabs-with-underline-2"
                 role="tab"
               >
-                Specs
-              </button>
-              <button
-                type="button"
-                className={`${preLineTabClassNames}`}
-                aria-selected="false"
-                data-hs-tab="#tabs-with-underline-3"
-                aria-controls="tabs-with-underline-3"
-                role="tab"
-              >
-                Status
+                Code
               </button>
             </nav>
           </div>
@@ -68,21 +59,10 @@ export function TextFieldComponentPage() {
               className="hidden"
               role="tabpanel"
               aria-labelledby="tabs-with-underline-item-2"
-            ></div>
-            <div
-              id="tabs-with-underline-3"
-              className="hidden"
-              role="tabpanel"
-              aria-labelledby="tabs-with-underline-item-3"
             >
-              <p className="text-gray-500 dark:text-neutral-400">
-                This is the{" "}
-                <em className="font-semibold text-gray-800 dark:text-neutral-200">
-                  third
-                </em>{" "}
-                item's tab body.
-              </p>
+              <TextCodeTabSection />
             </div>
+           
           </div>
         </div>
         {/* <div className="hidden md:block flex-grow min-w-fit">

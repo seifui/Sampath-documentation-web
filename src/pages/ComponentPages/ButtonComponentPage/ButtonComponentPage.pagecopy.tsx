@@ -1,4 +1,3 @@
-
 import { PageHeader, ScrollSpy } from "@components";
 import React from "react";
 import { ButtonUsageTabSection } from "./TabSections/ButtonUsageTabSection.screen";
@@ -13,7 +12,7 @@ export function ButtonComponentPage() {
         heading="Button"
         content="A button triggers an event or action. They let users know what will happen next."
       />
-      <div className="flex px-3 xl:px-6">
+      <div className="flex px-6 md:px-16">
         <div className="min-w-full ">
           <div className="border-b border-gray-200 dark:border-neutral-700">
             <nav
@@ -42,16 +41,6 @@ export function ButtonComponentPage() {
                 aria-controls="tabs-with-underline-2"
                 role="tab"
               >
-                Examples
-              </button>
-              <button
-                type="button"
-                className={`${preLineTabClassNames}`}
-                aria-selected="false"
-                data-hs-tab="#tabs-with-underline-3"
-                aria-controls="tabs-with-underline-3"
-                role="tab"
-              >
                 Code
               </button>
             </nav>
@@ -71,7 +60,7 @@ export function ButtonComponentPage() {
               role="tabpanel"
               aria-labelledby="tabs-with-underline-item-2"
             ></div>
-            <div
+            {/* <div
               id="tabs-with-underline-3"
               className="hidden"
               role="tabpanel"
@@ -84,7 +73,7 @@ export function ButtonComponentPage() {
                 </em>{" "}
                 item's tab body.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <div className="hidden md:block flex-grow min-w-fit">
@@ -92,10 +81,8 @@ export function ButtonComponentPage() {
         </div> */}
       </div>
     </section>
-    
   );
 }
-
 
 // import { PageHeader, ScrollSpy } from "@components";
 // import React from "react";
@@ -105,22 +92,22 @@ export function ButtonComponentPage() {
 //   scrollSpySections: string[];
 // };
 
-// export function ButtonComponentPage({ 
+// export function ButtonComponentPage({
 //   children,
 //   scrollSpySections,
 // }:ButtonComponentPage) {
- 
+
 //   const preLineTabClassNames =
 //     "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-700 hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-dark-700 dark:hover:text-brand-500";
 //   return (
 //     <section className="flex flex-col lg:flex-row">
-//         <div className="w-[90%] md:w-[60%] max-w-[1600px] m-auto md:m-0">
+//         <div className="w-full md:w-3/4 m-auto md:m-0">
 //         {children}
 //       </div>
-//       <div className="mt-14 mr-14 hidden md:block">
+//       <div className="mt-14 hidden md:block md:w-1/4">
 //         <ScrollSpy sections={scrollSpySections} />
 //       </div>
 //     </section>
-    
+
 //   );
 // }

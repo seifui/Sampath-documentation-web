@@ -14,10 +14,10 @@ export function PageHeader({
 }: PageHeaderProps) {
   return (
     <section
-      className={`flex  items-center content-center px-3 xl:px-6 w-full pt-8 pb-16 
+      className={`flex  items-center content-center px-6 md:px-16 w-full pt-8 pb-8 
       }`}
     >
-      <div className="flex flex-col text-gray-700 dark:text-gray-dark-700 gap-4 h-40 ">
+      <div className="flex flex-col text-gray-700 dark:text-gray-dark-700 gap-4">
         <h1 className="text-3xl sm:text-5xl font-bold mt-10">{heading}</h1>
         <p className="text-base">{content}</p>
       </div>
