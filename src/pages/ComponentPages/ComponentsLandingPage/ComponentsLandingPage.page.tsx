@@ -85,10 +85,6 @@ export function ComponentsLandingPage() {
         imageUrl={COMPONENT_HOME_HEADER_IMAGE}
         
       />
-      <div className="mx-6 md:mx-10">
-        <hr className=" bg-gray-200 dark:bg-gray-dark-200" />
-      </div>
-      
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 gap-y-8  my-8 px-6 md:px-10  ">
         {renderComponentPreviewCards()}
       </div>

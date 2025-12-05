@@ -29,8 +29,10 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     navBarItemList.map((navBarItem, index) => (
       <a
         key={index}
-        className={`text-md font-semibold text-md px-5 hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-colors duration-200 ${
-          activeLink === index ? "text-brand-600 " : "text-gray-400"
+        className={`text-sm font-semibold px-5 py-2 hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-all duration-200 ${
+          activeLink === index 
+            ? "bg-brand-600 text-white rounded-full" 
+            : "text-gray-400"
         }`}
         href="#"
         onClick={() => handleLinkClick(navBarItem.path, index)}
