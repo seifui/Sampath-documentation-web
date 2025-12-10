@@ -1,7 +1,6 @@
-import { ComponentsPreviewCard, PageHeader } from "@components";
+import { ComponentsPreviewCard } from "@components";
 import React from "react";
 import {
-  COMPONENT_HOME_HEADER_IMAGE,
   BUTTON_COMPONENT_IMAGE,
   TEXT_FIELD_COMPONENT_IMAGE,
   RADIO_BUTTON_COMPONENT_IMAGE,

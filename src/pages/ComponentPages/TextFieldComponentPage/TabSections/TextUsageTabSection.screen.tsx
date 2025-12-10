@@ -1,5 +1,5 @@
 import React from "react";
-import { BaseTabSectionScreen } from "./BaseTabSectionScreen.screen";
+import { BaseTabSectionScreen } from "@components";
 import {
   TEXT_FEILD_ANATOMY,
   TEXT_FEILD_SIZE_SM,

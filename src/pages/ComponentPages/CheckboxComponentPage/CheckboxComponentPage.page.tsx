@@ -1,4 +1,4 @@
-import { PageHeader, ScrollSpy } from "@components";
+import { PageHeader } from "@components";
 import React from "react";
 import { CheckboxUsageTabSection } from "./TabSections/CheckboxUsageTabSection.screen";
 import { CheckboxCodeTabSection } from "./TabSections/CheckboxCodeTabSection.screen";

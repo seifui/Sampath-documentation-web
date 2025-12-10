@@ -1,5 +1,5 @@
 import React from "react";
-import { BaseTabSectionScreen } from "./BaseTabSectionScreen.screen";
+import { BaseTabSectionScreen } from "@components";
 import {
   TEXTAREA_ANATOMY,
   TEXTAREA_STATES,

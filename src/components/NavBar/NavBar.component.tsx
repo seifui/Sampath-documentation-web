@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { DarkModeToggler } from "../DarkModeToggler";
-import { HorizontalDotMenuIcon, SearchIcon } from "../icons";
 import { useNavigate } from "react-router-dom";
 import { NavBarProps } from "@types";
 import {
@@ -27,18 +26,18 @@ export function NavBar({ navBarItemList }: NavBarProps) {
   };
   const renderMenuList = () =>
     navBarItemList.map((navBarItem, index) => (
-      <a
+      <button
         key={index}
+        type="button"
         className={`text-sm font-medium px-5 py-2.5 hover:text-brand-600 dark:text-primary-dark dark:hover:text-brand-600 transition-all duration-200 rounded-full ${
           activeLink === index 
             ? "bg-brand-600 text-white shadow-sm" 
             : "text-primary hover:bg-gray-50 dark:hover:bg-gray-dark-50"
         }`}
-        href="#"
         onClick={() => handleLinkClick(navBarItem.path, index)}
       >
         {navBarItem.name}
-      </a>
+      </button>
     ));
 
   return (
@@ -48,21 +47,15 @@ export function NavBar({ navBarItemList }: NavBarProps) {
         aria-label="Global"
       >
         <div className="flex items-center justify-between w-full lg:w-auto">
-          <a href="#" className="flex items-center">
+          <button type="button" onClick={() => handleNavigation("/")} className="flex items-center">
            <img className="w-28 md:w-36 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
            <img className="w-28 md:w-36 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
-          </a>
+          </button>
           
           <div className="lg:hidden flex gap-4 items-center">
-            {/* <div className="cursor-pointer">
-              <SearchIcon width={"16px"} height={"16px"} />
-            </div> */}
             <div className="cursor-pointer">
               <DarkModeToggler width={"26px"} height={"26px"} />
             </div>
-            {/* <div className="cursor-pointer">
-              <HorizontalDotMenuIcon width={"16px"} height={"16px"} />
-            </div> */}
           </div>
         </div>
         <div

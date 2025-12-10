@@ -1,4 +1,3 @@
-import { TailwindColors } from "@types";
 import React from "react";
 
 type PageHeaderProps = {

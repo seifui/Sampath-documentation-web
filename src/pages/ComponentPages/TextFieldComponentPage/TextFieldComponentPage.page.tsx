@@ -1,5 +1,5 @@
 import React from "react";
-import { PageHeader, ScrollSpy } from "@components";
+import { PageHeader } from "@components";
 import { TextUsageTabSection } from "./TabSections/TextUsageTabSection.screen";
 import { TextCodeTabSection } from "./TabSections/TextCodeTabSection.screen";
 

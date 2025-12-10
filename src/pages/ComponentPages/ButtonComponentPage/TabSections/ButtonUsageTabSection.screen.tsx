@@ -38,7 +38,7 @@ export function ButtonUsageTabSection() {
             an additional label below the button's container.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
-            <img src={BUTTON_ANATOMY} alt="Button Anatomy Image" />
+            <img src={BUTTON_ANATOMY} alt="Button Anatomy" />
           </div>
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />

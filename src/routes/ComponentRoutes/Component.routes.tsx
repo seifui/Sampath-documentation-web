@@ -11,7 +11,6 @@ import {
   AvatarComponentPage,
 
 } from "@pages";
-import { DarkModeToggler } from "@components";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 

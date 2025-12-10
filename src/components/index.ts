@@ -7,3 +7,4 @@ export * from "./SearchBarButton";
 export * from "./PageHeader";
 export * from "./ComponentsPreviewCard";
 export * from "./ScrollSpy";
+export * from "./BaseTabSectionScreen";

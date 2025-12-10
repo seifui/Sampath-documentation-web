@@ -1,12 +1,7 @@
-import { PageHeader, ScrollSpy } from "@components";
+import { PageHeader } from "@components";
 import React from "react";
 import { ButtonUsageTabSection } from "./TabSections/ButtonUsageTabSection.screen";
 import {ButtonCodeTabSection} from "./TabSections/ButtonCodeTabSection.screen";
-
-type ButtonComponentPage = {
-  children: React.ReactNode;
-  scrollSpySections: string[];
-};
 
 export function ButtonComponentPage() {
   const preLineTabClassNames =

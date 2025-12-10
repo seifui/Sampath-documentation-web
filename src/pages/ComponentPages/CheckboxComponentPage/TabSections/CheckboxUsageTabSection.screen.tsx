@@ -33,7 +33,7 @@ export function CheckboxUsageTabSection() {
             simultaneously or indicate multiple preferences at once
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-auto rounded-[16px]">
-            <img src={CHECKBOX_ANATOMY} alt="Checkbox Anatomy Image" />
+            <img src={CHECKBOX_ANATOMY} alt="Checkbox Anatomy" />
           </div>
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
