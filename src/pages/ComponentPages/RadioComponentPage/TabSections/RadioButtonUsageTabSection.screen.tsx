@@ -20,7 +20,7 @@ export function RadioButtonUsageTabSection() {
   ];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
-      <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
+      <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
@@ -30,7 +30,7 @@ export function RadioButtonUsageTabSection() {
             checkboxes, they enforce a one-choice-only selection, ensuring that
             only one option can be selected at any given time.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={RADIOBUTTON_ANATOMY} alt="BUTTON_USAGE_IMAGE_2" />
           </div>
         </div>
@@ -47,7 +47,7 @@ export function RadioButtonUsageTabSection() {
             accessibility and ease of interaction, making it suitable for
             standard form inputs and settings.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={RADIOBUTTON_SIZES} alt="BUTTON_USAGE_IMAGE_2" />
           </div>
         </div>
@@ -63,7 +63,7 @@ export function RadioButtonUsageTabSection() {
             for longer descriptions, making it ideal for options that require
             additional context or explanation.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={RADIOBUTTON_VARIANTS} alt="BUTTON_STATES" />
           </div>
         </div>
@@ -79,7 +79,7 @@ export function RadioButtonUsageTabSection() {
             disabled state prevents selection while clearly indicating
             unavailability.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={RADIOBUTTON_STATES} alt="RADIOBUTTON_STATES" />
           </div>
         </div>

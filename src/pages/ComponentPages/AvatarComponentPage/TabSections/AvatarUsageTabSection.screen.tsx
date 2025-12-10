@@ -20,7 +20,7 @@ export function AvatarUsageTabSection() {
   ];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
-      <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
+      <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
@@ -35,7 +35,7 @@ export function AvatarUsageTabSection() {
             users when input requirements are not met, ensuring better input
             accuracy and guidance.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={AVATAR_ANATOMY} alt="AVATAR_ANATOMY" />
           </div>
         </div>
@@ -44,7 +44,7 @@ export function AvatarUsageTabSection() {
         <div id="Shapes">
           <h2 className="text-3xl font-bold mb-6 ">Shapes</h2>
           <p className="mb-3">Avatar come in rectangular & circle shapes.</p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={AVATAR_SHAPES} alt="AVATAR_SHAPES" />
           </div>
         </div>
@@ -58,7 +58,7 @@ export function AvatarUsageTabSection() {
             thoughtfully designed to maintain clarity, visual balance, and
             usability across various touchpoints.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={AVATAR_SIZES} alt="AVATAR_SIZES" />
           </div>
         </div>
@@ -72,7 +72,7 @@ export function AvatarUsageTabSection() {
             while the Text avatar provides a typographic alternative for better
             adaptability and accessibility.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={AVATAR_TYPES} alt="AVATAR_TYPES" />
           </div>
         </div>
@@ -85,7 +85,7 @@ export function AvatarUsageTabSection() {
             cases, ensuring flexibility and consistency across the interface
             while maintaining brand identity and user recognition.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={AVATAR_VARIANTS} alt="AVATAR_VARIANTS" />
           </div>
         </div>

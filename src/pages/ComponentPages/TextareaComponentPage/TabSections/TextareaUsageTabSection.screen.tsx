@@ -12,7 +12,7 @@ export function TextareaUsageTabSection() {
   const scrollSpySections = ["Anatomy", "States", "Do’s & Don’ts"];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
-      <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
+      <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
@@ -27,7 +27,7 @@ export function TextareaUsageTabSection() {
             users when input requirements are not met, ensuring better input
             accuracy and guidance.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={TEXTAREA_ANATOMY} alt="TEXTAREA_ANATOMY" />
           </div>
         </div>
@@ -40,7 +40,7 @@ export function TextareaUsageTabSection() {
             and disabled—each designed to guide user interaction and ensure
             accessibility.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={TEXTAREA_STATES} alt="TEXTAREA_STATES" />
           </div>
         </div>

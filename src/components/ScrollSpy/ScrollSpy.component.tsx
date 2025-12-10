@@ -29,8 +29,8 @@ export const ScrollSpy: React.FC<ScrollSpyProps> = ({ sections }) => {
   }, [sections]);
 
   return (
-    <nav className="sticky top-8 w-fit">
-      <h5 className="text-sm font-semibold text-gray-700 dark:text-gray-dark-700">
+    <nav className="sticky top-8 w-full">
+      <h5 className="text-sm font-semibold text-primary dark:text-primary-dark">
         One this page
       </h5>
       <ul className="py-4">
@@ -41,7 +41,7 @@ export const ScrollSpy: React.FC<ScrollSpyProps> = ({ sections }) => {
               className={`${
                 activeSection === section
                   ? "text-brand-600 border-l border-l-brand-600"
-                  : "text-gray-700 dark:text-gray-dark-700  border-l border-l-gray-200 dark:border-l-gray-dark-200 "
+                  : "text-primary dark:text-primary-dark  border-l border-l-gray-200 dark:border-l-gray-dark-200 "
               } text-base block px-4 py-1`}
             >
               {section}

@@ -4,7 +4,7 @@ import { ButtonUsageTabSection } from "./TabSections/ButtonUsageTabSection.scree
 
 export function ButtonComponentPage() {
   const preLineTabClassNames =
-    "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-700 hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-dark-700 dark:hover:text-brand-500";
+    "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-primary hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-primary-dark dark:hover:text-brand-500";
   return (
     // <cmpwrapper></cmpwrapper>
     <section className="w-full">
@@ -98,7 +98,7 @@ export function ButtonComponentPage() {
 // }:ButtonComponentPage) {
 
 //   const preLineTabClassNames =
-//     "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-700 hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-gray-dark-700 dark:hover:text-brand-500";
+//     "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-primary hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-primary-dark dark:hover:text-brand-500";
 //   return (
 //     <section className="flex flex-col lg:flex-row">
 //         <div className="w-full md:w-3/4 m-auto md:m-0">

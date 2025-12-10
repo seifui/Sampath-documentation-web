@@ -6,7 +6,7 @@ export function RadioButtonCodeTabSection() {
     return (
         <div className="max-w-[820px] mx-auto">
            <div id="Documentation" className="mt-14">
-          <h2 className="text-3xl font-bold mb-6 text-gray-700 dark:text-gray-dark-700">
+          <h2 className="text-3xl font-bold mb-6 text-primary dark:text-primary-dark">
             Documentation
           </h2>
 
@@ -34,7 +34,7 @@ export function RadioButtonCodeTabSection() {
             </div>
 
             {/* React */}
-            <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
+            <a href="https://mellow-moxie-7efe99.netlify.app/?path=/docs/subframe-radiocardgroup--docs" target="_blank" rel="noopener noreferrer" className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer">
               <h2 className="text-xl font-medium mb-6">React</h2>
               <div className="flex justify-between items-end">
                 <img src={REACT_LOGO} className="w-10 h-10" alt="React LOGO" />
@@ -53,7 +53,7 @@ export function RadioButtonCodeTabSection() {
                   />
                 </svg>
               </div>
-            </div>
+            </a>
 
             {/* Angular */}
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">

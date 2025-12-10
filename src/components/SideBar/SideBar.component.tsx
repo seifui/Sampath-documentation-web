@@ -39,7 +39,7 @@ export function SideBar({ sideBarItemList }: SideBarProps) {
                 ${
                   isActive
                     ? "text-brand-600 font-semibold bg-brand-50 dark:bg-brand-dark-50 rounded-xl px-6 py-3 ml-4 mr-2"
-                    : "text-gray-600 dark:text-gray-dark-700 dark:hover:text-brand-600 font-medium pl-8 pr-4 py-2.5 mx-2"
+                    : "text-primary dark:text-primary-dark dark:hover:text-brand-600 font-medium pl-8 pr-4 py-2.5 mx-2"
                 } 
                 hover:rounded-lg hover:bg-gray-50 dark:hover:bg-gray-dark-50 transition-all duration-200`}
             >

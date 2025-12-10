@@ -19,7 +19,7 @@ export function CheckboxUsageTabSection() {
   ];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
-      <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
+      <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
@@ -32,7 +32,7 @@ export function CheckboxUsageTabSection() {
             scenarios where users may need to activate several options
             simultaneously or indicate multiple preferences at once
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-auto">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-auto rounded-[16px]">
             <img src={CHECKBOX_ANATOMY} alt="Checkbox Anatomy Image" />
           </div>
         </div>
@@ -48,7 +48,7 @@ export function CheckboxUsageTabSection() {
             These size options ensure that checkboxes remain adaptable and
             visually balanced across different design contexts.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={CHECKBOX_SIZES} alt="CHECKBOX_SIZES" />
           </div>
         </div>
@@ -64,7 +64,7 @@ export function CheckboxUsageTabSection() {
             interactivity, and the disabled state prevents interaction while
             signaling unavailability.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={CHECKBOX_STATES} alt="CHECKBOX_STATES" />
           </div>
         </div>
@@ -79,7 +79,7 @@ export function CheckboxUsageTabSection() {
             stacks options vertically for better readability and ease of
             selection.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={CHECKBOX_VARIANTS} alt="CHECKBOX_VARIANTS" />
           </div>
         </div>

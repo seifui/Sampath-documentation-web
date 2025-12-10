@@ -111,6 +111,13 @@ module.exports = {
             600: "rgba(37, 99, 235, 1)",
           },
         },
+        primary: {
+          DEFAULT: "#171717",
+          dark: "rgba(255, 255, 255, 0.80)",
+        },
+        secondary: {
+          DEFAULT: "#6B7280",
+        },
       },
       fontFamily: {
         sans: ['Satoshi', 'Inter', 'sans-serif'],

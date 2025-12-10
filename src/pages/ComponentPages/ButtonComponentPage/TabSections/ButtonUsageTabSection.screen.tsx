@@ -27,7 +27,7 @@ export function ButtonUsageTabSection() {
   ];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
-      <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
+      <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
@@ -37,7 +37,7 @@ export function ButtonUsageTabSection() {
             a leading icon and a trailing icon. Circle buttons can also support
             an additional label below the button's container.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={BUTTON_ANATOMY} alt="Button Anatomy Image" />
           </div>
         </div>
@@ -48,7 +48,7 @@ export function ButtonUsageTabSection() {
           <p className="mb-3">
             Buttons come in rectangular, circle, square, and pill shapes.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={BUTTON_SHAPES} alt="BUTTON_SHAPES" />
           </div>
           {/* <div className="flex gap-4">
@@ -113,7 +113,7 @@ export function ButtonUsageTabSection() {
             Button hierarchy emphasizes which button is more important in the
             context so the user can take action immediately.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={BUTTON_HIERARCHY} alt="BUTTON_HIERARCHY" />
           </div>
         </div>
@@ -124,7 +124,7 @@ export function ButtonUsageTabSection() {
             Button hierarchy emphasizes which button is more important in the
             context so the user can take action immediately.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={BUTTON_STATES} alt="BUTTON_STATES" />
           </div>
         </div>
@@ -135,7 +135,7 @@ export function ButtonUsageTabSection() {
             Icons enhance the clarity and functionality of buttons by visually
             supporting the action they represent.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={BUTTON_ICON_USAGE} alt="BUTTON_USAGE_IMAGE_2" />
           </div>
         </div>
@@ -148,7 +148,7 @@ export function ButtonUsageTabSection() {
             balance and usability while adapting to the context of the
             interface.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={BUTTON_SIZES} alt="BUTTON_USAGE_IMAGE_2" />
           </div>
         </div>

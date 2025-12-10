@@ -18,7 +18,7 @@ export function SwitchUsageTabSection() {
   ];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
-      <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
+      <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
@@ -34,7 +34,7 @@ export function SwitchUsageTabSection() {
             is best suited for scenarios where a user needs to quickly toggle a
             single condition without ambiguity.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={SWITCH_ANATOMY} alt="SWITCH_ANATOMY" />
           </div>
         </div>
@@ -48,7 +48,7 @@ export function SwitchUsageTabSection() {
             and ideal for space-constrained layouts, while the md size offers
             better visibility and accessibility for broader usability.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={SWITCH_SIZES} alt="SWITCH_SIZES" />
           </div>
         </div>
@@ -62,7 +62,7 @@ export function SwitchUsageTabSection() {
             while the multi-row variant stacks switches vertically to enhance
             readability and accessibility.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={SWITCH_VARIANTS} alt="SWITCH_VARIANTS" />
           </div>
         </div>
@@ -78,7 +78,7 @@ export function SwitchUsageTabSection() {
             navigation and accessibility, and the disabled state prevents
             interaction while signaling unavailability.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={SWITCH_STATES} alt="SWITCH_STATES" />
           </div>
         </div>

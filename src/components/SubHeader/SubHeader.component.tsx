@@ -18,7 +18,7 @@ export function SubHeader({ activePage }: SubHeaderProps) {
       >
         <HamburgerMenuIcon />
       </button>
-      <span className="text-sm font-medium text-gray-600 dark:text-gray-dark-600">Components / {activePage}</span>
+      <span className="text-sm font-medium text-primary dark:text-primary-dark">Components / {activePage}</span>
     </div>
   );
 }

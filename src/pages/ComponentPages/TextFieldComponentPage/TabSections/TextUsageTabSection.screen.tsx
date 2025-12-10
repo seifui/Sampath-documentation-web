@@ -24,7 +24,7 @@ export function TextUsageTabSection() {
   ];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
-      <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
+      <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
@@ -38,7 +38,7 @@ export function TextUsageTabSection() {
             error or success states, and may include a character counter to
             provide feedback on input length.
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={TEXT_FEILD_ANATOMY} alt="BUTTON_USAGE_IMAGE_2" />
           </div>
         </div>
@@ -48,25 +48,25 @@ export function TextUsageTabSection() {
           <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
           <div className="grid grid-cols-2 gap-2">
             <div>
-              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
                 <img src={TEXT_FEILD_SIZE_SM} alt="TEXT_FEILD_IMAGE_3" />
               </div>
               <h4 className="text-l font-bold mb-2 ml-3">SM</h4>
             </div>
             <div>
-              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
                 <img src={TEXT_FEILD_SIZE_MD} alt="TEXT_FEILD_IMAGE_4" />
               </div>
               <h4 className="text-l font-bold mb-2 ml-3">MD</h4>
             </div>
             <div>
-              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
                 <img src={TEXT_FEILD_SIZE_LG} alt="TEXT_FEILD_IMAGE_5" />
               </div>
               <h4 className="text-l font-bold mb-2 ml-3">LG</h4>
             </div>
             <div>
-              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
                 <img src={TEXT_FEILD_SIZE_XL} alt="TEXT_FEILD_IMAGE_5" />
               </div>
               <h4 className="text-l font-bold mb-2 ml-3">XL</h4>
@@ -81,7 +81,7 @@ export function TextUsageTabSection() {
             serving a specific purpose to enhance user experience and
             accessibility. 
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={TEXT_FEILD_STATES} alt="BUTTON_STATES" />
           </div>
         </div>
@@ -93,7 +93,7 @@ export function TextUsageTabSection() {
             hint—each serving a specific purpose to improve usability and guide
             users effectively.  
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={TEXT_FEILD_PROPERTY} alt="TEXT_FEILD_PROPERTY" />
           </div>
         </div>
@@ -104,7 +104,7 @@ export function TextUsageTabSection() {
             The input field supports two icon placements—leading and trailing—to
             enhance functionality and usability.  
           </p>
-          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
+          <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={TEXT_FEILD_ICON_USAGE} alt="ICON_USAGE" />
           </div>
         </div>
