@@ -24,11 +24,11 @@ export function BadgeUsageTabSection() {
   ];
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
-      <div className="mt-14  text-gray-700 dark:text-gray-dark-700">
+      <div className="mt-14">
         {/* Anatomy section */}
         <div id="Anatomy">
           <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
-          <p>
+          <p className="text-base text-gray-700 dark:text-gray-dark-700 leading-relaxed">
             A badge is a UI component used to convey status updates,
             notifications, or alerts in a concise manner. It helps users quickly
             identify new messages, updates, or changes within an application.
@@ -44,7 +44,7 @@ export function BadgeUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Shapes">
           <h2 className="text-3xl font-bold mb-6 ">Shapes</h2>
-          <p className="mb-3">
+          <p className="mb-3 text-base text-gray-700 dark:text-gray-dark-700 leading-relaxed">
             Badges come in rounded, rectangular, circle shapes.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
@@ -55,7 +55,7 @@ export function BadgeUsageTabSection() {
         {/* Size section */}
         <div id="Sizes">
           <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
-          <p className="mb-3">
+          <p className="mb-3 text-base text-gray-700 dark:text-gray-dark-700 leading-relaxed">
             The Badge is available in multiple sizes to accommodate different
             design needs and contexts. Each size is carefully designed to ensure
             readability, visual harmony, and usability while seamlessly
@@ -69,14 +69,11 @@ export function BadgeUsageTabSection() {
         {/* Variant section */}
         <div id="Variants">
           <h2 className="text-3xl font-bold mb-6 ">Variants</h2>
-          <p className="mb-3">
-            Radio buttons come in three variants no text, one row, and multi-row
-            designed to accommodate different interface needs. The no-text
-            variant is minimal, displaying only the radio button without a
-            label. The one-row variant pairs the radio button with a single-line
-            label for clear and concise selections. The multi-row variant allows
-            for longer descriptions, making it ideal for options that require
-            additional context or explanation.
+          <p className="mb-3 text-base text-gray-700 dark:text-gray-dark-700 leading-relaxed">
+            Badges come in various variants designed to accommodate different
+            interface needs and visual styles. Each variant offers unique
+            characteristics that help convey information effectively while
+            maintaining visual consistency across the application.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6">
             <img src={BADGE_VARIANTS} alt="BADGE_VARIANTS" />
@@ -86,7 +83,7 @@ export function BadgeUsageTabSection() {
         {/* Types section */}
         <div id="Types">
           <h2 className="text-3xl font-bold mb-6 ">Types</h2>
-          <p className="mb-3">
+          <p className="mb-3 text-base text-gray-700 dark:text-gray-dark-700 leading-relaxed">
             Badges are available in four types to suit different design needs,
             offering variations in fill and border styles for better visual
             adaptability.
@@ -99,7 +96,7 @@ export function BadgeUsageTabSection() {
         {/* Icon Usage section */}
         <div id="Icon Usage">
           <h2 className="text-3xl font-bold mb-6 ">Icon Usage</h2>
-          <p className="mb-3">
+          <p className="mb-3 text-base text-gray-700 dark:text-gray-dark-700 leading-relaxed">
             Icons can be used in badges to enhance recognition and improve
             visual communication, making information more intuitive and
             accessible.
@@ -112,7 +109,7 @@ export function BadgeUsageTabSection() {
         {/* Do’s & Don’ts section */}
         <div id="Do’s & Don’ts">
           <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
-          <p className="mb-3">
+          <p className="mb-3 text-base text-gray-700 dark:text-gray-dark-700 leading-relaxed">
             Do’s and Don’ts offer quick guidelines to follow and avoid, helping
             you create clear and user-friendly badges
           </p>

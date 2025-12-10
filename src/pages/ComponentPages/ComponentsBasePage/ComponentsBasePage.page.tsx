@@ -32,11 +32,15 @@ export function ComponentBasePage() {
   ];
 
   return (
-    <div className="flex relative">
-      <div className="h-screen sticky top-0 z-[80]">
-        <SideBar sideBarItemList={sideBarItemList} />
+    <div className="w-full max-w-[1920px] mx-auto">
+      <div className="flex relative min-h-screen">
+        <div className="h-screen sticky top-0 z-[80]">
+          <SideBar sideBarItemList={sideBarItemList} />
+        </div>
+        <div className="flex-1 w-full">
+          <Outlet />
+        </div>
       </div>
-      <Outlet />
     </div>
   );
 }

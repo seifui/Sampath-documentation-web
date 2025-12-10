@@ -42,7 +42,7 @@ export const ScrollSpy: React.FC<ScrollSpyProps> = ({ sections }) => {
                 activeSection === section
                   ? "text-brand-600 border-l border-l-brand-600"
                   : "text-gray-700 dark:text-gray-dark-700  border-l border-l-gray-200 dark:border-l-gray-dark-200 "
-              } text-sm block px-4 py-1`}
+              } text-base block px-4 py-1`}
             >
               {section}
             </a>

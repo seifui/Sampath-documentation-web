@@ -4,7 +4,7 @@ import { HTML_LOGO, REACT_LOGO, ANGULAR_LOGO, VUE_LOGO } from "@assets";
 
 export function TextareaCodeTabSection() {
   return (
-    <div>
+    <div className="max-w-[820px] mx-auto">
       <div id="Documentation" className="mt-14">
         <h2 className="text-3xl font-bold mb-6 text-gray-700 dark:text-gray-dark-700">
           Documentation

@@ -10,7 +10,7 @@ import {
 export function TextCodeTabSection() {
   
   return (
-    <div>
+    <div className="max-w-[820px] mx-auto">
       <div className="mt-14 w-full">
         {/* Anatomy section */}
         <div id="Documentation">

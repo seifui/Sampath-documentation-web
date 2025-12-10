@@ -22,10 +22,6 @@ function App() {
 
   const pageName = location.pathname.split("/").filter(Boolean).pop() || "Home";
 
-  useEffect(() => {
-    window.HSStaticMethods.autoInit();
-  }, [location.pathname]);
-
   const navBarItemList: NavBarItem[] = [
     { name: "Home", path: "/" },
     { name: "Foundation", path: "Foundation" },
@@ -33,18 +29,20 @@ function App() {
     // { name: "Patterns", path: "patterns" },
   ];
   return (
-    <div className="bg-white dark:bg-solid-dark-base">
-      <div className="flex flex-col justify-center content-center">
-        <div className="">
-          <div className="px-6 md:px-4 m-auto ">
+    <div className="bg-white dark:bg-solid-dark-base min-h-screen">
+      <div className="flex flex-col">
+        <div className="w-full border-b border-gray-200 dark:border-gray-dark-200">
+          <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8">
             <NavBar navBarItemList={navBarItemList} />
           </div>
         </div>
-        <div className="px-6 md:px-16 border-b-gray-200 border-b dark:border-b-gray-dark-200 lg:hidden">
-          <SubHeader activePage={pageName} />
+        <div className="w-full border-b border-gray-200 dark:border-b-gray-dark-200 lg:hidden">
+          <div className="max-w-[1920px] mx-auto px-4 sm:px-6">
+            <SubHeader activePage={pageName} />
+          </div>
         </div>
       </div>
-      <div className="lg:pl-1 xl:pl-3 m-auto">
+      <div className="w-full">
         <Routes>
           <Route path="/Components/*" element={<ComponentRoutes />} />
         </Routes>

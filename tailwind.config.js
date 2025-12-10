@@ -115,6 +115,9 @@ module.exports = {
       fontFamily: {
         sans: ['Satoshi', 'Inter', 'sans-serif'],
       },
+      fontSize: {
+        base: '16px',
+      },
     },
   },
   plugins: [require("preline/plugin")],

@@ -29,10 +29,10 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     navBarItemList.map((navBarItem, index) => (
       <a
         key={index}
-        className={`text-sm font-semibold px-5 py-2 hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-all duration-200 ${
+        className={`text-sm font-semibold px-5 py-2.5 hover:text-brand-600 dark:text-gray-dark-700 dark:hover:text-brand-600 transition-all duration-200 rounded-full ${
           activeLink === index 
-            ? "bg-brand-600 text-white rounded-full" 
-            : "text-gray-400"
+            ? "bg-brand-600 text-white shadow-sm" 
+            : "text-gray-500 hover:bg-gray-50 dark:hover:bg-gray-dark-50"
         }`}
         href="#"
         onClick={() => handleLinkClick(navBarItem.path, index)}
@@ -42,15 +42,15 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     ));
 
   return (
-    <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white text-base  dark:bg-solid-dark-base sticky top-0 h-20 items-center">
+    <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white text-base dark:bg-solid-dark-base sticky top-0 h-20 items-center">
       <nav
-        className=" w-full mx-auto lg:flex lg:items-center lg:justify-between"
+        className="w-full mx-auto lg:flex lg:items-center lg:justify-between py-4"
         aria-label="Global"
       >
-        <div className="flex items-center justify-between">
-          <a href="#">
-           <img className="w-24 md:w-32 h-full block dark:hidden" src={LOGO_DARK} alt="logo" />
-           <img className="w-24 md:w-32 h-full hidden dark:block" src={LOGO_WHITE} alt="logo" />
+        <div className="flex items-center justify-between w-full lg:w-auto">
+          <a href="#" className="flex items-center">
+           <img className="w-28 md:w-36 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
+           <img className="w-28 md:w-36 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
           </a>
           
           <div className="lg:hidden flex gap-4 items-center">
@@ -69,15 +69,15 @@ export function NavBar({ navBarItemList }: NavBarProps) {
           id="navbar-with-mega-menu"
           className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block"
         >
-           <div className="flex items-center justify-between lg:ps-5">
+           <div className="flex items-center justify-between lg:pl-8">
 
             {/* CENTER — Menu (stays centered) */}
-            <div className="flex flex-1 justify-center">
+            <div className="flex flex-1 justify-center items-center">
               {renderMenuList()}
             </div>
 
             {/* RIGHT — Dark mode toggler */}
-            <div className="flex justify-end">
+            <div className="flex justify-end items-center ml-6">
               <DarkModeToggler width="20px" height="20px" />
             </div>
 
