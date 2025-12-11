@@ -27,7 +27,7 @@ export function TextCodeTabSection() {
             </div>
 
             {/* <!-- Card 2 --> */}
-            <a href="https://mellow-moxie-7efe99.netlify.app/?path=/docs/subframe-textfield--docs" target="_blank" rel="noopener noreferrer" className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer">
+            <a href="https://storybook-ds-guide.netlify.app/?path=/docs/subframe-textfield--docs" target="_blank" rel="noopener noreferrer" className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer">
               <h2 className="text-xl font-medium mb-6">React</h2>
               <div className="flex justify-between items-end">
                 <img src={REACT_LOGO} className="w-10 h-10" alt="React" />

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Routes, useLocation, Route } from "react-router-dom";
+import { Routes, useLocation, Route, Navigate } from "react-router-dom";
 import "preline/preline";
 import { IStaticMethods } from "preline/preline";
 
@@ -44,6 +44,7 @@ function App() {
       </div>
       <div className="w-full">
         <Routes>
+          <Route path="/" element={<Navigate to="/Components" replace />} />
           <Route path="/Components/*" element={<ComponentRoutes />} />
         </Routes>
       </div>
