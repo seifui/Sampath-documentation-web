@@ -34,7 +34,7 @@ export function ButtonCodeTabSection() {
 
           {/* React */}
           <a
-            href="https://mellow-moxie-7efe99.netlify.app/?path=/docs/subframe-button--docs"
+            href="https://storybook-ds-guide.netlify.app/?path=/docs/subframe-button--docs"
             target="_blank"
             rel="noopener noreferrer"
             className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer"
