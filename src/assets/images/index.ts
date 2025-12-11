@@ -15,6 +15,17 @@ import BADGE_COMPONENT_IMAGE from "./component/badge.png";
 import CHECKBOX_COMPONENT_IMAGE from "./component/checkbox.png";
 import TEXTAREA_COMPONENT_IMAGE from "./component/textarea.png";
 import AVATAR_COMPONENT_IMAGE from "./component/avatar.png";
+import ACCORDION_COMPONENT_IMAGE from "./component/accordion.png";
+import ALERTS_COMPONENT_IMAGE from "./component/alerts.png";
+import BREADCRUMB_COMPONENT_IMAGE from "./component/breadcrumb.png";
+import LINK_COMPONENT_IMAGE from "./component/link.png";
+import MESSAGEBOX_COMPONENT_IMAGE from "./component/messagebox.png";
+import NODATACARD_COMPONENT_IMAGE from "./component/nodatacard.png";
+import PAGINATION_COMPONENT_IMAGE from "./component/pagination.png";
+import SELECT_COMPONENT_IMAGE from "./component/select.png";
+import STEPPER_COMPONENT_IMAGE from "./component/stepper.png";
+import TABS_COMPONENT_IMAGE from "./component/tabs.png";
+import TOOLTIP_COMPONENT_IMAGE from "./component/tooltip.png";
 
 import BUTTON_ANATOMY from "./button/anatomy.png";
 import BUTTON_SHAPES from "./button/shapes.png";
@@ -99,6 +110,17 @@ export {
   CHECKBOX_COMPONENT_IMAGE,
   TEXTAREA_COMPONENT_IMAGE,
   AVATAR_COMPONENT_IMAGE,
+  ACCORDION_COMPONENT_IMAGE,
+  ALERTS_COMPONENT_IMAGE,
+  BREADCRUMB_COMPONENT_IMAGE,
+  LINK_COMPONENT_IMAGE,
+  MESSAGEBOX_COMPONENT_IMAGE,
+  NODATACARD_COMPONENT_IMAGE,
+  PAGINATION_COMPONENT_IMAGE,
+  SELECT_COMPONENT_IMAGE,
+  STEPPER_COMPONENT_IMAGE,
+  TABS_COMPONENT_IMAGE,
+  TOOLTIP_COMPONENT_IMAGE,
 
   BUTTON_ANATOMY,
   BUTTON_HIERARCHY,

@@ -29,10 +29,10 @@ export function NavBar({ navBarItemList }: NavBarProps) {
       <button
         key={index}
         type="button"
-        className={`text-sm font-medium px-5 py-2.5 hover:text-brand-600 dark:text-primary-dark dark:hover:text-brand-600 transition-all duration-200 rounded-full ${
+        className={`text-sm font-medium px-5 py-2.5 transition-all duration-200 rounded-full ${
           activeLink === index 
             ? "bg-brand-600 text-white shadow-sm" 
-            : "text-primary hover:bg-gray-50 dark:hover:bg-gray-dark-50"
+            : "text-primary dark:text-gray-dark-600 hover:text-brand-600 dark:hover:text-brand-600 hover:bg-gray-50 dark:hover:bg-gray-dark-50"
         }`}
         onClick={() => handleLinkClick(navBarItem.path, index)}
       >
@@ -65,7 +65,7 @@ export function NavBar({ navBarItemList }: NavBarProps) {
            <div className="flex items-center justify-between lg:pl-8">
 
             {/* CENTER — Menu (stays centered) */}
-            <div className="flex flex-1 justify-center items-center">
+            <div className="flex flex-1 gap-3 justify-center items-center">
               {renderMenuList()}
             </div>
 

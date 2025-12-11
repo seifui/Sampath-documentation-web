@@ -22,12 +22,24 @@ export function ComponentBasePage() {
     { linkName: "Message Box", linkPath: "Message Box" },
     { linkName: "Breadcrumb", linkPath: "Breadcrumb" },
     { linkName: "Alerts", linkPath: "Alerts" },
+    { linkName: "Select", linkPath: "Select" },
     { linkName: "Tooltip", linkPath: "Tooltip" },
-    { linkName: "Table", linkPath: "Table" },
-    { linkName: "Header", linkPath: "Header" },
     { linkName: "Card", linkPath: "Card" },
-    { linkName: "Side Bar", linkPath: "SideBar" },
-    
+  
+    { linkName: "Table", linkPath: "Table"},
+    { linkName: "Header", linkPath: "Header"},
+    { linkName: "Side Bar", linkPath: "SideBar"},
+    { linkName: "Checkbox Card", linkPath: "CheckboxCard"},
+    { linkName: "Checkbox Group", linkPath: "CheckboxGroup"},
+    { linkName: "Context Menu", linkPath: "ContextMenu"},
+    { linkName: "Drawer", linkPath: "Drawer"},
+    { linkName: "Sidebar Sections", linkPath: "SideBar ections"},
+    { linkName: "Loader", linkPath: "Loader"},
+    { linkName: "Skeleton Circle", linkPath: "SkeletonCircle"},
+    { linkName: "Skeleton Text", linkPath: "SkeletonText"},
+    { linkName: "Slider", linkPath: "Slider"},
+    { linkName: "Tabs", linkPath: "Tabs"},
+    { linkName: "Toggle Group", linkPath: "ToggleGroup"},
 
   ];
 
