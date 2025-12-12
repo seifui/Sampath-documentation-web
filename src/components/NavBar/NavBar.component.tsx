@@ -48,8 +48,8 @@ export function NavBar({ navBarItemList }: NavBarProps) {
       >
         <div className="flex items-center justify-between w-full lg:w-auto">
           <button type="button" onClick={() => handleNavigation("/")} className="flex items-center">
-           <img className="w-28 md:w-36 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
-           <img className="w-28 md:w-36 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
+           <img className="w-32 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
+           <img className="w-32 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
           </button>
           
           <div className="lg:hidden flex gap-4 items-center">

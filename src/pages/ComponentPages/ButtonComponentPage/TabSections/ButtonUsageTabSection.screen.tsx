@@ -30,7 +30,7 @@ export function ButtonUsageTabSection() {
       <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p>
             The most basic setup of a button includes only a single label or
             icon. Still, a button can also be customized to include a label with
@@ -44,7 +44,7 @@ export function ButtonUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Shape section */}
         <div id="Shape">
-          <h2 className="text-3xl font-bold mb-6 ">Shape</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Shape</h2>
           <p className="mb-3">
             Buttons come in rectangular, circle, square, and pill shapes.
           </p>
@@ -90,7 +90,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Usage">
-          <h2 className="text-3xl font-bold mb-6 ">Usage</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Usage</h2>
           <p className="mb-3">
             Buttons are interactive elements that help users take action, make
             decisions, and move forward in a process. Use buttons to:
@@ -108,7 +108,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Hierarchy">
-          <h2 className="text-3xl font-bold mb-6 ">Hierarchy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Hierarchy</h2>
           <p className="mb-3">
             Button hierarchy emphasizes which button is more important in the
             context so the user can take action immediately.
@@ -119,7 +119,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="States">
-          <h2 className="text-3xl font-bold mb-6 ">States</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">States</h2>
           <p className="mb-3">
             Button hierarchy emphasizes which button is more important in the
             context so the user can take action immediately.
@@ -130,7 +130,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Icon Usage">
-          <h2 className="text-3xl font-bold mb-6 ">Icon Usage</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Icon Usage</h2>
           <p className="mb-3">
             Icons enhance the clarity and functionality of buttons by visually
             supporting the action they represent.
@@ -141,7 +141,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Size">
-          <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Sizes</h2>
           <p className="mb-3">
             The Button is available in various sizes to fit different
             environments and use cases. Each size is designed to maintain visual
@@ -154,7 +154,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
             Do's and Don'ts are practical guidelines that outline best practices
             to follow and mistakes to avoid, ensuring effective and
