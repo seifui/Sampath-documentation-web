@@ -6,6 +6,7 @@ import { IStaticMethods } from "preline/preline";
 import { NavBar, SubHeader } from "@components";
 import { ComponentRoutes } from "routes/ComponentRoutes";
 import { NavBarItem } from "@types";
+import { HomePage, FoundationPage, PatternsPage, ResourcesPage } from "@pages";
 
 declare global {
   interface Window {
@@ -24,9 +25,10 @@ function App() {
 
   const navBarItemList: NavBarItem[] = [
     { name: "Home", path: "/" },
-    { name: "Foundation", path: "Foundation" },
+    { name: "Foundation", path: "/Foundation" },
     { name: "Components", path: "/Components" },
-    // { name: "Patterns", path: "patterns" },
+    { name: "Patterns", path: "/Patterns" },
+    { name: "Resources", path: "/Resources" },
   ];
   return (
     <div className="bg-white dark:bg-solid-dark-base min-h-screen">
@@ -44,8 +46,11 @@ function App() {
       </div>
       <div className="w-full">
         <Routes>
-          <Route path="/" element={<Navigate to="/Components" replace />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/Foundation" element={<FoundationPage />} />
           <Route path="/Components/*" element={<ComponentRoutes />} />
+          <Route path="/Patterns" element={<PatternsPage />} />
+          <Route path="/Resources" element={<ResourcesPage />} />
         </Routes>
       </div>
     </div>
