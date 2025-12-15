@@ -1,1 +1,7 @@
-export * from "./FoundationPage.page";
+export * from "./FoundationBasePage";
+export * from "./FoundationLandingPage";
+export * from "./FoundationCards";
+export * from "./ColorPage";
+
+
+// export * from "./FoundationPage.page";

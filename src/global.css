@@ -60,3 +60,6 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background: #6B7280;
 }
+html, body, #root {
+  height: 100%;
+}
