@@ -17,14 +17,14 @@ export const PatternCards: ComponentsPreviewCardProps[] = [
   {
     heading: "Empty state pattern",
     description: "Triggers an action when clicked.",
-    imageUrl: NODATACARD_COMPONENT_IMAGE,
+    imageUrl: COMING_SOON_IMAGE,
     onClickNavigationPath: "/Patterns/Validation",
   },
   {
     heading: "Error pattern",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: ALERTS_COMPONENT_IMAGE,
+    imageUrl: COMING_SOON_IMAGE,
     onClickNavigationPath: "/Patterns/Validation",
   },
   {
