@@ -7,6 +7,7 @@ import ANGULAR_LOGO from "./framework/angular.png";
 import VUE_LOGO from "./framework/vue.png";
 
 import COMPONENT_HOME_HEADER_IMAGE from "./components-home-header-image.png";
+import COMING_SOON_IMAGE from "./comingsoon.png";
 
 import BUTTON_COMPONENT_IMAGE from "./component/button.png";
 import TEXT_FIELD_COMPONENT_IMAGE from "./component/textfield.png";
@@ -91,11 +92,16 @@ import AVATAR_TYPES from "./avatar/types.png";
 import AVATAR_VARIANTS from "./avatar/variants.png";
 import AVATAR_DODONT_01 from "./avatar/do&dont_1.png";
 
+import COLOR from "./foundation/color.png";
+import TYPOGRAPHY from "./foundation/typo.png";
+
+import VALIDATION from "./pattern/validation.png";
 
 export {
   LOGO_WHITE,
   LOGO_DARK,
   COMPONENT_HOME_HEADER_IMAGE,
+  COMING_SOON_IMAGE,
 
   HTML_LOGO,
   REACT_LOGO,
@@ -184,5 +190,9 @@ export {
   AVATAR_TYPES,
   AVATAR_VARIANTS,
   AVATAR_DODONT_01,
-                    
+
+  COLOR,
+  TYPOGRAPHY,   
+  
+  VALIDATION,
 };
