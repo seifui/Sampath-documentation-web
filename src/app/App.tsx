@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Routes, useLocation, Route, Navigate } from "react-router-dom";
+import { Routes, useLocation, Route } from "react-router-dom";
 import "preline/preline";
 import { IStaticMethods } from "preline/preline";
 

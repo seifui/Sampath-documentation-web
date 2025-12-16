@@ -1,6 +1,5 @@
 import { ComponentsPreviewCardProps } from "@types";
 import {
-  BUTTON_COMPONENT_IMAGE,
   COMING_SOON_IMAGE,
   COLOR,
   TYPOGRAPHY,

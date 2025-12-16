@@ -1,6 +1,6 @@
 import { ComponentsPreviewCardProps } from "@types";
 import {
-  BUTTON_COMPONENT_IMAGE,
+ 
   NODATACARD_COMPONENT_IMAGE,
   ALERTS_COMPONENT_IMAGE,
   VALIDATION,

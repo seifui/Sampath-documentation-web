@@ -128,22 +128,3 @@ function ValidationCard({
     </div>
   );
 }
-
-type SectionTitleProps = {
-  title: string;
-  description: string;
-};
-
-function SectionTitle({ title, description }: SectionTitleProps) {
-  return (
-    <div className="space-y-1">
-      <h2 className="text-2xl font-semibold text-gray-900">{title}</h2>
-      <p className="text-gray-600 max-w-3xl">{description}</p>
-    </div>
-  );
-}
-
-type PageHeaderProps = {
-  heading: string;
-  content: string;
-};
