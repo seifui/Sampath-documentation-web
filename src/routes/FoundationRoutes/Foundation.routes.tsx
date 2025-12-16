@@ -2,6 +2,8 @@ import {
     FoundationBasePage,
     FoundationLandingPage,
     ColorPage,
+    TypographyPage,
+
   } from "@pages";
   import React from "react";
   import { Route, Routes } from "react-router-dom";
@@ -12,6 +14,7 @@ import {
         <Route path="/" element={<FoundationBasePage />}>
           <Route path="/" element={<FoundationLandingPage />} />
           <Route path="Color" element={<ColorPage />} />
+          <Route path="Typography" element={<TypographyPage />} />
         </Route>
       </Routes>
     );

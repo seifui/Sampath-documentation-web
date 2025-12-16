@@ -6,6 +6,7 @@ export function FoundationBasePage() {
   const sideBarItemList = [
     { linkName: "All", linkPath: "/Foundation" },
     { linkName: "Color", linkPath: "Color" },
+    { linkName: "Typography", linkPath: "Typography" },
     { linkName: "Focus", linkPath: "Focus" },
     { linkName: "Icon", linkPath: "Icon" },
     { linkName: "Illustration", linkPath: "Illustration" },
@@ -13,7 +14,6 @@ export function FoundationBasePage() {
     { linkName: "Radius", linkPath: "Radius" },
     { linkName: "Size", linkPath: "Size" },
     { linkName: "Spacing", linkPath: "Spacing" },
-
   ];
 
   return (

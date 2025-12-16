@@ -6,8 +6,10 @@ import { IStaticMethods } from "preline/preline";
 import { NavBar, SubHeader } from "@components";
 import { ComponentRoutes } from "routes/ComponentRoutes";
 import { FoundationRoutes } from "routes/FoundationRoutes";
+import { PatternRoutes } from "routes/PatternRoutes";
+
 import { NavBarItem } from "@types";
-import { HomePage, PatternsPage, ResourcesPage } from "@pages";
+import { HomePage, ResourcesPage } from "@pages";
 
 declare global {
   interface Window {
@@ -50,7 +52,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/Foundation/*" element={<FoundationRoutes/>} />
           <Route path="/Components/*" element={<ComponentRoutes />} />
-          <Route path="/Patterns" element={<PatternsPage />} />
+          <Route path="/Patterns/*" element={<PatternRoutes />} />
           <Route path="/Resources" element={<ResourcesPage />} />
         </Routes>
       </div>

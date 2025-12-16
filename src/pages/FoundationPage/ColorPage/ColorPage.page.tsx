@@ -63,11 +63,46 @@ const semanticColors = {
   },
 };
 
+const colors = [
+    {
+      name: "Brand Primary",
+      hex: "#EA580C",
+      bg: "#EA580C",
+    },
+    {
+      name: "Default Font",
+      hex: "#171717",
+      bg: "#171717",
+    },
+    {
+      name: "Subtext Color",
+      hex: "#737373",
+      bg: "#737373",
+    },
+    {
+      name: "Neutral Border",
+      hex: "#E5E5E5",
+      bg: "#E5E5E5",
+    },
+    {
+      name: "White",
+      hex: "#FFFFFF",
+      bg: "#FFFFFF",
+      border: true,
+    },
+    {
+      name: "Default Background",
+      hex: "#FFFFFF",
+      bg: "#FFFFFF",
+      border: true,
+    },
+  ];
+
 export function ColorPage() {
   return (
     <div className="w-full">
       
-      <div className="pace-y-12min-h-screen">
+      <div className="space-y-12 min-h-screen">
         <PageHeader
           heading="Color"
           content="Our color system provides a consistent visual language for all UI components. Colors are organized into Brand, Gray scale, and Semantic colors for actions and status."
@@ -78,7 +113,7 @@ export function ColorPage() {
             {/* Most Used Colors */}
             <section>
               <h2 className="text-2xl font-semibold mb-4">Main Colors</h2>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6">
+              {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6">
               
                   <div
                     className="rounded-lg flex flex-col cursor-pointer bg-brand-600"
@@ -91,11 +126,34 @@ export function ColorPage() {
                     </div>
                   </div>
               
-              </div>
+              </div> */}
+              <div className="flex flex-wrap justify-between gap-10">
+                    {colors.map((color) => (
+                    <div key={color.name} className="flex flex-col items-center text-center">
+                        {/* Color Circle */}
+                        <div
+                        className={`w-32 h-32 rounded-full ${
+                            color.border ? "border border-gray-200" : ""
+                        }`}
+                        style={{ backgroundColor: color.bg }}
+                        />
+
+                        {/* Label */}
+                        <p className="mt-4 text-base font-medium text-gray-900">
+                        {color.name}
+                        </p>
+
+                        {/* Hex */}
+                        <p className="mt-1 text-sm text-gray-500">
+                        {color.hex}
+                        </p>
+                    </div>
+                    ))}
+                </div>
             </section>
 
             {/* Brand Colors */}
-            <section>
+            <section className="mt-10">
               <h2 className="text-2xl font-semibold mb-4">Brand Colors</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
                 {brandColors.map((color) => (
@@ -108,7 +166,7 @@ export function ColorPage() {
                       style={{ backgroundColor: color.hex }}
                     />
                     <div className="mt-2 text-center">
-                      <p className="font-medium">Orange {color.name}</p>
+                      <p className="font-medium">Brand {color.name}</p>
                       <p className="text-sm text-gray-500">{color.usage}</p>
                       <p className="text-xs mt-1">{color.hex}</p>
                     </div>

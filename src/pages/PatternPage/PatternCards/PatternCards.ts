@@ -5,68 +5,62 @@ import {
  
 } from "@assets";
 
-export const FoundationCards: ComponentsPreviewCardProps[] = [
+export const PatternCards: ComponentsPreviewCardProps[] = [
   {
-    heading: "Color",
+    heading: "Validation messages",
     description: "Triggers an action when clicked.",
     imageUrl: BUTTON_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Foundation/Color",
+    onClickNavigationPath: "/Patterns/Validation",
   },
   {
-    heading: "Typography",
+    heading: "Empty state pattern",
     description: "Triggers an action when clicked.",
     imageUrl: BUTTON_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Foundation/Typography",
+    onClickNavigationPath: "/Patterns/Validation",
   },
   {
-    heading: "Focus",
+    heading: "Error pattern",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: NODATACARD_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Foundation/Focus",
+    onClickNavigationPath: "/Patterns/Validation",
   },
   {
-    heading: "Icon",
+    heading: "Error screen",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: NODATACARD_COMPONENT_IMAGE,
     onClickNavigationPath: "/Foundation/Icon",
   },
   {
-    heading: "Illustration",
+    heading: "Help articles",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: NODATACARD_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Components/Nodatacard",
+    onClickNavigationPath: "/Patterns/Validation",
   },
   {
-    heading: "Padding",
+    heading: "Notifications",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: NODATACARD_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Components/Nodatacard",
+    onClickNavigationPath: "/Patterns/Validation",
   },
   {
-    heading: "Radius",
+    heading: "Progress screen",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: NODATACARD_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Foundation/Radius",
+    onClickNavigationPath: "/Patterns/Validation",
   },
 
   {
-    heading: "Size",
+    heading: "Success screen",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: NODATACARD_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Foundation/Size",
+    onClickNavigationPath: "/Patterns/Validation",
   },
-  {
-    heading: "Spacing",
-    description:
-      "A component used to represent an avatar with an icon or letter.",
-    imageUrl: NODATACARD_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Foundation/Spacing",
-  },
+  
 
 ];
