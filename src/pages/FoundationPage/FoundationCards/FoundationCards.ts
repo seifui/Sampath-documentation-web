@@ -3,6 +3,7 @@ import {
   COMING_SOON_IMAGE,
   COLOR,
   TYPOGRAPHY,
+  FOCUS,
   
 } from "@assets";
 
@@ -23,7 +24,7 @@ export const FoundationCards: ComponentsPreviewCardProps[] = [
     heading: "Focus",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: FOCUS,
     onClickNavigationPath: "/Foundation/Focus",
   },
   {
