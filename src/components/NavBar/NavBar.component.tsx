@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { DarkModeToggler } from "../DarkModeToggler";
+import { UserIcon } from "../icons";
 import { useNavigate } from "react-router-dom";
 import { NavBarProps } from "@types";
 import {
@@ -48,13 +48,13 @@ export function NavBar({ navBarItemList }: NavBarProps) {
       >
         <div className="flex items-center justify-between w-full lg:w-auto">
           <button type="button" onClick={() => handleNavigation("/")} className="flex items-center">
-           <img className="w-28 md:w-36 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
-           <img className="w-28 md:w-36 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
+           <img className="w-32 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
+           <img className="w-32 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
           </button>
           
           <div className="lg:hidden flex gap-4 items-center">
             <div className="cursor-pointer">
-              <DarkModeToggler width={"26px"} height={"26px"} />
+              <UserIcon width={"26px"} height={"26px"} />
             </div>
           </div>
         </div>
@@ -69,9 +69,9 @@ export function NavBar({ navBarItemList }: NavBarProps) {
               {renderMenuList()}
             </div>
 
-            {/* RIGHT — Dark mode toggler */}
+            {/* RIGHT — User icon */}
             <div className="flex justify-end items-center ml-6">
-              <DarkModeToggler width="20px" height="20px" />
+              <UserIcon width="20px" height="20px" />
             </div>
 
           </div>

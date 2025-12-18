@@ -1,0 +1,2 @@
+export * from "./UserIcon.component";
+

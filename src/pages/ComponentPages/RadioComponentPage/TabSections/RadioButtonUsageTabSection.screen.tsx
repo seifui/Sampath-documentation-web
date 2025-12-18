@@ -23,7 +23,7 @@ export function RadioButtonUsageTabSection() {
       <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p>
             Radio buttons are a selection control that allows users to choose a
             single option from a set of mutually exclusive choices. Unlike
@@ -37,7 +37,7 @@ export function RadioButtonUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Size section */}
         <div id="Sizes">
-          <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Sizes</h2>
           <p className="mb-3">
             The radio button comes in two sizes—small (sm) and medium (md)—to
             accommodate different interface needs and visual hierarchies. The
@@ -53,7 +53,7 @@ export function RadioButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Variants">
-          <h2 className="text-3xl font-bold mb-6 ">Variants</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Variants</h2>
           <p className="mb-3">
             Radio buttons come in three variants no text, one row, and multi-row
             designed to accommodate different interface needs. The no-text
@@ -69,7 +69,7 @@ export function RadioButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Property">
-          <h2 className="text-3xl font-bold mb-6 ">States</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">States</h2>
           <p className="mb-3">
             The radio button includes four key states default, hover, focused,
             and disabled each designed to support clarity, usability, and
@@ -86,7 +86,7 @@ export function RadioButtonUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
 
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
             Do’s and Don’ts provide clear guidelines to ensure radio buttons are
             intuitive, accessible, and easy to use—highlighting best practices
