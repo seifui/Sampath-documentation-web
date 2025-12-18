@@ -4,7 +4,8 @@ import {
   NODATACARD_COMPONENT_IMAGE,
   ALERTS_COMPONENT_IMAGE,
   VALIDATION,
-  COMING_SOON_IMAGE
+  COMING_SOON_IMAGE,
+  NOTIFICATION,
 } from "@assets";
 
 export const PatternCards: ComponentsPreviewCardProps[] = [
@@ -17,32 +18,33 @@ export const PatternCards: ComponentsPreviewCardProps[] = [
   {
     heading: "Empty state pattern",
     description: "Triggers an action when clicked.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: NODATACARD_COMPONENT_IMAGE,
     onClickNavigationPath: "/Patterns/Validation",
   },
-  {
-    heading: "Error pattern",
-    description:
-      "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
-    onClickNavigationPath: "/Patterns/Validation",
-  },
+  
   {
     heading: "Error screen",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: ALERTS_COMPONENT_IMAGE,
     onClickNavigationPath: "/Foundation/Icon",
   },
+  // {
+  //   heading: "Help articles",
+  //   description:
+  //     "A component used to represent an avatar with an icon or letter.",
+  //   imageUrl: COMING_SOON_IMAGE,
+  //   onClickNavigationPath: "/Patterns/Validation",
+  // },
   {
-    heading: "Help articles",
+    heading: "Notifications",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: NOTIFICATION,
     onClickNavigationPath: "/Patterns/Validation",
   },
   {
-    heading: "Notifications",
+    heading: "Error pattern",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: COMING_SOON_IMAGE,
