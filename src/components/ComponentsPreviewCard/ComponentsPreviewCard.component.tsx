@@ -14,7 +14,7 @@ export function ComponentsPreviewCard({
     >
       {/* //TODO: remove below dev and replace it with an image */}
       <div className="overflow-hidden rounded-xl">
-        <img className="w-full h-auto object-cover" src={imageUrl} alt={heading} />
+        <img className="w-full h-60 object-cover" src={imageUrl} alt={heading} />
       </div>
       <div className="px-4 pb-5 pt-0">
         <div className="space-y-2">

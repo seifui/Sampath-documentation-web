@@ -27,7 +27,7 @@ export function BadgeUsageTabSection() {
       <div className="mt-14">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p className="text-base text-primary dark:text-primary-dark leading-relaxed">
             A badge is a UI component used to convey status updates,
             notifications, or alerts in a concise manner. It helps users quickly
@@ -43,7 +43,7 @@ export function BadgeUsageTabSection() {
         {/* Shape section */}
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Shapes">
-          <h2 className="text-3xl font-bold mb-6 ">Shapes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Shapes</h2>
           <p className="mb-3 text-base text-primary dark:text-primary-dark leading-relaxed">
             Badges come in rounded, rectangular, circle shapes.
           </p>
@@ -54,7 +54,7 @@ export function BadgeUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Size section */}
         <div id="Sizes">
-          <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Sizes</h2>
           <p className="mb-3 text-base text-primary dark:text-primary-dark leading-relaxed">
             The Badge is available in multiple sizes to accommodate different
             design needs and contexts. Each size is carefully designed to ensure
@@ -68,7 +68,7 @@ export function BadgeUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Variant section */}
         <div id="Variants">
-          <h2 className="text-3xl font-bold mb-6 ">Variants</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Variants</h2>
           <p className="mb-3 text-base text-primary dark:text-primary-dark leading-relaxed">
             Badges come in various variants designed to accommodate different
             interface needs and visual styles. Each variant offers unique
@@ -82,7 +82,7 @@ export function BadgeUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Types section */}
         <div id="Types">
-          <h2 className="text-3xl font-bold mb-6 ">Types</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Types</h2>
           <p className="mb-3 text-base text-primary dark:text-primary-dark leading-relaxed">
             Badges are available in four types to suit different design needs,
             offering variations in fill and border styles for better visual
@@ -95,7 +95,7 @@ export function BadgeUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Icon Usage section */}
         <div id="Icon Usage">
-          <h2 className="text-3xl font-bold mb-6 ">Icon Usage</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Icon Usage</h2>
           <p className="mb-3 text-base text-primary dark:text-primary-dark leading-relaxed">
             Icons can be used in badges to enhance recognition and improve
             visual communication, making information more intuitive and
@@ -108,7 +108,7 @@ export function BadgeUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Do’s & Don’ts section */}
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3 text-base text-primary dark:text-primary-dark leading-relaxed">
             Do’s and Don’ts offer quick guidelines to follow and avoid, helping
             you create clear and user-friendly badges

@@ -19,7 +19,7 @@ export function PageHeader({
     <section className={`flex items-center content-center w-full py-12 ${noPadding ? '' : 'px-4 sm:px-6 lg:px-8'}`}>
       <div className={`${noPadding ? 'w-full' : 'max-w-[820px] w-full'} ${noPadding ? '' : 'mx-auto'}`}>
         <div className={`flex flex-col text-primary dark:text-primary-dark gap-5 ${centered ? 'text-center items-center' : ''}`}>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">{heading}</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">{heading}</h1>
           {content && <p className={`text-base text-primary dark:text-primary-dark leading-relaxed max-w-3xl ${centered ? 'mx-auto' : ''}`}>{content}</p>}
         </div>
       </div>

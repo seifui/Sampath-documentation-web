@@ -21,7 +21,7 @@ export function SwitchUsageTabSection() {
       <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p>
             The switch, often referred to as a toggle, is an interactive control
             that allows users to alternate between two distinct states,
@@ -41,7 +41,7 @@ export function SwitchUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Size section */}
         <div id="Sizes">
-          <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Sizes</h2>
           <p className="mb-3">
             The switch comes in two sizes—sm and md—each designed to accommodate
             different interface needs and preferences. The sm size is compact
@@ -54,7 +54,7 @@ export function SwitchUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Variants">
-          <h2 className="text-3xl font-bold mb-6 ">Variants</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Variants</h2>
           <p className="mb-3">
             Switches come in two variants—single row and multi-row—designed to
             suit different interface layouts. The single-row variant arranges
@@ -68,7 +68,7 @@ export function SwitchUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="States">
-          <h2 className="text-3xl font-bold mb-6 ">States</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">States</h2>
           <p className="mb-3">
             The switch has four key states—default, hover, focused, and
             disabled—each serving a specific purpose to enhance usability and
@@ -84,7 +84,7 @@ export function SwitchUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
             Do's and Don'ts are practical guidelines that outline best practices
             to follow and common mistakes to avoid, ensuring switches are

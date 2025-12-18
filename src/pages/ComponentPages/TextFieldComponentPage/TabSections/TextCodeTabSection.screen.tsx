@@ -13,7 +13,7 @@ export function TextCodeTabSection() {
       <div className="mt-14 w-full">
         {/* Anatomy section */}
         <div id="Documentation">
-          <h2 className="text-3xl font-bold mb-6 text-primary dark:text-primary-dark">Documentation</h2>
+          <h2 className="text-3xl font-semibold mb-6 text-primary dark:text-primary-dark">Documentation</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
             {/* <!-- Card 1 --> */}
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">

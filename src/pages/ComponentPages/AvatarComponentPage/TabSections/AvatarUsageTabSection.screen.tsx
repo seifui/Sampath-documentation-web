@@ -23,7 +23,7 @@ export function AvatarUsageTabSection() {
       <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p>
             The most basic structure of a text area consists of a container and
             an input field where users can enter multiline text. Additional
@@ -42,7 +42,7 @@ export function AvatarUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Shapes section */}
         <div id="Shapes">
-          <h2 className="text-3xl font-bold mb-6 ">Shapes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Shapes</h2>
           <p className="mb-3">Avatar come in rectangular & circle shapes.</p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={AVATAR_SHAPES} alt="AVATAR_SHAPES" />
@@ -51,7 +51,7 @@ export function AvatarUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Sizes section */}
         <div id="Sizes">
-          <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Sizes</h2>
           <p className="mb-3">
             The Avatar is available in five sizes(XXS, XS, SM, MD, and LG) to
             adapt to different design needs and interface contexts. Each size is
@@ -65,7 +65,7 @@ export function AvatarUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Types section */}
         <div id="Types">
-          <h2 className="text-3xl font-bold mb-6 ">Types</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Types</h2>
           <p className="mb-3">
             Avatars are available in two types (icon and text) to suit different
             design needs. The Icon avatar visually represents a user or brand,
@@ -79,7 +79,7 @@ export function AvatarUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Variants section */}
         <div id="Variants">
-          <h2 className="text-3xl font-bold mb-6 ">Variants</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Variants</h2>
           <p className="mb-3">
             Avatar variants offer different visual styles to suit various use
             cases, ensuring flexibility and consistency across the interface
@@ -92,7 +92,7 @@ export function AvatarUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Do's and Don'ts section */}
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
             Do's and Don'ts for text areas provide practical guidelines to
             ensure they are intuitive, accessible, and user-friendly. These best
