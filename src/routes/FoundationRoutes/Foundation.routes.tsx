@@ -4,6 +4,7 @@ import {
     ColorPage,
     TypographyPage,
     FocusPage,
+    IconPage,
 
   } from "@pages";
   import React from "react";
@@ -17,6 +18,7 @@ import {
           <Route path="Color" element={<ColorPage />} />
           <Route path="Typography" element={<TypographyPage />} />
           <Route path="Focus" element={<FocusPage />} /> 
+          <Route path="Icon" element={<IconPage />} /> 
         </Route>
       </Routes>
     );

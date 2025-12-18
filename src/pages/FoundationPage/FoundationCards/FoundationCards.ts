@@ -4,6 +4,9 @@ import {
   COLOR,
   TYPOGRAPHY,
   FOCUS,
+  ICON,
+  ILLUSTRATION,
+  PADDING,
   
 } from "@assets";
 
@@ -31,21 +34,21 @@ export const FoundationCards: ComponentsPreviewCardProps[] = [
     heading: "Icon",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: ICON,
     onClickNavigationPath: "/Foundation/Icon",
   },
   {
     heading: "Illustration",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: ILLUSTRATION,
     onClickNavigationPath: "/Components/Nodatacard",
   },
   {
     heading: "Padding",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: PADDING,
     onClickNavigationPath: "/Components/Nodatacard",
   },
   {

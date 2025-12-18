@@ -95,6 +95,9 @@ import AVATAR_DODONT_01 from "./avatar/do&dont_1.png";
 import COLOR from "./foundation/color.png";
 import TYPOGRAPHY from "./foundation/typo.png";
 import FOCUS from "./foundation/focus.png";
+import ICON from "./foundation/icon.png";
+import ILLUSTRATION from "./foundation/illustration.png";
+import PADDING from "./foundation/padding.png";
 
 import VALIDATION from "./pattern/validation.png";
 
@@ -222,6 +225,9 @@ export {
   COLOR,
   TYPOGRAPHY,   
   FOCUS,
+  ICON,
+  ILLUSTRATION,
+  PADDING,
   
   VALIDATION,
 
