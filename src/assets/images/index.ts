@@ -105,6 +105,9 @@ import SPACING from "./foundation/spacing.png";
 
 import VALIDATION from "./pattern/validation.png";
 import NOTIFICATION from "./pattern/notification.png";
+import ERROR from "./pattern/error.png";
+import PROGRESS from "./pattern/progress.png";
+import SUCCESS from "./pattern/success.png";
 
 // Homepage Assets
 import HERO_PHONE_1 from "./homepage/hero-phone-1.png";
@@ -239,6 +242,9 @@ export {
   
   VALIDATION,
   NOTIFICATION,
+  ERROR,
+  PROGRESS,
+  SUCCESS,
 
   // Homepage
   HERO_PHONE_1,

@@ -47,27 +47,7 @@ export function IconPage() {
               </div>
             </section>
 
-            {/* Usage */}
-            <section>
-              <h2 className="text-3xl font-semibold mb-6">Usage Examples</h2>
-
-              <div className="flex flex-wrap gap-4">
-                <button className="flex items-center gap-2 px-4 py-2 rounded-md bg-brand-600 text-white">
-                  <HomeIcon />
-                  Success
-                </button>
-
-                <button className="flex items-center gap-2 px-4 py-2 rounded-md bg-warning-600 text-white">
-                  <HomeIcon  />
-                  Warning
-                </button>
-
-                <button className="flex items-center gap-2 px-4 py-2 rounded-md bg-error-600 text-white">
-                  <HomeIcon />
-                  Error
-                </button>
-              </div>
-            </section>
+     
 
             {/* Accessibility */}
             <section>
