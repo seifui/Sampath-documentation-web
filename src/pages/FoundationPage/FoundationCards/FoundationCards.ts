@@ -45,7 +45,7 @@ export const FoundationCards: ComponentsPreviewCardProps[] = [
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: ILLUSTRATION,
-    onClickNavigationPath: "/Components/Nodatacard",
+    onClickNavigationPath: "/Foundation/Illustration",
   },
   {
     heading: "Padding",
