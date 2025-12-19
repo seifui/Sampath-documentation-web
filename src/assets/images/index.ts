@@ -94,8 +94,17 @@ import AVATAR_DODONT_01 from "./avatar/do&dont_1.png";
 
 import COLOR from "./foundation/color.png";
 import TYPOGRAPHY from "./foundation/typo.png";
+import FOCUS from "./foundation/focus.png";
+import ICON from "./foundation/icon.png";
+import ILLUSTRATION from "./foundation/illustration.png";
+import PADDING from "./foundation/padding.png";
+import RADIUS from "./foundation/radius.png";
+import SIZE from "./foundation/sizes.png";
+import SPACING from "./foundation/spacing.png";
+
 
 import VALIDATION from "./pattern/validation.png";
+import NOTIFICATION from "./pattern/notification.png";
 
 // Homepage Assets
 import HERO_PHONE_1 from "./homepage/hero-phone-1.png";
@@ -220,8 +229,16 @@ export {
 
   COLOR,
   TYPOGRAPHY,   
+  FOCUS,
+  ICON,
+  ILLUSTRATION,
+  PADDING,
+  RADIUS,
+  SIZE,
+  SPACING,
   
   VALIDATION,
+  NOTIFICATION,
 
   // Homepage
   HERO_PHONE_1,

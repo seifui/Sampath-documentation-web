@@ -4,95 +4,168 @@ import { PageHeader } from "@components";
 export function ValidationPage() {
   return (
     <div className="w-full">
-      <div className="space-y-12 min-h-screen">
+      <div className="space-y-6 min-h-screen">
         <PageHeader
           heading="Validation"
-          content="The validation system ensures that users receive immediate and clear feedback when interacting with forms or inputs. Validation messages guide users to correct errors, prevent invalid submissions, and confirm successful actions. Error, warning, and success states are consistently styled to maintain clarity, accessibility, and visual consistency across the interface."
+          content="Validation messages help users understand what went wrong and how to
+          fix it when entering information."
         />
         <div className="max-w-[820px] mx-auto">
-          <section className="space-y-6">
-            <h2 className="text-3xl font-semibold mb-6 ">Validation States</h2>
+          <section className="space-y-6 px-4">
+            <h2 className="text-3xl font-semibold mb-6 ">Example</h2>
             <p>
-              Each input field supports multiple validation states to guide
-              users during data entry.
+              Validation messages appear when the user enters invalid input and
+              are shown below the related field.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ValidationCard
-                title="Error"
-                description="Displayed when user input is invalid or required information is missing."
-                message="Email address is required."
-                color="border-red-200"
-                bg="bg-red-50"
-                text="text-red-700"
-              />
 
-              <ValidationCard
-                title="Warning"
-                description="Displayed when input may cause an issue but does not block submission."
-                message="Password strength is weak."
-                color="border-yellow-200"
-                bg="bg-yellow-50"
-                text="text-yellow-700"
-              />
-
-              <ValidationCard
-                title="Success"
-                description="Displayed when input is valid or an action is completed successfully."
-                message="Profile updated successfully."
-                color="border-green-200"
-                bg="bg-green-50"
-                text="text-green-700"
-              />
-
-              <ValidationCard
-                title="Information"
-                description="Provides helpful guidance or additional context."
-                message="You can update this later from settings."
-                color="border-blue-200"
-                bg="bg-blue-50"
-                text="text-blue-700"
-              />
+            {/* Example Card */}
+            <div className="rounded-xl border border-neutral-200 bg-white p-6 max-w-lg">
+              <ValidationExample />
             </div>
           </section>
 
-          {/* ================= Guidelines ================= */}
-          <section className="space-y-6 mt-10">
-           
-            <h2 className="text-3xl font-semibold mb-6 ">Usage Guidelines</h2>
-            <p>
-              Follow these guidelines to ensure validation feedback is clear, accessible, and consistent.
-            </p>
+          <section className="space-y-6 px-4 mt-10">
+            <h2 className="text-xl font-semibold text-neutral-900">
+              Best practices
+            </h2>
 
-            <ul className="space-y-3 text-gray-700 list-disc pl-5">
-              <li>
-                Place validation messages directly below the related input
-                field.
-              </li>
-              <li>
-                Use semantic colors consistently for each validation state.
-              </li>
-              <li>Keep messages short, clear, and action-oriented.</li>
-              <li>
-                Do not rely on color alone to communicate validation states.
-              </li>
-              <li>Remove error messages once the input becomes valid.</li>
+            <ul className="list-disc pl-5 space-y-2 text-neutral-700 max-w-3xl">
+              <li>Explain what went wrong and how to fix it, when possible.</li>
+              <li>Use polite, neutral language that respects the user.</li>
+              <li>Write in full sentences and keep messages short.</li>
+              <li>Use “please” when giving instructions.</li>
+              <li>Be clear and direct without sounding technical.</li>
+              <li>Focus on helping the user complete their task.</li>
             </ul>
+
+            <div className="mt-4">
+              <h3 className="text-sm font-semibold text-neutral-900 mb-2">
+                Avoid
+              </h3>
+              <ul className="list-disc pl-5 space-y-2 text-neutral-600 max-w-3xl">
+                <li>Blaming the user for mistakes.</li>
+                <li>Using system or developer error messages.</li>
+                <li>Including inline links inside validation messages.</li>
+                <li>Making promises the system can’t guarantee.</li>
+                <li>Using jokes, slang, or overly casual language.</li>
+              </ul>
+            </div>
           </section>
 
-          {/* ================= Accessibility ================= */}
-          <section className="space-y-4 mt-10">
-            <h2 className="text-3xl font-semibold mb-6 ">Accessibility</h2>
-            <p>
-              Validation messages must be accessible to all users.
+          <section className="space-y-6 px-4 mt-10">
+            <h2 className="text-xl font-semibold text-neutral-900">Examples</h2>
+
+            <div className="grid gap-6 sm:grid-cols-2 max-w-4xl">
+              {/* Good examples */}
+              <div className="rounded-xl border border-neutral-200 p-5">
+                <h3 className="text-sm font-semibold text-neutral-900 mb-3">
+                  Clear and helpful
+                </h3>
+                <ul className="space-y-2 text-sm text-neutral-700">
+                  <li>Please enter your first name.</li>
+                  <li>Name can only contain letters and spaces.</li>
+                  <li>Please select an option from the list.</li>
+                  <li>
+                    Sorry, we couldn’t save your changes. Please try again.
+                  </li>
+                </ul>
+              </div>
+
+              {/* Poor examples */}
+              <div className="rounded-xl border border-neutral-200 p-5">
+                <h3 className="text-sm font-semibold text-neutral-900 mb-3">
+                  Avoid using
+                </h3>
+                <ul className="space-y-2 text-sm text-neutral-600">
+                  <li>Invalid input</li>
+                  <li>Something went wrong</li>
+                  <li>Error 400</li>
+                  <li>Oops! Try again</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section className="space-y-6 px-4 mt-10">
+            <h2 className="text-xl font-semibold text-neutral-900">
+              Message library
+            </h2>
+
+            <p className="max-w-3xl text-neutral-600">
+              Some validation scenarios occur frequently across the product. To
+              keep messaging consistent, use standard messages where possible
+              instead of creating new ones.
             </p>
-            <ul className="space-y-3 text-gray-700 list-disc pl-5">
-              <li>Ensure sufficient contrast between text and background.</li>
-              <li>Use readable font sizes for validation messages.</li>
-              <li>
-                Provide meaningful text that can be read by screen readers.
-              </li>
-              <li>Avoid technical or unclear language.</li>
-            </ul>
+          </section>
+
+          <section className="space-y-6 px-4 mt-10">
+            <h2 className="text-xl font-semibold text-neutral-900">
+              Field validation patterns
+            </h2>
+
+            <div className="overflow-hidden rounded-xl border border-neutral-200">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-neutral-50 text-neutral-700">
+                  <tr>
+                    <th className="px-4 py-3 font-medium">Rule</th>
+                    <th className="px-4 py-3 font-medium">Message template</th>
+                    <th className="px-4 py-3 font-medium">Example</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-neutral-200">
+                  <tr>
+                    <td className="px-4 py-3">Required</td>
+                    <td className="px-4 py-3">Please enter {`{field}`}. </td>
+                    <td className="px-4 py-3">Please enter your first name.</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Minimum length</td>
+                    <td className="px-4 py-3">
+                      Please enter at least {`{minLength}`} characters.
+                    </td>
+                    <td className="px-4 py-3">
+                      Please enter at least 10 characters.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Maximum length</td>
+                    <td className="px-4 py-3">
+                      Please enter fewer than {`{maxLength}`} characters.
+                    </td>
+                    <td className="px-4 py-3">
+                      Please enter fewer than 20 characters.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Minimum value</td>
+                    <td className="px-4 py-3">
+                      Please enter a value of {`{minimum}`} or more.
+                    </td>
+                    <td className="px-4 py-3">
+                      Please enter a value of 3 or more.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Maximum value</td>
+                    <td className="px-4 py-3">
+                      Please enter a value of {`{maximum}`} or less.
+                    </td>
+                    <td className="px-4 py-3">
+                      Please enter a value of 100 or less.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3">Format</td>
+                    <td className="px-4 py-3">
+                      Please enter {`{field}`} in the correct format.
+                    </td>
+                    <td className="px-4 py-3">
+                      Please enter your email address in the correct format.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </section>
         </div>
       </div>
@@ -100,31 +173,36 @@ export function ValidationPage() {
   );
 }
 
-type ValidationCardProps = {
-  title: string;
-  description: string;
-  message: string;
-  color: string;
-  bg: string;
-  text: string;
-};
-
-function ValidationCard({
-  title,
-  description,
-  message,
-  color,
-  bg,
-  text,
-}: ValidationCardProps) {
+function ValidationExample() {
   return (
-    <div className={`rounded-2xl border p-6 ${color}`}>
-      <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
-      <p className="mt-1 text-sm text-gray-600">{description}</p>
+    <div className="space-y-2">
+      {/* Label */}
+      <label
+        htmlFor="name"
+        className="block text-sm font-medium text-neutral-900"
+      >
+        Name
+      </label>
 
-      <div className={`mt-4 rounded-lg px-4 py-3 ${bg}`}>
-        <p className={`text-sm font-medium ${text}`}>{message}</p>
-      </div>
+      {/* Input */}
+      <input
+        id="name"
+        type="text"
+        value="Ishara_1"
+        readOnly
+        aria-invalid="true"
+        aria-describedby="name-error"
+        className="
+          w-full rounded-lg border px-4 py-2.5 text-neutral-900
+          border-red-500
+          focus:outline-none focus:ring-2 focus:ring-red-500
+        "
+      />
+
+      {/* Validation Message */}
+      <p id="name-error" className="text-sm text-red-600">
+        Name can only contain letters and spaces
+      </p>
     </div>
   );
 }
