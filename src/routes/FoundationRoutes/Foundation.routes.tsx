@@ -29,7 +29,6 @@ import {
           <Route path="Radius" element={<RadiusPage />} /> 
           <Route path="Size" element={<SizePage />} /> 
           <Route path="Spacing" element={<SpacingPage />} /> 
-
         </Route>
       </Routes>
     );
