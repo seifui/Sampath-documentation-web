@@ -6,6 +6,9 @@ import {
   VALIDATION,
   COMING_SOON_IMAGE,
   NOTIFICATION,
+  ERROR,
+  PROGRESS,
+  SUCCESS,
 } from "@assets";
 
 export const PatternCards: ComponentsPreviewCardProps[] = [
@@ -47,14 +50,14 @@ export const PatternCards: ComponentsPreviewCardProps[] = [
     heading: "Error pattern",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: ERROR,
     onClickNavigationPath: "/Patterns/Validation",
   },
   {
     heading: "Progress screen",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: PROGRESS,
     onClickNavigationPath: "/Patterns/Validation",
   },
 
@@ -62,7 +65,7 @@ export const PatternCards: ComponentsPreviewCardProps[] = [
     heading: "Success screen",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: SUCCESS,
     onClickNavigationPath: "/Patterns/Validation",
   },
   

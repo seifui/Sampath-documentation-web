@@ -153,6 +153,10 @@ module.exports = {
         extrabold: '600',
         black: '600',
       },
+      borderRadius: {
+        xs: '0.125rem', // now you can use `rounded-xs`
+      },
+
     },
   },
   plugins: [require("preline/plugin")],
