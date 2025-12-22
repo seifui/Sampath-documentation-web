@@ -52,7 +52,7 @@ export const FoundationCards: ComponentsPreviewCardProps[] = [
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: PADDING,
-    onClickNavigationPath: "/Components/Nodatacard",
+    onClickNavigationPath: "/Foundation/Padding",
   },
   {
     heading: "Radius",
