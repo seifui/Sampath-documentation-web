@@ -24,14 +24,14 @@ function App() {
     window.HSStaticMethods.autoInit();
   }, [location.pathname]);
 
-  const pageName = location.pathname.split("/").filter(Boolean).pop() || "Home";
+  const pageName = location.pathname.split("/").filter(Boolean).pop() || "Design";
 
   const navBarItemList: NavBarItem[] = [
-    { name: "Home", path: "/" },
+    { name: "Design", path: "/" },
     { name: "Foundation", path: "/Foundation" },
     { name: "Components", path: "/Components" },
     { name: "Patterns", path: "/Patterns" },
-    { name: "Resources", path: "/Resources" },
+    { name: "Framework", path: "/Resources" },
   ];
   return (
     <div className="bg-white dark:bg-solid-dark-base min-h-screen">

@@ -1,6 +1,7 @@
 import React from "react";
 import { PageHeader } from "@components";
 import { HomeIcon } from "../../../components/icons";
+import { ICON_PACK_IMAGE } from "@assets";
 
 export function IconPage() {
   return (
@@ -14,8 +15,14 @@ export function IconPage() {
 
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="max-w-[820px] mx-auto space-y-12">
-            {/* Principles */}
             <section>
+              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
+                <img src={ICON_PACK_IMAGE} alt="Button Anatomy" />
+              </div>
+            </section>
+
+            {/* Principles */}
+            <section className="mt-10">
               <h2 className="text-3xl font-semibold mb-4">Principles</h2>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
                 <li>Clear and recognizable meaning</li>
@@ -31,41 +38,19 @@ export function IconPage() {
 
               <div className="flex items-center gap-8">
                 <div className="flex flex-col items-center gap-2">
-                  <HomeIcon  />
+                  <HomeIcon className="w-4 h-4" />
                   <span className="text-sm text-gray-500">16px</span>
                 </div>
 
                 <div className="flex flex-col items-center gap-2">
-                  <HomeIcon />
+                  <HomeIcon className="w-5 h-5" />
                   <span className="text-sm text-gray-500">20px</span>
                 </div>
 
                 <div className="flex flex-col items-center gap-2">
-                  <HomeIcon />
+                  <HomeIcon className="w-6 h-6" />
                   <span className="text-sm text-gray-500">24px</span>
                 </div>
-              </div>
-            </section>
-
-            {/* Usage */}
-            <section>
-              <h2 className="text-3xl font-semibold mb-6">Usage Examples</h2>
-
-              <div className="flex flex-wrap gap-4">
-                <button className="flex items-center gap-2 px-4 py-2 rounded-md bg-brand-600 text-white">
-                  <HomeIcon />
-                  Success
-                </button>
-
-                <button className="flex items-center gap-2 px-4 py-2 rounded-md bg-warning-600 text-white">
-                  <HomeIcon  />
-                  Warning
-                </button>
-
-                <button className="flex items-center gap-2 px-4 py-2 rounded-md bg-error-600 text-white">
-                  <HomeIcon />
-                  Error
-                </button>
               </div>
             </section>
 

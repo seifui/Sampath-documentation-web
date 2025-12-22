@@ -95,8 +95,48 @@ import AVATAR_DODONT_01 from "./avatar/do&dont_1.png";
 import COLOR from "./foundation/color.png";
 import TYPOGRAPHY from "./foundation/typo.png";
 import FOCUS from "./foundation/focus.png";
+import ICON from "./foundation/icon.png";
+import ILLUSTRATION from "./foundation/illustration.png";
+import PADDING from "./foundation/padding.png";
+import RADIUS from "./foundation/radius.png";
+import SIZE from "./foundation/sizes.png";
+import SPACING from "./foundation/spacing.png";
+
+import ICON_PACK_IMAGE from "./foundation/icon/iconpack.png";
+import ILLUSTRATION_PACK  from "./foundation/illustration/illustrationpack.png";
 
 import VALIDATION from "./pattern/validation.png";
+import NOTIFICATION from "./pattern/notification.png";
+import ERROR from "./pattern/error.png";
+import PROGRESS from "./pattern/progress.png";
+import SUCCESS from "./pattern/success.png";
+
+// Homepage Assets
+import HERO_PHONE_1 from "./homepage/hero-phone-1.png";
+import HERO_PHONE_2 from "./homepage/hero-phone-2.png";
+import HERO_PHONE_3 from "./homepage/hero-phone-3.png";
+import CHANNEL_MOBILE from "./homepage/channel-mobile.png";
+import CHANNEL_WEB from "./homepage/channel-web.png";
+import CHANNEL_ATM from "./homepage/channel-atm.png";
+import CHANNEL_POS from "./homepage/channel-pos.png";
+import CHANNEL_WEARABLES from "./homepage/channel-wearables.png";
+import CHANNEL_INTERNAL from "./homepage/channel-internal.png";
+import CONSISTENCY_IMAGE_1 from "./homepage/consistency-image-1.png";
+import CONSISTENCY_IMAGE_2 from "./homepage/consistency-image-2.png";
+import ICON_INTERSECT_SQUARE from "./homepage/icon-intersect-square.svg";
+import ICON_KEY from "./homepage/icon-key.svg";
+import ICON_USERS from "./homepage/icon-users.svg";
+import ICON_CLOUD from "./homepage/icon-cloud.svg";
+import ICON_MONITOR from "./homepage/icon-monitor.svg";
+import ICON_LETTER_SPACING from "./homepage/icon-letter-spacing.svg";
+import ICON_WALLET from "./homepage/icon-wallet.svg";
+import ICON_MAGIC_WAND from "./homepage/icon-magic-wand.svg";
+import DEVICE_DESKTOP from "./homepage/device-desktop.svg";
+import DEVICE_SMARTPHONE from "./homepage/device-smartphone.svg";
+import DEVICE_TABLET from "./homepage/device-tablet.svg";
+import DEVICE_CARD from "./homepage/device-card.svg";
+import DEVICE_WATCH from "./homepage/device-watch.svg";
+import DEVICE_GRID from "./homepage/device-grid.svg";
 
 export {
   LOGO_WHITE,
@@ -195,6 +235,46 @@ export {
   COLOR,
   TYPOGRAPHY,   
   FOCUS,
+  ICON,
+  ILLUSTRATION,
+  PADDING,
+  RADIUS,
+  SIZE,
+  SPACING,
+
+  ICON_PACK_IMAGE,
+  ILLUSTRATION_PACK,
   
   VALIDATION,
+  NOTIFICATION,
+  ERROR,
+  PROGRESS,
+  SUCCESS,
+
+  // Homepage
+  HERO_PHONE_1,
+  HERO_PHONE_2,
+  HERO_PHONE_3,
+  CHANNEL_MOBILE,
+  CHANNEL_WEB,
+  CHANNEL_ATM,
+  CHANNEL_POS,
+  CHANNEL_WEARABLES,
+  CHANNEL_INTERNAL,
+  CONSISTENCY_IMAGE_1,
+  CONSISTENCY_IMAGE_2,
+  ICON_INTERSECT_SQUARE,
+  ICON_KEY,
+  ICON_USERS,
+  ICON_CLOUD,
+  ICON_MONITOR,
+  ICON_LETTER_SPACING,
+  ICON_WALLET,
+  ICON_MAGIC_WAND,
+  DEVICE_DESKTOP,
+  DEVICE_SMARTPHONE,
+  DEVICE_TABLET,
+  DEVICE_CARD,
+  DEVICE_WATCH,
+  DEVICE_GRID,
 };

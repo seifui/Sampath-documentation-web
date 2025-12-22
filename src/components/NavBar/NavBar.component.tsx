@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { DarkModeToggler } from "../DarkModeToggler";
+import { UserIcon } from "../icons";
 import { useNavigate } from "react-router-dom";
 import { NavBarProps } from "@types";
 import {
@@ -46,34 +46,38 @@ export function NavBar({ navBarItemList }: NavBarProps) {
         className="w-full mx-auto lg:flex lg:items-center lg:justify-between py-4"
         aria-label="Global"
       >
-        <div className="flex items-center justify-between w-full lg:w-auto">
+        {/* Mobile layout */}
+        <div className="flex items-center justify-between w-full lg:hidden">
           <button type="button" onClick={() => handleNavigation("/")} className="flex items-center">
            <img className="w-32 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
            <img className="w-32 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
           </button>
           
-          <div className="lg:hidden flex gap-4 items-center">
+          <div className="flex gap-4 items-center">
             <div className="cursor-pointer">
-              <DarkModeToggler width={"26px"} height={"26px"} />
+              <UserIcon width={"26px"} height={"26px"} />
             </div>
           </div>
         </div>
-        <div
-          id="navbar-with-mega-menu"
-          className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block"
-        >
-           <div className="flex items-center justify-between lg:pl-8">
 
-            {/* CENTER — Menu (stays centered) */}
-            <div className="flex flex-1 gap-3 justify-center items-center">
-              {renderMenuList()}
-            </div>
+        {/* Desktop layout */}
+        <div className="hidden lg:flex lg:items-center lg:justify-between lg:w-full">
+          {/* LEFT — Logo */}
+          <div className="flex items-center flex-1">
+            <button type="button" onClick={() => handleNavigation("/")} className="flex items-center">
+             <img className="w-32 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
+             <img className="w-32 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
+            </button>
+          </div>
 
-            {/* RIGHT — Dark mode toggler */}
-            <div className="flex justify-end items-center ml-6">
-              <DarkModeToggler width="20px" height="20px" />
-            </div>
+          {/* CENTER — Menu (centered) */}
+          <div className="flex gap-3 justify-center items-center flex-1">
+            {renderMenuList()}
+          </div>
 
+          {/* RIGHT — User icon */}
+          <div className="flex justify-end items-center flex-1">
+            <UserIcon width="20px" height="20px" />
           </div>
         </div>
       </nav>

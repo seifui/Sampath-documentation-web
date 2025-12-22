@@ -4,6 +4,12 @@ import {
   COLOR,
   TYPOGRAPHY,
   FOCUS,
+  ICON,
+  ILLUSTRATION,
+  PADDING,
+  RADIUS,
+  SIZE,
+  SPACING,
   
 } from "@assets";
 
@@ -31,28 +37,28 @@ export const FoundationCards: ComponentsPreviewCardProps[] = [
     heading: "Icon",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: ICON,
     onClickNavigationPath: "/Foundation/Icon",
   },
   {
     heading: "Illustration",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
-    onClickNavigationPath: "/Components/Nodatacard",
+    imageUrl: ILLUSTRATION,
+    onClickNavigationPath: "/Foundation/Illustration",
   },
   {
     heading: "Padding",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
-    onClickNavigationPath: "/Components/Nodatacard",
+    imageUrl: PADDING,
+    onClickNavigationPath: "/Foundation/Padding",
   },
   {
     heading: "Radius",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: RADIUS,
     onClickNavigationPath: "/Foundation/Radius",
   },
 
@@ -60,14 +66,14 @@ export const FoundationCards: ComponentsPreviewCardProps[] = [
     heading: "Size",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: SIZE,
     onClickNavigationPath: "/Foundation/Size",
   },
   {
     heading: "Spacing",
     description:
       "A component used to represent an avatar with an icon or letter.",
-    imageUrl: COMING_SOON_IMAGE,
+    imageUrl: SPACING,
     onClickNavigationPath: "/Foundation/Spacing",
   },
 

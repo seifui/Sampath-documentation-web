@@ -1,12 +1,14 @@
 import React from "react";
 import { IconBaseProps } from "../IconBaseProps";
 
-export function HomeIcon({ color = "greySlate-700" }: IconBaseProps) {
+export function HomeIcon({
+  color = "greySlate-700",
+  className = "",
+}: IconBaseProps & { className?: string }) {
   return (
     <svg
+      className={className}
       color={`bg-${color}`}
-      width="20px"
-      height="20px"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -4,12 +4,12 @@ import { Outlet } from "react-router-dom";
 
 export function PatternBasePage() {
   const sideBarItemList = [
-    { linkName: "All", linkPath: "/Pattern" },
+    { linkName: "All", linkPath: "/Patterns" },
     { linkName: "Validation messages", linkPath: "Validation" },
     { linkName: "Empty state pattern", linkPath: "Emptystate" },
     { linkName: "Error pattern", linkPath: "Errorpattern" },
     { linkName: "Error screen", linkPath: "Errorscreen" },
-    { linkName: "Help articles", linkPath: "Article" },
+    // { linkName: "Help articles", linkPath: "Article" },
     { linkName: "Notifications", linkPath: "Notification" },
     { linkName: "Progress screen", linkPath: "Progress" },
     { linkName: "Sucess screen", linkPath: "Sucess" },

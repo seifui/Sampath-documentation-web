@@ -4,3 +4,4 @@ export * from "./CircleIcon";
 export * from "./HamburgerMenuIcon";
 export * from "./HorizontalDotMenuIcon";
 export * from "./SearchIcon";
+export * from "./UserIcon";

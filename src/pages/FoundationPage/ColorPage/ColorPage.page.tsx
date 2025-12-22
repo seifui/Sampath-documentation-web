@@ -36,78 +36,77 @@ const grayColors = [
   { name: "950", hex: "#030712" },
 ];
 
-const semanticColors = {
-  error: {
-    "50": "rgba(220,38,38,0.05)",
-    "100": "rgba(220,38,38,0.14)",
-    "500": "rgba(220,38,38,0.8)",
-    "600": "rgba(220,38,38,1)",
-  },
-  warning: {
-    "50": "rgba(255,193,49,0.1)",
-    "100": "rgba(163,123,30,0.2)",
-    "500": "rgba(163,123,30,0.8)",
-    "600": "rgba(163,123,30,1)",
-  },
-  success: {
-    "50": "rgba(22,163,74,0.07)",
-    "100": "rgba(22,163,74,0.14)",
-    "500": "rgba(22,163,74,0.8)",
-    "600": "rgba(22,163,74,1)",
-  },
-  information: {
-    "50": "rgba(37,99,235,0.05)",
-    "100": "rgba(37,99,235,0.14)",
-    "500": "rgba(37,99,235,0.8)",
-    "600": "rgba(37,99,235,1)",
-  },
-};
+
+// Semantic Colors
+const errorColors = [
+  { name: "50", hex: "#FEF2F2" },
+  { name: "100", hex: "#FEE2E2" },
+  { name: "500", hex: "#EF4444" },
+  { name: "600", hex: "#DC2626" },
+];
+const warningColors = [
+  { name: "50", hex: "#FFC1311A" },
+  { name: "100", hex: "#A37B1E33" },
+  { name: "500", hex: "#A37B1ECC" },
+  { name: "600", hex: "#A37B1E" },
+];
+const successColors = [
+  { name: "50", hex: "#16A34A12" },
+  { name: "100", hex: "#16A34A24" },
+  { name: "500", hex: "#16A34ACC" },
+  { name: "600", hex: "#16A34A" },
+];
+const informationColors = [
+  { name: "50", hex: "#2563EB0D" },
+  { name: "100", hex: "#2563EB24" },
+  { name: "500", hex: "#3F63EBCC" },
+  { name: "600", hex: "#2563EB" },
+];
 
 const colors = [
-    {
-      name: "Brand Primary",
-      hex: "#EA580C",
-      bg: "#EA580C",
-    },
-    {
-      name: "Default Font",
-      hex: "#171717",
-      bg: "#171717",
-    },
-    {
-      name: "Subtext Color",
-      hex: "#737373",
-      bg: "#737373",
-    },
-    {
-      name: "Neutral Border",
-      hex: "#E5E5E5",
-      bg: "#E5E5E5",
-    },
-    {
-      name: "White",
-      hex: "#FFFFFF",
-      bg: "#FFFFFF",
-      border: true,
-    },
-    {
-      name: "Default Background",
-      hex: "#FFFFFF",
-      bg: "#FFFFFF",
-      border: true,
-    },
-  ];
+  {
+    name: "Brand Primary",
+    hex: "#EA580C",
+    bg: "#EA580C",
+  },
+  {
+    name: "Default Font",
+    hex: "#171717",
+    bg: "#171717",
+  },
+  {
+    name: "Subtext Color",
+    hex: "#737373",
+    bg: "#737373",
+  },
+  {
+    name: "Neutral Border",
+    hex: "#E5E5E5",
+    bg: "#E5E5E5",
+  },
+  {
+    name: "White",
+    hex: "#FFFFFF",
+    bg: "#FFFFFF",
+    border: true,
+  },
+  {
+    name: "Default Background",
+    hex: "#FFFFFF",
+    bg: "#FFFFFF",
+    border: true,
+  },
+];
 
 export function ColorPage() {
   return (
     <div className="w-full">
-      
       <div className="space-y-12 min-h-screen">
         <PageHeader
           heading="Color"
           content="Our color system provides a consistent visual language for all UI components. Colors are organized into Brand, Gray scale, and Semantic colors for actions and status."
         />
-        
+
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="max-w-[820px] mx-auto">
             {/* Most Used Colors */}
@@ -128,28 +127,29 @@ export function ColorPage() {
               
               </div> */}
               <div className="flex flex-wrap justify-between gap-10">
-                    {colors.map((color) => (
-                    <div key={color.name} className="flex flex-col items-center text-center">
-                        {/* Color Circle */}
-                        <div
-                        className={`w-32 h-32 rounded-full ${
-                            color.border ? "border border-gray-200" : ""
-                        }`}
-                        style={{ backgroundColor: color.bg }}
-                        />
+                {colors.map((color) => (
+                  <div
+                    key={color.name}
+                    className="flex flex-col items-center text-center"
+                  >
+                    {/* Color Circle */}
+                    <div
+                      className={`w-32 h-32 rounded-full ${
+                        color.border ? "border border-gray-200" : ""
+                      }`}
+                      style={{ backgroundColor: color.bg }}
+                    />
 
-                        {/* Label */}
-                        <p className="mt-4 text-base font-medium text-gray-900">
-                        {color.name}
-                        </p>
+                    {/* Label */}
+                    <p className="mt-4 text-base font-medium text-gray-900">
+                      {color.name}
+                    </p>
 
-                        {/* Hex */}
-                        <p className="mt-1 text-sm text-gray-500">
-                        {color.hex}
-                        </p>
-                    </div>
-                    ))}
-                </div>
+                    {/* Hex */}
+                    <p className="mt-1 text-sm text-gray-500">{color.hex}</p>
+                  </div>
+                ))}
+              </div>
             </section>
 
             {/* Brand Colors */}
@@ -178,14 +178,21 @@ export function ColorPage() {
             {/* Gray Scale */}
             <section className="mt-10">
               <h2 className="text-2xl font-semibold mb-4">Gray Scale</h2>
-              <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-12 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
                 {grayColors.map((color) => (
-                  <div key={color.name} className="flex flex-col items-center">
+                  <div
+                    key={color.name}
+                    className="rounded-lg shadow p-4 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform"
+                  >
                     <div
-                      className="w-12 h-12 rounded"
+                      className="w-full h-24 rounded"
                       style={{ backgroundColor: color.hex }}
                     />
-                    <p className="text-xs mt-1">{color.hex}</p>
+                    {/* <p className="text-xs mt-1">{color.hex}</p> */}
+                    <div className="mt-2 text-center">
+                      <p className="font-medium">Gray {color.name}</p>
+                      <p className="text-xs mt-1">{color.hex}</p>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -197,7 +204,7 @@ export function ColorPage() {
             {/* Semantic Colors */}
             <section className="mt-10">
               <h2 className="text-2xl font-semibold mb-4">Semantic Colors</h2>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+              {/* <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
                 {Object.entries(semanticColors).map(([type, shades]) => (
                   <div
                     key={type}
@@ -217,13 +224,83 @@ export function ColorPage() {
                     </div>
                   </div>
                 ))}
+              </div> */}
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+                {errorColors.map((color) => (
+                  <div
+                    key={color.name}
+                    className="rounded-lg shadow p-4 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform"
+                  >
+                    <div
+                      className="w-full h-24 rounded"
+                      style={{ backgroundColor: color.hex }}
+                    />
+                    {/* <p className="text-xs mt-1">{color.hex}</p> */}
+                    <div className="mt-2 text-center">
+                      <p className="font-medium">Error {color.name}</p>
+                      <p className="text-xs mt-1">{color.hex}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mt-10">
+                {warningColors.map((color) => (
+                  <div
+                    key={color.name}
+                    className="rounded-lg shadow p-4 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform"
+                  >
+                    <div
+                      className="w-full h-24 rounded"
+                      style={{ backgroundColor: color.hex }}
+                    />
+                    {/* <p className="text-xs mt-1">{color.hex}</p> */}
+                    <div className="mt-2 text-center">
+                      <p className="font-medium">Warning {color.name}</p>
+                      <p className="text-xs mt-1">{color.hex}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mt-10">
+                {successColors.map((color) => (
+                  <div
+                    key={color.name}
+                    className="rounded-lg shadow p-4 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform"
+                  >
+                    <div
+                      className="w-full h-24 rounded"
+                      style={{ backgroundColor: color.hex }}
+                    />
+                    {/* <p className="text-xs mt-1">{color.hex}</p> */}
+                    <div className="mt-2 text-center">
+                      <p className="font-medium">Success {color.name}</p>
+                      <p className="text-xs mt-1">{color.hex}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mt-10">
+                {informationColors.map((color) => (
+                  <div
+                    key={color.name}
+                    className="rounded-lg shadow p-4 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform"
+                  >
+                    <div
+                      className="w-full h-24 rounded"
+                      style={{ backgroundColor: color.hex }}
+                    />
+                    {/* <p className="text-xs mt-1">{color.hex}</p> */}
+                    <div className="mt-2 text-center">
+                      <p className="font-medium">Information {color.name}</p>
+                      <p className="text-xs mt-1">{color.hex}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </section>
           </div>
         </div>
       </div>
-
-
     </div>
   );
 }
