@@ -31,17 +31,17 @@ export function IconPage() {
 
               <div className="flex items-center gap-8">
                 <div className="flex flex-col items-center gap-2">
-                  <HomeIcon  />
+                  <HomeIcon className="w-4 h-4" />
                   <span className="text-sm text-gray-500">16px</span>
                 </div>
 
                 <div className="flex flex-col items-center gap-2">
-                  <HomeIcon />
+                  <HomeIcon className="w-5 h-5" />
                   <span className="text-sm text-gray-500">20px</span>
                 </div>
 
                 <div className="flex flex-col items-center gap-2">
-                  <HomeIcon />
+                  <HomeIcon className="w-6 h-6" />
                   <span className="text-sm text-gray-500">24px</span>
                 </div>
               </div>
