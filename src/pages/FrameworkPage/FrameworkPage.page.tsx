@@ -106,10 +106,10 @@ export function FrameworkPage() {
         {/* Hero Section */}
         <section className="flex flex-col items-center gap-[72px] mb-[270px]">
           <div className="flex flex-col items-center gap-[20px] text-center w-full max-w-[870px] px-4">
-            <h1 className="font-semibold text-[40px] sm:text-[60px] lg:text-[82px] leading-tight text-gray-900 dark:text-gray-dark-900 tracking-[-3.28px] w-full animate-on-load animate-fade-in-up">
+            <h1 className="font-semibold text-[40px] sm:text-[60px] lg:text-[72px] leading-[74px] text-gray-900 dark:text-gray-dark-900 tracking-[-3.28px] w-full animate-on-load animate-fade-in-up">
               All in-one Sampath Interface Engineering Framework
             </h1>
-            <p className="font-normal text-[18px] sm:text-[20px] lg:text-[24px] leading-relaxed text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full max-w-[627px] animate-on-load animate-fade-in-up animation-delay-200">
+            <p className="font-normal text-[18px] sm:text-[20px] lg:text-[20px] leading-[24px] text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full max-w-[627px] animate-on-load animate-fade-in-up animation-delay-200">
               A new initiative to streamline UI design and front-end development using an AI powered workflow.
             </p>
           </div>
@@ -139,11 +139,11 @@ export function FrameworkPage() {
         <section className="flex flex-col items-center gap-[80px] mb-[270px]">
           <div className="flex flex-col items-center gap-[20px] w-full max-w-[815px] text-center px-4">
             <div className="flex flex-col items-center w-full">
-              <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-tight text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] w-full animate-fade-in-up">
+              <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-[82px] text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] w-full animate-fade-in-up">
                 Explore SIEF
               </h2>
             </div>
-            <p className="font-normal text-[18px] sm:text-[20px] lg:text-[24px] leading-relaxed text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full max-w-[743px] animate-fade-in-up animation-delay-200">
+            <p className="font-normal text-[18px] sm:text-[20px] lg:text-[20px] leading-[28px] text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full max-w-[743px] animate-fade-in-up animation-delay-200">
               Everything that powers Sampath's digital experiences, built for consistency, scale, and speed.
             </p>
           </div>
@@ -159,7 +159,7 @@ export function FrameworkPage() {
                   <img
                     src={card.icon}
                     alt={card.title}
-                    className="max-w-[48px] max-h-[48px] w-auto h-auto object-contain"
+                    className="max-w-[34px] max-h-[34px] w-auto h-auto object-contain"
                   />
                 </div>
                 <div className="flex flex-col gap-[15px]">
@@ -197,7 +197,7 @@ export function FrameworkPage() {
         <section className="flex flex-col items-center gap-[80px] mb-[270px]">
           <div className="flex flex-col items-center gap-[20px] w-full max-w-[815px] text-center px-4">
             <div className="flex flex-col items-center w-full">
-              <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-tight text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] w-full animate-fade-in-up">
+              <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-[82px] text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] w-full animate-fade-in-up">
                 On the line
               </h2>
             </div>
@@ -217,7 +217,7 @@ export function FrameworkPage() {
                   <img
                     src={card.icon}
                     alt={card.title}
-                    className="max-w-[48px] max-h-[48px] w-auto h-auto object-contain"
+                    className="max-w-[34px] max-h-[34px] w-auto h-auto object-contain"
                   />
                 </div>
                 <div className="flex flex-col gap-[15px]">
@@ -241,7 +241,7 @@ export function FrameworkPage() {
         {/* Explore Designs Section */}
         <section className="flex flex-col items-center gap-[80px] mb-[270px]">
           <div className="flex flex-col items-center w-full max-w-[815px] px-4">
-            <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-tight text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] text-center w-full animate-fade-in-up">
+            <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-[82px] text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] text-center w-full animate-fade-in-up">
               Explore Designs
             </h2>
           </div>
@@ -282,7 +282,7 @@ export function FrameworkPage() {
         {/* Design Once. Scale Everywhere Section */}
         <section className="flex flex-col items-center gap-[80px]">
           <div className="flex flex-col items-center gap-[20px] text-center w-full max-w-[627px] px-4">
-            <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-tight text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] w-full animate-fade-in-up">
+            <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-[82px] text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] w-full animate-fade-in-up">
               Design once. Scale everywhere.
             </h2>
             <p className="font-normal text-[18px] sm:text-[20px] lg:text-[24px] leading-relaxed text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full animate-fade-in-up animation-delay-200">
