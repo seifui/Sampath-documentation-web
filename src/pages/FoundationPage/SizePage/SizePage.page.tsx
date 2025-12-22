@@ -45,6 +45,7 @@ export function SizePage() {
             <SizeRow name="text-xl" value="20px" previewText="text-xl" />
             <SizeRow name="text-2xl" value="24px" previewText="text-2xl" />
             <SizeRow name="text-3xl" value="30px" previewText="text-3xl" />
+            
           </section>
         </div>
       </div>
