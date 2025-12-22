@@ -102,6 +102,8 @@ import RADIUS from "./foundation/radius.png";
 import SIZE from "./foundation/sizes.png";
 import SPACING from "./foundation/spacing.png";
 
+import ICON_PACK_IMAGE from "./foundation/icon/iconpack.png";
+import ILLUSTRATION_PACK  from "./foundation/illustration/illustrationpack.png";
 
 import VALIDATION from "./pattern/validation.png";
 import NOTIFICATION from "./pattern/notification.png";
@@ -239,6 +241,9 @@ export {
   RADIUS,
   SIZE,
   SPACING,
+
+  ICON_PACK_IMAGE,
+  ILLUSTRATION_PACK,
   
   VALIDATION,
   NOTIFICATION,

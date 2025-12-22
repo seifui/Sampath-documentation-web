@@ -20,17 +20,17 @@ export function SpacingPage() {
             </div>
 
             {/* Spacing Tokens */}
-            <SpacingRow name="space-0" value="0px" size="0" />
-            <SpacingRow name="space-1" value="4px" size="1" />
-            <SpacingRow name="space-2" value="8px" size="2" />
-            <SpacingRow name="space-3" value="12px" size="3" />
-            <SpacingRow name="space-4" value="16px" size="4" />
-            <SpacingRow name="space-5" value="20px" size="5" />
-            <SpacingRow name="space-6" value="24px" size="6" />
-            <SpacingRow name="space-8" value="32px" size="8" />
-            <SpacingRow name="space-10" value="40px" size="10" />
-            <SpacingRow name="space-12" value="48px" size="12" />
-            <SpacingRow name="space-16" value="64px" size="16" />
+            <SpacingRow name="space-0" value="0px" size={0} />
+            <SpacingRow name="space-1" value="4px" size={1} />
+            <SpacingRow name="space-2" value="8px" size={2} />
+            <SpacingRow name="space-3" value="12px" size={3} />
+            <SpacingRow name="space-4" value="16px" size={4} />
+            <SpacingRow name="space-5" value="20px" size={5} />
+            <SpacingRow name="space-6" value="24px" size={6} />
+            <SpacingRow name="space-8" value="32px" size={8} />
+            <SpacingRow name="space-10" value="40px" size={10} />
+            <SpacingRow name="space-12" value="48px" size={12} />
+            <SpacingRow name="space-16" value="64px" size={16} />
           </section>
         </div>
       </div>

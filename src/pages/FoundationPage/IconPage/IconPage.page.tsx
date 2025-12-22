@@ -1,6 +1,7 @@
 import React from "react";
 import { PageHeader } from "@components";
 import { HomeIcon } from "../../../components/icons";
+import { ICON_PACK_IMAGE } from "@assets";
 
 export function IconPage() {
   return (
@@ -14,8 +15,14 @@ export function IconPage() {
 
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="max-w-[820px] mx-auto space-y-12">
-            {/* Principles */}
             <section>
+              <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
+                <img src={ICON_PACK_IMAGE} alt="Button Anatomy" />
+              </div>
+            </section>
+
+            {/* Principles */}
+            <section className="mt-10">
               <h2 className="text-3xl font-semibold mb-4">Principles</h2>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
                 <li>Clear and recognizable meaning</li>
@@ -46,8 +53,6 @@ export function IconPage() {
                 </div>
               </div>
             </section>
-
-     
 
             {/* Accessibility */}
             <section>
