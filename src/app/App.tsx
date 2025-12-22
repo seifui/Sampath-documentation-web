@@ -9,7 +9,7 @@ import { FoundationRoutes } from "routes/FoundationRoutes";
 import { PatternRoutes } from "routes/PatternRoutes";
 
 import { NavBarItem } from "@types";
-import { HomePage, ResourcesPage } from "@pages";
+import { HomePage, FrameworkPage } from "@pages";
 
 declare global {
   interface Window {
@@ -53,7 +53,7 @@ function App() {
           <Route path="/Foundation/*" element={<FoundationRoutes/>} />
           <Route path="/Components/*" element={<ComponentRoutes />} />
           <Route path="/Patterns/*" element={<PatternRoutes />} />
-          <Route path="/Resources" element={<ResourcesPage />} />
+          <Route path="/Resources" element={<FrameworkPage />} />
         </Routes>
       </div>
     </div>
