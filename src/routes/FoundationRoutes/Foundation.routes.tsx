@@ -1,3 +1,5 @@
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 import {
     FoundationBasePage,
     FoundationLandingPage,
@@ -12,8 +14,7 @@ import {
     SpacingPage,
 
   } from "@pages";
-  import React from "react";
-  import { Route, Routes } from "react-router-dom";
+
   
   export function FoundationRoutes() {
     return (
