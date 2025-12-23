@@ -39,7 +39,7 @@ export function ValidationPage() {
             </ul>
 
             <div className="mt-4">
-              <h3 className="text-sm font-semibold text-neutral-900 mb-2">
+              <h3 className="text-md font-semibold text-neutral-900 mb-2">
                 Avoid
               </h3>
               <ul className="list-disc pl-5 space-y-2 text-neutral-600 max-w-3xl">

@@ -105,11 +105,14 @@ import SPACING from "./foundation/spacing.png";
 import ICON_PACK_IMAGE from "./foundation/icon/iconpack.png";
 import ILLUSTRATION_PACK  from "./foundation/illustration/illustrationpack.png";
 
+//pattern
 import VALIDATION from "./pattern/validation.png";
 import NOTIFICATION from "./pattern/notification.png";
 import ERROR from "./pattern/error.png";
 import PROGRESS from "./pattern/progress.png";
 import SUCCESS from "./pattern/success.png";
+
+import EMPTY_STATE_PATTERN from "./pattern/emptystate/emptystate.png"
 
 // Homepage Assets
 import HERO_PHONE_1 from "./homepage/hero-phone-1.png";
@@ -245,11 +248,14 @@ export {
   ICON_PACK_IMAGE,
   ILLUSTRATION_PACK,
   
+  //pattern
   VALIDATION,
   NOTIFICATION,
   ERROR,
   PROGRESS,
   SUCCESS,
+
+  EMPTY_STATE_PATTERN,
 
   // Homepage
   HERO_PHONE_1,
