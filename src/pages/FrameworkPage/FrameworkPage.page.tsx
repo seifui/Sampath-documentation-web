@@ -166,7 +166,7 @@ export function FrameworkPage() {
                   <h3 className="font-semibold text-[28px] leading-[37.33px] text-gray-900 dark:text-gray-dark-900 tracking-[-0.28px]">
                     {card.title}
                   </h3>
-                  <p className="font-normal text-[20px] leading-[26.67px] text-gray-500 dark:text-gray-dark-500 tracking-[-0.2px]">
+                  <p className="font-normal text-[18px] leading-[26.67px] text-gray-500 dark:text-gray-dark-500 tracking-[-0.2px]">
                     {card.description}
                   </p>
                 </div>
@@ -224,7 +224,7 @@ export function FrameworkPage() {
                   <h3 className="font-semibold text-[28px] leading-[37.33px] text-gray-900 dark:text-gray-dark-900 tracking-[-0.28px]">
                     {card.title}
                   </h3>
-                  <p className="font-normal text-[20px] leading-[26.67px] text-gray-500 dark:text-gray-dark-500 tracking-[-0.2px]">
+                  <p className="font-normal text-[18px] leading-[26.67px] text-gray-500 dark:text-gray-dark-500 tracking-[-0.2px]">
                     {card.description}
                   </p>
                 </div>
