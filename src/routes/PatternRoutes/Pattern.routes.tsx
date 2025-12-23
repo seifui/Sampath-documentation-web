@@ -2,6 +2,7 @@ import {
     PatternBasePage,
     PatternLandingPage,
     ValidationPage,
+    EmptyStatePage,
 
   } from "@pages";
   import React from "react";
@@ -13,6 +14,7 @@ import {
         <Route path="/" element={<PatternBasePage />}>
           <Route path="/" element={<PatternLandingPage />} />
           <Route path="Validation" element={<ValidationPage />} />
+          <Route path="Emptystatepattern" element={<EmptyStatePage />} />
         </Route>
       </Routes>
     );

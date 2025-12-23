@@ -21,7 +21,7 @@ export const PatternCards: ComponentsPreviewCardProps[] = [
     heading: "Empty state pattern",
     description: "Triggers an action when clicked.",
     imageUrl: NODATACARD_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Patterns/Validation",
+    onClickNavigationPath: "/Patterns/Emptystatepattern",
   },
   
   {
