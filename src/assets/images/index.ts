@@ -112,7 +112,8 @@ import ERROR from "./pattern/error.png";
 import PROGRESS from "./pattern/progress.png";
 import SUCCESS from "./pattern/success.png";
 
-import EMPTY_STATE_PATTERN from "./pattern/emptystate/emptystate.png"
+import EMPTY_STATE_PATTERN from "./pattern/emptystate/emptystate.png";
+import ERROR_PATTERN from "./pattern/errorpattern/errorpattern.png";
 
 // Homepage Assets
 import HERO_PHONE_1 from "./homepage/hero-phone-1.png";
@@ -256,6 +257,7 @@ export {
   SUCCESS,
 
   EMPTY_STATE_PATTERN,
+  ERROR_PATTERN,
 
   // Homepage
   HERO_PHONE_1,
