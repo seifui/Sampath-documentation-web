@@ -159,11 +159,11 @@ export function FrameworkPage() {
                   <img
                     src={card.icon}
                     alt={card.title}
-                    className="max-w-[34px] max-h-[34px] w-auto h-auto object-contain"
+                    className="max-w-[34px] max-h-[32px] w-auto h-auto object-contain"
                   />
                 </div>
                 <div className="flex flex-col gap-[15px]">
-                  <h3 className="font-semibold text-[28px] leading-[37.33px] text-gray-900 dark:text-gray-dark-900 tracking-[-0.28px]">
+                  <h3 className="font-semibold text-[26px] leading-[37.33px] text-gray-900 dark:text-gray-dark-900 tracking-[-0.28px]">
                     {card.title}
                   </h3>
                   <p className="font-normal text-[18px] leading-[26.67px] text-gray-500 dark:text-gray-dark-500 tracking-[-0.2px]">
@@ -177,7 +177,7 @@ export function FrameworkPage() {
                       : "bg-brand-50 dark:bg-brand-dark-50 hover:bg-brand-100 dark:hover:bg-brand-dark-100 text-brand-600"
                   } transition-colors duration-200`}
                 >
-                  <span className="font-semibold text-[20px] leading-[30px] tracking-[-0.4px]">
+                  <span className="font-semibold text-[18px] leading-[30px] tracking-[-0.4px]">
                     {card.buttonText}
                   </span>
                   <img
@@ -201,7 +201,7 @@ export function FrameworkPage() {
                 On the line
               </h2>
             </div>
-            <p className="font-normal text-[18px] sm:text-[20px] lg:text-[24px] leading-relaxed text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full max-w-[743px] animate-fade-in-up animation-delay-200">
+            <p className="font-normal text-[18px] sm:text-[20px] lg:text-[20px] leading-relaxed text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full max-w-[743px] animate-fade-in-up animation-delay-200">
               Track, manage, and respond to ongoing work in one place — from project coordination and customer requests to reusable templates that keep teams aligned and moving fast.
             </p>
           </div>
@@ -217,11 +217,11 @@ export function FrameworkPage() {
                   <img
                     src={card.icon}
                     alt={card.title}
-                    className="max-w-[34px] max-h-[34px] w-auto h-auto object-contain"
+                    className="max-w-[34px] max-h-[32px] w-auto h-auto object-contain"
                   />
                 </div>
                 <div className="flex flex-col gap-[15px]">
-                  <h3 className="font-semibold text-[28px] leading-[37.33px] text-gray-900 dark:text-gray-dark-900 tracking-[-0.28px]">
+                  <h3 className="font-semibold text-[26px] leading-[37.33px] text-gray-900 dark:text-gray-dark-900 tracking-[-0.28px]">
                     {card.title}
                   </h3>
                   <p className="font-normal text-[18px] leading-[26.67px] text-gray-500 dark:text-gray-dark-500 tracking-[-0.2px]">
@@ -229,7 +229,7 @@ export function FrameworkPage() {
                   </p>
                 </div>
                 <button className="bg-gray-50 dark:bg-gray-dark-50 px-[20px] py-[16px] rounded-full w-full">
-                  <span className="font-semibold text-[20px] leading-[30px] text-gray-700 dark:text-gray-dark-700 tracking-[-0.4px]">
+                  <span className="font-semibold text-[18px] leading-[30px] text-gray-700 dark:text-gray-dark-700 tracking-[-0.4px]">
                     {card.buttonText}
                   </span>
                 </button>
@@ -285,7 +285,7 @@ export function FrameworkPage() {
             <h2 className="font-semibold text-[40px] sm:text-[56px] lg:text-[72px] leading-[82px] text-gray-900 dark:text-gray-dark-900 tracking-[-2.88px] w-full animate-fade-in-up">
               Design once. Scale everywhere.
             </h2>
-            <p className="font-normal text-[18px] sm:text-[20px] lg:text-[24px] leading-relaxed text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full animate-fade-in-up animation-delay-200">
+            <p className="font-normal text-[18px] sm:text-[20px] lg:text-[20px] leading-relaxed text-gray-500 dark:text-gray-dark-500 tracking-[-0.24px] w-full animate-fade-in-up animation-delay-200">
               A single design language powering every Sampath experience today and in the future.
             </p>
           </div>
