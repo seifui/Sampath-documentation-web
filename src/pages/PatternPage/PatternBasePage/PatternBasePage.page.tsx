@@ -8,11 +8,8 @@ export function PatternBasePage() {
     { linkName: "Validation messages", linkPath: "Validation" },
     { linkName: "Empty state pattern", linkPath: "Emptystatepattern" },
     { linkName: "Error pattern", linkPath: "Errorpattern" },
-    { linkName: "Error screen", linkPath: "Errorscreen" },
     // { linkName: "Help articles", linkPath: "Article" },
     { linkName: "Notifications", linkPath: "Notification" },
-    { linkName: "Progress screen", linkPath: "Progress" },
-    { linkName: "Sucess screen", linkPath: "Sucess" },
   ];
 
   return (
