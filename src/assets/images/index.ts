@@ -1,11 +1,6 @@
 import LOGO_DARK from "./logo/logo-dark.png";
 import LOGO_WHITE from "./logo/logo-white.png";
 
-import HTML_LOGO from "./framework/html.png";
-import REACT_LOGO from "./framework/react.png";
-import ANGULAR_LOGO from "./framework/angular.png";
-import VUE_LOGO from "./framework/vue.png";
-
 import COMPONENT_HOME_HEADER_IMAGE from "./components-home-header-image.png";
 import COMING_SOON_IMAGE from "./comingsoon.png";
 
@@ -141,17 +136,37 @@ import DEVICE_TABLET from "./homepage/device-tablet.svg";
 import DEVICE_CARD from "./homepage/device-card.svg";
 import DEVICE_WATCH from "./homepage/device-watch.svg";
 import DEVICE_GRID from "./homepage/device-grid.svg";
+import AREA_VIDEO from "../videos/Area.mp4";
+
+// Framework Assets
+import FW_HERO_IMAGE_1 from "./framework/hero-image-1.jpg";
+import FW_HERO_IMAGE_2 from "./framework/hero-image-2.jpg";
+import FW_EXPLORE_DESIGN_1 from "./framework/explore-design-1.jpg";
+import FW_EXPLORE_DESIGN_2 from "./framework/explore-design-2.jpg";
+import FW_EXPLORE_DESIGN_3 from "./framework/explore-design-3.jpg";
+import FW_EXPLORE_DESIGN_4 from "./framework/explore-design-4.jpg";
+import FW_ICON_MAGIC_WAND from "./framework/icon-magic-wand.svg";
+import FW_ICON_BRACKETS from "./framework/icon-brackets.svg";
+import FW_ICON_GIT from "./framework/icon-git.svg";
+import FW_ICON_BOOK from "./framework/icon-book.svg";
+import FW_ICON_FIGMA from "./framework/icon-figma.svg";
+import FW_ICON_PENCIL from "./framework/icon-pencil.svg";
+import FW_ICON_DATAFLOW from "./framework/icon-dataflow.svg";
+import FW_ICON_USERS from "./framework/icon-users.svg";
+import FW_ICON_LAPTOP from "./framework/icon-laptop.svg";
+import FW_ICON_ARROW_RIGHT from "./framework/icon-arrow-right.svg";
+import FW_DEVICE_DESKTOP from "./framework/device-desktop.svg";
+import FW_DEVICE_SMARTPHONE from "./framework/device-smartphone.svg";
+import FW_DEVICE_TABLET from "./framework/device-tablet.svg";
+import FW_DEVICE_CARD from "./framework/device-card.svg";
+import FW_DEVICE_WATCH from "./framework/device-watch.svg";
+import FW_DEVICE_GRID from "./framework/device-grid.svg";
 
 export {
   LOGO_WHITE,
   LOGO_DARK,
   COMPONENT_HOME_HEADER_IMAGE,
   COMING_SOON_IMAGE,
-
-  HTML_LOGO,
-  REACT_LOGO,
-  ANGULAR_LOGO,
-  VUE_LOGO,
   
   BUTTON_COMPONENT_IMAGE,
   BUTTON_SHAPES,
@@ -285,4 +300,29 @@ export {
   DEVICE_CARD,
   DEVICE_WATCH,
   DEVICE_GRID,
+  AREA_VIDEO,
+
+  // Framework
+  FW_HERO_IMAGE_1,
+  FW_HERO_IMAGE_2,
+  FW_EXPLORE_DESIGN_1,
+  FW_EXPLORE_DESIGN_2,
+  FW_EXPLORE_DESIGN_3,
+  FW_EXPLORE_DESIGN_4,
+  FW_ICON_MAGIC_WAND,
+  FW_ICON_BRACKETS,
+  FW_ICON_GIT,
+  FW_ICON_BOOK,
+  FW_ICON_FIGMA,
+  FW_ICON_PENCIL,
+  FW_ICON_DATAFLOW,
+  FW_ICON_USERS,
+  FW_ICON_LAPTOP,
+  FW_ICON_ARROW_RIGHT,
+  FW_DEVICE_DESKTOP,
+  FW_DEVICE_SMARTPHONE,
+  FW_DEVICE_TABLET,
+  FW_DEVICE_CARD,
+  FW_DEVICE_WATCH,
+  FW_DEVICE_GRID,
 };
