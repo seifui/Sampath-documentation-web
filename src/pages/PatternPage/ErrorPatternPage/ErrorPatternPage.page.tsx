@@ -34,7 +34,6 @@ export function ErrorPatternPage() {
                 <li>Allow users to dismiss non-blocking errors</li>
               </ul>
             </section>
-
         </div>
       </div>
     </div>
