@@ -25,11 +25,11 @@ export const PatternCards: ComponentsPreviewCardProps[] = [
   },
   
   {
-    heading: "Error screen",
+    heading: "Error pattern",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: ALERTS_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Foundation/Icon",
+    onClickNavigationPath: "/Patterns/Errorpattern",
   },
   // {
   //   heading: "Help articles",
