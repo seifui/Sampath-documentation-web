@@ -43,14 +43,14 @@ export const PatternCards: ComponentsPreviewCardProps[] = [
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: NOTIFICATION,
-    onClickNavigationPath: "/Patterns/Validation",
+    onClickNavigationPath: "/Patterns/Notification",
   },
   {
-    heading: "Error pattern",
+    heading: "Error screen",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: ERROR,
-    onClickNavigationPath: "/Patterns/Validation",
+    onClickNavigationPath: "/Patterns/Errorpattern",
   },
   {
     heading: "Progress screen",
