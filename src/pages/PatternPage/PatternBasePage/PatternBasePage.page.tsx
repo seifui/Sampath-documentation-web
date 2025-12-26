@@ -6,7 +6,7 @@ export function PatternBasePage() {
   const sideBarItemList = [
     { linkName: "All", linkPath: "/Patterns" },
     { linkName: "Validation messages", linkPath: "Validation" },
-    { linkName: "Empty state pattern", linkPath: "Emptystate" },
+    { linkName: "Empty state pattern", linkPath: "Emptystatepattern" },
     { linkName: "Error pattern", linkPath: "Errorpattern" },
     { linkName: "Error screen", linkPath: "Errorscreen" },
     // { linkName: "Help articles", linkPath: "Article" },
