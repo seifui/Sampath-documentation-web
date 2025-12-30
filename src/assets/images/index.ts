@@ -29,10 +29,17 @@ import BUTTON_HIERARCHY from "./button/hierarchy.png";
 import BUTTON_STATES from "./button/states.png";
 import BUTTON_ICON_USAGE from "./button/icon_usage.png";
 import BUTTON_SIZES from "./button/size.png";
-import BUTTON_DODONT_01 from "./button/btn_do&dont_1.png";
-import BUTTON_DODONT_02 from "./button/btn_do&dont_2.png";
-import BUTTON_DODONT_03 from "./button/btn_do&dont_3.png";
-import BUTTON_DODONT_04 from "./button/btn_do&dont_4.png";
+import BUTTON_DODONT_01 from "./button/mobile/btn_do&dont_1.png";
+import BUTTON_DODONT_02 from "./button/mobile/btn_do&dont_2.png";
+import BUTTON_DODONT_03 from "./button/mobile/btn_do&dont_3.png";
+import BUTTON_DODONT_04 from "./button/mobile/btn_do&dont_4.png";
+
+import BUTTON_DODONT_01_WEB from "./button/web/btn_do&dont_1.png";
+import BUTTON_DODONT_02_WEB from "./button/web/btn_do&dont_2.png";
+import BUTTON_DODONT_03_WEB from "./button/web/btn_do&dont_3.png";
+import BUTTON_DODONT_04_WEB from "./button/web/btn_do&dont_4.png";
+import BUTTON_DODONT_05_WEB from "./button/web/btn_do&dont_5.png";
+import BUTTON_DODONT_06_WEB from "./button/web/btn_do&dont_6.png";
 
 import TEXT_FEILD_ANATOMY from "./textfield/anatomy.png";
 import TEXT_FEILD_SIZE_SM from "./textfield/sm.png";
@@ -197,6 +204,13 @@ export {
   BUTTON_DODONT_02,
   BUTTON_DODONT_03,
   BUTTON_DODONT_04,
+  BUTTON_DODONT_01_WEB,
+  BUTTON_DODONT_02_WEB,
+  BUTTON_DODONT_03_WEB,
+  BUTTON_DODONT_04_WEB,
+  BUTTON_DODONT_05_WEB,
+  BUTTON_DODONT_06_WEB,
+ 
 
   TEXT_FEILD_ANATOMY,
   TEXT_FEILD_SIZE_SM,
