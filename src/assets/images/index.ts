@@ -1,6 +1,11 @@
 import LOGO_DARK from "./logo/logo-dark.png";
 import LOGO_WHITE from "./logo/logo-white.png";
 
+import HTML_LOGO from "./framework/html.png";
+import REACT_LOGO from "./framework/react.png";
+import ANGULAR_LOGO from "./framework/angular.png";
+import VUE_LOGO from "./framework/vue.png";
+
 import COMPONENT_HOME_HEADER_IMAGE from "./components-home-header-image.png";
 import COMING_SOON_IMAGE from "./comingsoon.png";
 
@@ -180,6 +185,11 @@ export {
   LOGO_DARK,
   COMPONENT_HOME_HEADER_IMAGE,
   COMING_SOON_IMAGE,
+
+  HTML_LOGO,
+  REACT_LOGO,
+  ANGULAR_LOGO,
+  VUE_LOGO,
   
   BUTTON_COMPONENT_IMAGE,
   BUTTON_SHAPES,
