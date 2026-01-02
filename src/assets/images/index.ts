@@ -1,6 +1,11 @@
 import LOGO_DARK from "./logo/logo-dark.png";
 import LOGO_WHITE from "./logo/logo-white.png";
 
+import HTML_LOGO from "./framework/html.png";
+import REACT_LOGO from "./framework/react.png";
+import ANGULAR_LOGO from "./framework/angular.png";
+import VUE_LOGO from "./framework/vue.png";
+
 import COMPONENT_HOME_HEADER_IMAGE from "./components-home-header-image.png";
 import COMING_SOON_IMAGE from "./comingsoon.png";
 
@@ -29,10 +34,17 @@ import BUTTON_HIERARCHY from "./button/hierarchy.png";
 import BUTTON_STATES from "./button/states.png";
 import BUTTON_ICON_USAGE from "./button/icon_usage.png";
 import BUTTON_SIZES from "./button/size.png";
-import BUTTON_DODONT_01 from "./button/btn_do&dont_1.png";
-import BUTTON_DODONT_02 from "./button/btn_do&dont_2.png";
-import BUTTON_DODONT_03 from "./button/btn_do&dont_3.png";
-import BUTTON_DODONT_04 from "./button/btn_do&dont_4.png";
+import BUTTON_DODONT_01 from "./button/mobile/btn_do&dont_1.png";
+import BUTTON_DODONT_02 from "./button/mobile/btn_do&dont_2.png";
+import BUTTON_DODONT_03 from "./button/mobile/btn_do&dont_3.png";
+import BUTTON_DODONT_04 from "./button/mobile/btn_do&dont_4.png";
+
+import BUTTON_DODONT_01_WEB from "./button/web/btn_do&dont_1.png";
+import BUTTON_DODONT_02_WEB from "./button/web/btn_do&dont_2.png";
+import BUTTON_DODONT_03_WEB from "./button/web/btn_do&dont_3.png";
+import BUTTON_DODONT_04_WEB from "./button/web/btn_do&dont_4.png";
+import BUTTON_DODONT_05_WEB from "./button/web/btn_do&dont_5.png";
+import BUTTON_DODONT_06_WEB from "./button/web/btn_do&dont_6.png";
 
 import TEXT_FEILD_ANATOMY from "./textfield/anatomy.png";
 import TEXT_FEILD_SIZE_SM from "./textfield/sm.png";
@@ -86,6 +98,12 @@ import AVATAR_SIZES from "./avatar/sizes.png";
 import AVATAR_TYPES from "./avatar/types.png";
 import AVATAR_VARIANTS from "./avatar/variants.png";
 import AVATAR_DODONT_01 from "./avatar/do&dont_1.png";
+
+import LINK_ANATOMY from "./link/anatomy.png";
+import LINK_SIZES from "./link/sizes.png";
+import LINK_ICON from "./link/icon.png";
+import LINK_DODONT_01 from "./link/do&dont_1.png";
+
 
 import COLOR from "./foundation/color.png";
 import TYPOGRAPHY from "./foundation/typo.png";
@@ -167,6 +185,11 @@ export {
   LOGO_DARK,
   COMPONENT_HOME_HEADER_IMAGE,
   COMING_SOON_IMAGE,
+
+  HTML_LOGO,
+  REACT_LOGO,
+  ANGULAR_LOGO,
+  VUE_LOGO,
   
   BUTTON_COMPONENT_IMAGE,
   BUTTON_SHAPES,
@@ -197,6 +220,13 @@ export {
   BUTTON_DODONT_02,
   BUTTON_DODONT_03,
   BUTTON_DODONT_04,
+  BUTTON_DODONT_01_WEB,
+  BUTTON_DODONT_02_WEB,
+  BUTTON_DODONT_03_WEB,
+  BUTTON_DODONT_04_WEB,
+  BUTTON_DODONT_05_WEB,
+  BUTTON_DODONT_06_WEB,
+ 
 
   TEXT_FEILD_ANATOMY,
   TEXT_FEILD_SIZE_SM,
@@ -250,6 +280,11 @@ export {
   AVATAR_TYPES,
   AVATAR_VARIANTS,
   AVATAR_DODONT_01,
+
+  LINK_ANATOMY,
+  LINK_SIZES,
+  LINK_ICON,
+  LINK_DODONT_01,
 
   COLOR,
   TYPOGRAPHY,   
