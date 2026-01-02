@@ -8,3 +8,4 @@ export * from "./CheckboxComponentPage";
 export * from "./SwitchComponentPage";
 export * from "./TextareaComponentPage";
 export * from "./AvatarComponentPage";
+export * from "./LinkComponentPage";

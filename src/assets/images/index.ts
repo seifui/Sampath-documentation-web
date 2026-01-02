@@ -94,6 +94,12 @@ import AVATAR_TYPES from "./avatar/types.png";
 import AVATAR_VARIANTS from "./avatar/variants.png";
 import AVATAR_DODONT_01 from "./avatar/do&dont_1.png";
 
+import LINK_ANATOMY from "./link/anatomy.png";
+import LINK_SIZES from "./link/sizes.png";
+import LINK_ICON from "./link/icon.png";
+import LINK_DODONT_01 from "./link/do&dont_1.png";
+
+
 import COLOR from "./foundation/color.png";
 import TYPOGRAPHY from "./foundation/typo.png";
 import FOCUS from "./foundation/focus.png";
@@ -264,6 +270,11 @@ export {
   AVATAR_TYPES,
   AVATAR_VARIANTS,
   AVATAR_DODONT_01,
+
+  LINK_ANATOMY,
+  LINK_SIZES,
+  LINK_ICON,
+  LINK_DODONT_01,
 
   COLOR,
   TYPOGRAPHY,   
