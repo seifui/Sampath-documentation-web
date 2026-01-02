@@ -1,5 +1,5 @@
 import React from "react";
-import { PageHeader, ScrollSpy } from "@components";
+import { PageHeader } from "@components";
 import { BadgeUsageTabSection } from "./TabSections/BadgeUsageTabSection.screen";
 import { BadgeCodeTabSection } from "./TabSections/BadgeCodeTabSection.screen";
 

@@ -9,9 +9,8 @@ import {
   SwitchComponentPage,
   TextareaComponentPage,
   AvatarComponentPage,
-
+  LinkComponentPage,
 } from "@pages";
-import { DarkModeToggler } from "@components";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
@@ -28,6 +27,7 @@ export function ComponentRoutes() {
         <Route path="Switch" element={<SwitchComponentPage />} />
         <Route path="Textarea" element={<TextareaComponentPage />} />
         <Route path="Avatar" element={<AvatarComponentPage />} />
+        <Route path="Link" element={<LinkComponentPage />}/>
       </Route>
     </Routes>
   );

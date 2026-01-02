@@ -1,5 +1,5 @@
 import React from "react";
-import { BaseTabSectionScreen } from "./BaseTabSectionScreen.screen";
+import { BaseTabSectionScreen } from "@components";
 import {
   TEXTAREA_ANATOMY,
   TEXTAREA_STATES,
@@ -15,7 +15,7 @@ export function TextareaUsageTabSection() {
       <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p>
             The most basic structure of a text area consists of a container and
             an input field where users can enter multiline text. Additional
@@ -34,7 +34,7 @@ export function TextareaUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* States section */}
         <div id="States">
-          <h2 className="text-3xl font-bold mb-6 ">States</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">States</h2>
           <p className="mb-3">
             A text area has five key states—default, placeholder, filled, focus,
             and disabled—each designed to guide user interaction and ensure
@@ -47,7 +47,7 @@ export function TextareaUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Do's and Don'ts section */}
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
             Do's and Don'ts for text areas provide practical guidelines to
             ensure they are intuitive, accessible, and user-friendly. These best

@@ -1,13 +1,11 @@
 import React from "react";
-import { BaseTabSectionScreen } from "./BaseTabSectionScreen.screen";
 import { HTML_LOGO, REACT_LOGO, ANGULAR_LOGO, VUE_LOGO } from "@assets";
-
 
 export function AvatarCodeTabSection() {
     return (
         <div className="max-w-[820px] mx-auto">
            <div id="Documentation" className="mt-14">
-          <h2 className="text-3xl font-bold mb-6 text-primary dark:text-primary-dark">
+          <h2 className="text-3xl font-semibold mb-6 text-primary dark:text-primary-dark">
             Documentation
           </h2>
 
@@ -16,7 +14,7 @@ export function AvatarCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">HTML</h2>
               <div className="flex justify-between items-end">
-                <img src={HTML_LOGO} className="w-10 h-10" alt="HTML LOGO" />
+              <img src={HTML_LOGO} className="w-10 h-10" alt="HTML LOGO" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -38,7 +36,7 @@ export function AvatarCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">React</h2>
               <div className="flex justify-between items-end">
-                <img src={REACT_LOGO} className="w-10 h-10" alt="React LOGO" />
+              <img src={REACT_LOGO} className="w-10 h-10" alt="React LOGO" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -60,7 +58,7 @@ export function AvatarCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">Angular</h2>
               <div className="flex justify-between items-end">
-                <img src={ANGULAR_LOGO} className="w-10 h-10" alt="Angular" />
+              <img src={ANGULAR_LOGO} className="w-10 h-10" alt="Angular" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -82,7 +80,7 @@ export function AvatarCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">Vue</h2>
               <div className="flex justify-between items-end">
-                <img src={VUE_LOGO} className="w-10 h-10" alt="Vue" />
+              <img src={VUE_LOGO} className="w-10 h-10" alt="Vue" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"

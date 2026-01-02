@@ -22,7 +22,7 @@ export function CheckboxUsageTabSection() {
       <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p>
             The checkbox is a selection control that enables users to make
             binary choices, allowing them to select or deselect one or multiple
@@ -33,13 +33,13 @@ export function CheckboxUsageTabSection() {
             simultaneously or indicate multiple preferences at once
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-auto rounded-[16px]">
-            <img src={CHECKBOX_ANATOMY} alt="Checkbox Anatomy Image" />
+            <img src={CHECKBOX_ANATOMY} alt="Checkbox Anatomy" />
           </div>
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Size section */}
         <div id="Sizes">
-          <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Sizes</h2>
           <p className="mb-3">
             The checkbox is available in two sizes sm and md to support a wide
             range of interface layouts and accessibility needs. Each size is
@@ -55,7 +55,7 @@ export function CheckboxUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* States section */}
         <div id="States">
-          <h2 className="text-3xl font-bold mb-6 ">States</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">States</h2>
           <p className="mb-3">
             The checkbox has three key states—default, focused, and
             disabled—each serving a specific purpose to ensure usability and
@@ -71,7 +71,7 @@ export function CheckboxUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Variants section */}
         <div id="Variants">
-          <h2 className="text-3xl font-bold mb-6 ">Variants</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Variants</h2>
           <p className="mb-3">
             Checkboxes come in two variants—single row and multi-row—designed to
             accommodate different layout needs. The single-row variant aligns
@@ -86,7 +86,7 @@ export function CheckboxUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Do’s & Don’ts section */}
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
             Do's and Don'ts are practical guidelines that outline best practices
             to follow and common mistakes to avoid, ensuring checkboxes are

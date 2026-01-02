@@ -1,12 +1,11 @@
 import React from "react";
-import { BaseTabSectionScreen } from "./BaseTabSectionScreen.screen";
 import { HTML_LOGO, REACT_LOGO, ANGULAR_LOGO, VUE_LOGO } from "@assets";
 
 export function SwitchCodeTabSection() {
     return (
          <div className="max-w-[820px] mx-auto">
            <div id="Documentation" className="mt-14">
-          <h2 className="text-3xl font-bold mb-6 text-primary dark:text-primary-dark">
+          <h2 className="text-3xl font-semibold mb-6 text-primary dark:text-primary-dark">
             Documentation
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
@@ -14,7 +13,7 @@ export function SwitchCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">HTML</h2>
               <div className="flex justify-between items-end">
-                <img src={HTML_LOGO} className="w-10 h-10" alt="HTML LOGO" />
+              <img src={HTML_LOGO} className="w-10 h-10" alt="HTML LOGO" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -33,10 +32,10 @@ export function SwitchCodeTabSection() {
             </div>
 
             {/* React */}
-            <a href="https://mellow-moxie-7efe99.netlify.app/?path=/docs/subframe-switch--docs" target="_blank" rel="noopener noreferrer" className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer">
+            <a href="https://storybook-ds-guide.netlify.app/?path=/docs/subframe-switch--docs" target="_blank" rel="noopener noreferrer" className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer">
               <h2 className="text-xl font-medium mb-6">React</h2>
               <div className="flex justify-between items-end">
-                <img src={REACT_LOGO} className="w-10 h-10" alt="React LOGO" />
+              <img src={REACT_LOGO} className="w-10 h-10" alt="React LOGO" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -58,7 +57,7 @@ export function SwitchCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">Angular</h2>
               <div className="flex justify-between items-end">
-                <img src={ANGULAR_LOGO} className="w-10 h-10" alt="Angular" />
+              <img src={ANGULAR_LOGO} className="w-10 h-10" alt="Angular" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -80,7 +79,7 @@ export function SwitchCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">Vue</h2>
               <div className="flex justify-between items-end">
-                <img src={VUE_LOGO} className="w-10 h-10" alt="Vue" />
+              <img src={VUE_LOGO} className="w-10 h-10" alt="Vue" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"

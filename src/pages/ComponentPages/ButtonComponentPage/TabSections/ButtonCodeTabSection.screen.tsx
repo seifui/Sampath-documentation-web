@@ -5,7 +5,7 @@ export function ButtonCodeTabSection() {
   return (
     <div className="max-w-[820px] mx-auto">
       <div id="Documentation" className="mt-14">
-        <h2 className="text-3xl font-bold mb-6 text-primary dark:text-primary-dark">
+        <h2 className="text-3xl font-semibold mb-6 text-primary dark:text-primary-dark">
           Documentation
         </h2>
 
@@ -34,7 +34,7 @@ export function ButtonCodeTabSection() {
 
           {/* React */}
           <a
-            href="https://mellow-moxie-7efe99.netlify.app/?path=/docs/subframe-button--docs"
+            href="https://storybook-ds-guide.netlify.app/?path=/docs/subframe-button--docs"
             target="_blank"
             rel="noopener noreferrer"
             className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer"

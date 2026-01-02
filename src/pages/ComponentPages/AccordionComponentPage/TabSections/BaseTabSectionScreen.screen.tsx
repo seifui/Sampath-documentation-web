@@ -1,13 +1,13 @@
 import React from "react";
 import { ScrollSpy } from "@components";
-type BaseTabSectionScreen = {
+type BaseTabSectionScreenProps = {
   children: React.ReactNode;
   scrollSpySections: string[];
 };
 export function BaseTabSectionScreen({
   children,
   scrollSpySections,
-}: BaseTabSectionScreen) {
+}: BaseTabSectionScreenProps) {
   return (
     <section className="md:flex md:justify-center gap-32">
       <div className="max-w-[820px] mx-auto">{children}</div>

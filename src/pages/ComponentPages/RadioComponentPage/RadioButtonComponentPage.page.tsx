@@ -1,5 +1,5 @@
 import React from "react";
-import { PageHeader, ScrollSpy } from "@components";
+import { PageHeader } from "@components";
 import { RadioButtonUsageTabSection } from "./TabSections/RadioButtonUsageTabSection.screen";
 import { RadioButtonCodeTabSection } from "./TabSections/RadioButtonCodeTabSection.screen";
 

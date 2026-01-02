@@ -1,5 +1,5 @@
 import React from "react";
-import { PageHeader, ScrollSpy } from "@components";
+import { PageHeader } from "@components";
 import { AvatarUsageTabSection } from "./TabSections/AvatarUsageTabSection.screen";
 import { AvatarCodeTabSection } from "./TabSections/AvatarCodeTabSection.screen";
 

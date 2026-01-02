@@ -1,5 +1,5 @@
 import React from "react";
-import { BaseTabSectionScreen } from "./BaseTabSectionScreen.screen";
+import { BaseTabSectionScreen } from "@components";
 import {
   TEXT_FEILD_ANATOMY,
   TEXT_FEILD_SIZE_SM,
@@ -27,7 +27,7 @@ export function TextUsageTabSection() {
       <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p>
             The most basic setup of a text field consists of a container and an
             input area where users can enter text. However, a text field can
@@ -45,37 +45,37 @@ export function TextUsageTabSection() {
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Size section */}
         <div id="Sizes">
-          <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Sizes</h2>
           <div className="grid grid-cols-2 gap-2">
             <div>
               <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
                 <img src={TEXT_FEILD_SIZE_SM} alt="TEXT_FEILD_IMAGE_3" />
               </div>
-              <h4 className="text-l font-bold mb-2 ml-3">SM</h4>
+              <h4 className="text-l font-semibold mb-2 ml-3">SM</h4>
             </div>
             <div>
               <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
                 <img src={TEXT_FEILD_SIZE_MD} alt="TEXT_FEILD_IMAGE_4" />
               </div>
-              <h4 className="text-l font-bold mb-2 ml-3">MD</h4>
+              <h4 className="text-l font-semibold mb-2 ml-3">MD</h4>
             </div>
             <div>
               <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
                 <img src={TEXT_FEILD_SIZE_LG} alt="TEXT_FEILD_IMAGE_5" />
               </div>
-              <h4 className="text-l font-bold mb-2 ml-3">LG</h4>
+              <h4 className="text-l font-semibold mb-2 ml-3">LG</h4>
             </div>
             <div>
               <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
                 <img src={TEXT_FEILD_SIZE_XL} alt="TEXT_FEILD_IMAGE_5" />
               </div>
-              <h4 className="text-l font-bold mb-2 ml-3">XL</h4>
+              <h4 className="text-l font-semibold mb-2 ml-3">XL</h4>
             </div>
           </div>
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="States">
-          <h2 className="text-3xl font-bold mb-6 ">States</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">States</h2>
           <p className="mb-3">
             Input feild has three key states default, focused, and disabled—each
             serving a specific purpose to enhance user experience and
@@ -87,7 +87,7 @@ export function TextUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Property">
-          <h2 className="text-3xl font-bold mb-6 ">Property</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Property</h2>
           <p className="mb-3">
             Input feild has three key properties—placeholder, filled, and
             hint—each serving a specific purpose to improve usability and guide
@@ -99,7 +99,7 @@ export function TextUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Icon Usage">
-          <h2 className="text-3xl font-bold mb-6 ">Icon Usage</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Icon Usage</h2>
           <p className="mb-3">
             The input field supports two icon placements—leading and trailing—to
             enhance functionality and usability.  
@@ -110,7 +110,7 @@ export function TextUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
             Do's and Don'ts are practical guidelines that outline best practices
             to follow and common mistakes to avoid, ensuring input fields are

@@ -7,13 +7,11 @@ import {
   BUTTON_STATES,
   BUTTON_ICON_USAGE,
   BUTTON_SIZES,
-  BUTTON_DODONT_01,
-  BUTTON_DODONT_02,
-  BUTTON_DODONT_03,
-  BUTTON_DODONT_04,
+ 
 } from "@assets";
 // import Anatomy_img from "./button/anatomy.png";
-
+import { WebSection } from "./Web/WebSection.screen";
+import { MobileSection } from "./Mobile/MobileSection.screen";
 export function ButtonUsageTabSection() {
   const scrollSpySections = [
     "Anatomy",
@@ -25,12 +23,14 @@ export function ButtonUsageTabSection() {
     "Size",
     "Do’s & Don’ts",
   ];
+  const preLineTabClassNames =
+    "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-primary hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-primary-dark dark:hover:text-brand-500";
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
       <div className="mt-14  text-primary dark:text-primary-dark">
         {/* Anatomy section */}
         <div id="Anatomy">
-          <h2 className="text-3xl font-bold mb-6 ">Anatomy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Anatomy</h2>
           <p>
             The most basic setup of a button includes only a single label or
             icon. Still, a button can also be customized to include a label with
@@ -38,13 +38,13 @@ export function ButtonUsageTabSection() {
             an additional label below the button's container.
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
-            <img src={BUTTON_ANATOMY} alt="Button Anatomy Image" />
+            <img src={BUTTON_ANATOMY} alt="Button Anatomy" />
           </div>
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         {/* Shape section */}
         <div id="Shape">
-          <h2 className="text-3xl font-bold mb-6 ">Shape</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Shape</h2>
           <p className="mb-3">
             Buttons come in rectangular, circle, square, and pill shapes.
           </p>
@@ -90,7 +90,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Usage">
-          <h2 className="text-3xl font-bold mb-6 ">Usage</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Usage</h2>
           <p className="mb-3">
             Buttons are interactive elements that help users take action, make
             decisions, and move forward in a process. Use buttons to:
@@ -108,7 +108,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Hierarchy">
-          <h2 className="text-3xl font-bold mb-6 ">Hierarchy</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Hierarchy</h2>
           <p className="mb-3">
             Button hierarchy emphasizes which button is more important in the
             context so the user can take action immediately.
@@ -119,7 +119,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="States">
-          <h2 className="text-3xl font-bold mb-6 ">States</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">States</h2>
           <p className="mb-3">
             Button hierarchy emphasizes which button is more important in the
             context so the user can take action immediately.
@@ -130,7 +130,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Icon Usage">
-          <h2 className="text-3xl font-bold mb-6 ">Icon Usage</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Icon Usage</h2>
           <p className="mb-3">
             Icons enhance the clarity and functionality of buttons by visually
             supporting the action they represent.
@@ -141,7 +141,7 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Size">
-          <h2 className="text-3xl font-bold mb-6 ">Sizes</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Sizes</h2>
           <p className="mb-3">
             The Button is available in various sizes to fit different
             environments and use cases. Each size is designed to maintain visual
@@ -154,24 +154,72 @@ export function ButtonUsageTabSection() {
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
         <div id="Do’s & Don’ts">
-          <h2 className="text-3xl font-bold mb-6 ">Do’s & Don’ts</h2>
+          <h2 className="text-3xl font-semibold mb-6 ">Do’s & Don’ts</h2>
           <p className="mb-3">
             Do's and Don'ts are practical guidelines that outline best practices
             to follow and mistakes to avoid, ensuring effective and
             user-friendly button designs.
           </p>
-          <div className="p-4 my-6">
-            <img src={BUTTON_DODONT_01} alt="BUTTON_DO&DONT_01" />
+          <div className="border-b border-gray-200 dark:border-neutral-700">
+            <nav
+              className="flex gap-x-1"
+              aria-label="Tabs"
+              role="tablist"
+              aria-orientation="horizontal"
+            >
+              <button
+                type="button"
+                className={`${preLineTabClassNames} active`}
+                id="tabs-with-underline-item-3"
+                aria-selected="false"
+                data-hs-tab="#tabs-with-underline-3"
+                aria-controls="tabs-with-underline-3"
+                role="tab"
+              >
+                Web
+              </button>
+              <button
+                type="button"
+                className={`${preLineTabClassNames}`}
+                id="tabs-with-underline-item-4"
+                aria-selected="false"
+                data-hs-tab="#tabs-with-underline-4"
+                aria-controls="tabs-with-underline-4"
+                role="tab"
+              >
+                Mobile
+              </button>
+              {/* <button
+                    type="button"
+                    className={`${preLineTabClassNames}`}
+                    aria-selected="false"
+                    data-hs-tab="#tabs-with-underline-3"
+                    aria-controls="tabs-with-underline-3"
+                    role="tab"
+                  >
+                    Code
+                  </button> */}
+            </nav>
           </div>
-          <div className="p-4 my-6">
-            <img src={BUTTON_DODONT_02} alt="BUTTON_DO&DONT_02" />
+
+          <div className="mt-6 pb-12">
+            <div
+              id="tabs-with-underline-3"
+              role="tabpanel"
+              aria-labelledby="tabs-with-underline-item-3"
+            >
+              <WebSection />
+            </div>
+            <div
+              id="tabs-with-underline-4"
+              className="hidden"
+              role="tabpanel"
+              aria-labelledby="tabs-with-underline-item-4"
+            >
+              <MobileSection />
+            </div>
           </div>
-          <div className="p-4 my-6">
-            <img src={BUTTON_DODONT_03} alt="BUTTON_DO&DONT_03" />
-          </div>
-          <div className="p-4 my-6">
-            <img src={BUTTON_DODONT_04} alt="BUTTON_DO&DONT_04" />
-          </div>
+      
         </div>
       </div>
     </BaseTabSectionScreen>

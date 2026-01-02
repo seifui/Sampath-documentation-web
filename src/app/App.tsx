@@ -5,7 +5,11 @@ import { IStaticMethods } from "preline/preline";
 
 import { NavBar, SubHeader } from "@components";
 import { ComponentRoutes } from "routes/ComponentRoutes";
+import { FoundationRoutes } from "routes/FoundationRoutes";
+import { PatternRoutes } from "routes/PatternRoutes";
+
 import { NavBarItem } from "@types";
+import { HomePage, FrameworkPage } from "@pages";
 
 declare global {
   interface Window {
@@ -20,13 +24,14 @@ function App() {
     window.HSStaticMethods.autoInit();
   }, [location.pathname]);
 
-  const pageName = location.pathname.split("/").filter(Boolean).pop() || "Home";
+  const pageName = location.pathname.split("/").filter(Boolean).pop() || "Design";
 
   const navBarItemList: NavBarItem[] = [
-    { name: "Home", path: "/" },
-    { name: "Foundation", path: "Foundation" },
+    { name: "Design", path: "/" },
+    { name: "Foundation", path: "/Foundation" },
     { name: "Components", path: "/Components" },
-    // { name: "Patterns", path: "patterns" },
+    { name: "Patterns", path: "/Patterns" },
+    { name: "Framework", path: "/Resources" },
   ];
   return (
     <div className="bg-white dark:bg-solid-dark-base min-h-screen">
@@ -44,7 +49,11 @@ function App() {
       </div>
       <div className="w-full">
         <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/Foundation/*" element={<FoundationRoutes/>} />
           <Route path="/Components/*" element={<ComponentRoutes />} />
+          <Route path="/Patterns/*" element={<PatternRoutes />} />
+          <Route path="/Resources" element={<FrameworkPage />} />
         </Routes>
       </div>
     </div>
