@@ -7,13 +7,11 @@ import {
   BUTTON_STATES,
   BUTTON_ICON_USAGE,
   BUTTON_SIZES,
-  BUTTON_DODONT_01,
-  BUTTON_DODONT_02,
-  BUTTON_DODONT_03,
-  BUTTON_DODONT_04,
+ 
 } from "@assets";
 // import Anatomy_img from "./button/anatomy.png";
-
+import { WebSection } from "./Web/WebSection.screen";
+import { MobileSection } from "./Mobile/MobileSection.screen";
 export function ButtonUsageTabSection() {
   const scrollSpySections = [
     "Anatomy",
@@ -25,6 +23,8 @@ export function ButtonUsageTabSection() {
     "Size",
     "Do’s & Don’ts",
   ];
+  const preLineTabClassNames =
+    "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-primary hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-primary-dark dark:hover:text-brand-500";
   return (
     <BaseTabSectionScreen scrollSpySections={scrollSpySections}>
       <div className="mt-14  text-primary dark:text-primary-dark">
@@ -160,18 +160,66 @@ export function ButtonUsageTabSection() {
             to follow and mistakes to avoid, ensuring effective and
             user-friendly button designs.
           </p>
-          <div className="p-4 my-6">
-            <img src={BUTTON_DODONT_01} alt="BUTTON_DO&DONT_01" />
+          <div className="border-b border-gray-200 dark:border-neutral-700">
+            <nav
+              className="flex gap-x-1"
+              aria-label="Tabs"
+              role="tablist"
+              aria-orientation="horizontal"
+            >
+              <button
+                type="button"
+                className={`${preLineTabClassNames} active`}
+                id="tabs-with-underline-item-3"
+                aria-selected="false"
+                data-hs-tab="#tabs-with-underline-3"
+                aria-controls="tabs-with-underline-3"
+                role="tab"
+              >
+                Web
+              </button>
+              <button
+                type="button"
+                className={`${preLineTabClassNames}`}
+                id="tabs-with-underline-item-4"
+                aria-selected="false"
+                data-hs-tab="#tabs-with-underline-4"
+                aria-controls="tabs-with-underline-4"
+                role="tab"
+              >
+                Mobile
+              </button>
+              {/* <button
+                    type="button"
+                    className={`${preLineTabClassNames}`}
+                    aria-selected="false"
+                    data-hs-tab="#tabs-with-underline-3"
+                    aria-controls="tabs-with-underline-3"
+                    role="tab"
+                  >
+                    Code
+                  </button> */}
+            </nav>
           </div>
-          <div className="p-4 my-6">
-            <img src={BUTTON_DODONT_02} alt="BUTTON_DO&DONT_02" />
+
+          <div className="mt-6 pb-12">
+            <div
+              id="tabs-with-underline-3"
+              role="tabpanel"
+              aria-labelledby="tabs-with-underline-item-3"
+            >
+              <WebSection />
+            </div>
+            <div
+              id="tabs-with-underline-4"
+              className="hidden"
+              role="tabpanel"
+              aria-labelledby="tabs-with-underline-item-4"
+            >
+              <MobileSection />
+            </div>
           </div>
-          <div className="p-4 my-6">
-            <img src={BUTTON_DODONT_03} alt="BUTTON_DO&DONT_03" />
-          </div>
-          <div className="p-4 my-6">
-            <img src={BUTTON_DODONT_04} alt="BUTTON_DO&DONT_04" />
-          </div>
+      
         </div>
       </div>
     </BaseTabSectionScreen>

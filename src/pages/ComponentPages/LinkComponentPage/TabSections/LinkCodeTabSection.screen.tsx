@@ -1,7 +1,7 @@
 import React from "react";
 import { HTML_LOGO, REACT_LOGO, ANGULAR_LOGO, VUE_LOGO } from "@assets";
 
-export function TextareaCodeTabSection() {
+export function LinkCodeTabSection() {
   return (
     <div className="max-w-[820px] mx-auto">
       <div id="Documentation" className="mt-14">
@@ -33,7 +33,7 @@ export function TextareaCodeTabSection() {
           </div>
 
           {/* React */}
-          <a href="https://storybook-ds-guide.netlify.app/?path=/docs/subframe-textarea--docs" target="_blank" rel="noopener noreferrer" className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer">
+          <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
             <h2 className="text-xl font-medium mb-6">React</h2>
             <div className="flex justify-between items-end">
             <img src={REACT_LOGO} className="w-10 h-10" alt="React LOGO" />
@@ -52,7 +52,7 @@ export function TextareaCodeTabSection() {
                 />
               </svg>
             </div>
-          </a>
+          </div>
 
           {/* Angular */}
           <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
