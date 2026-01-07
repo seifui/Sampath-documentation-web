@@ -9,7 +9,8 @@ import {
   SwitchComponentPage,
   TextareaComponentPage,
   AvatarComponentPage,
-
+  LinkComponentPage,
+  AccordionComponentPage,
 } from "@pages";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
@@ -27,6 +28,8 @@ export function ComponentRoutes() {
         <Route path="Switch" element={<SwitchComponentPage />} />
         <Route path="Textarea" element={<TextareaComponentPage />} />
         <Route path="Avatar" element={<AvatarComponentPage />} />
+        <Route path="Link" element={<LinkComponentPage />}/>
+        <Route path="Accordion" element={<AccordionComponentPage />}/>
       </Route>
     </Routes>
   );
