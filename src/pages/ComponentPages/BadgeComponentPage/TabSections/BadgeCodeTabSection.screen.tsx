@@ -1,4 +1,5 @@
 import React from "react";
+import { HTML_LOGO, REACT_LOGO, ANGULAR_LOGO, VUE_LOGO } from "@assets";
 
 export function BadgeCodeTabSection() {
     return (
@@ -13,7 +14,7 @@ export function BadgeCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">HTML</h2>
               <div className="flex justify-between items-end">
-                <div className="w-10 h-10 bg-gray-200 rounded" />
+              <img src={HTML_LOGO} className="w-10 h-10" alt="HTML LOGO" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -35,7 +36,7 @@ export function BadgeCodeTabSection() {
             <a href="https://storybook-ds-guide.netlify.app/?path=/docs/subframe-badge--docs" target="_blank" rel="noopener noreferrer" className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition cursor-pointer">
               <h2 className="text-xl font-medium mb-6">React</h2>
               <div className="flex justify-between items-end">
-                <div className="w-10 h-10 bg-gray-200 rounded" />
+              <img src={REACT_LOGO} className="w-10 h-10" alt="React LOGO" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -57,7 +58,7 @@ export function BadgeCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">Angular</h2>
               <div className="flex justify-between items-end">
-                <div className="w-10 h-10 bg-gray-200 rounded" />
+              <img src={ANGULAR_LOGO} className="w-10 h-10" alt="Angular" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"
@@ -79,7 +80,7 @@ export function BadgeCodeTabSection() {
             <div className="border rounded-lg p-6 flex flex-col justify-between hover:bg-gray-50 transition">
               <h2 className="text-xl font-medium mb-6">Vue</h2>
               <div className="flex justify-between items-end">
-                <div className="w-10 h-10 bg-gray-200 rounded" />
+              <img src={VUE_LOGO} className="w-10 h-10" alt="Vue" />
                 <svg
                   className="w-4"
                   viewBox="0 0 24 24"

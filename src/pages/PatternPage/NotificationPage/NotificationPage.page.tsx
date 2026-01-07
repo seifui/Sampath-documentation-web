@@ -44,7 +44,7 @@ export function NotificationPage() {
                   </p>
                 </div>
 
-                {/* Success */}
+                {/* Success */}   
                 <div className="rounded-xl bg-green-50 p-6">
                   <h3 className="font-semibold text-green-700 mb-2">
                     Lorem ipsum dolor sit amet
