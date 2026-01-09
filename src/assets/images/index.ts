@@ -104,6 +104,9 @@ import LINK_SIZES from "./link/sizes.png";
 import LINK_ICON from "./link/icon.png";
 import LINK_DODONT_01 from "./link/do&dont_1.png";
 
+import ACCORDION_ANATOMY from "./accordion/anatomy.png";
+import ACCORDION_VARIANTS from "./accordion/variants.png";
+import ACCORDION_DODONT_01 from "./accordion/do&dont_1.png";
 
 import COLOR from "./foundation/color.png";
 import TYPOGRAPHY from "./foundation/typo.png";
@@ -285,6 +288,10 @@ export {
   LINK_SIZES,
   LINK_ICON,
   LINK_DODONT_01,
+
+  ACCORDION_ANATOMY,
+  ACCORDION_VARIANTS,
+  ACCORDION_DODONT_01,
 
   COLOR,
   TYPOGRAPHY,   
