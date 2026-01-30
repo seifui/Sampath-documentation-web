@@ -10,3 +10,8 @@ export * from "./TextareaComponentPage";
 export * from "./AvatarComponentPage";
 export * from "./LinkComponentPage";
 export * from "./AccordionComponentPage";
+export * from "./AlertComponentPage";
+export * from "./BreadcrumbComponentPage";
+export * from "./PaginationComponentPage";
+export * from "./TabComponentPage"; 
+
