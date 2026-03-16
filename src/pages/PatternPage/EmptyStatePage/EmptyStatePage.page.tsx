@@ -10,7 +10,7 @@ export function EmptyStatePage() {
           heading="Empty State Pattern"
           content="Empty states appear when there is no data to display. They help users understand the situation and guide them toward the next action."
         />
-        <div className="max-w-[820px] mx-auto">
+        <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
           {/* Description */}
           <section>
             <h2 className="text-3xl font-semibold mb-4">Example</h2>

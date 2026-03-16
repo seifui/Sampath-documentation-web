@@ -10,7 +10,7 @@ export function ErrorPatternPage() {
           heading="Error Pattern"
           content="Error patterns communicate problems clearly and help users understand what went wrong and how to proceed."
         />
-        <div className="max-w-[820px] mx-auto">
+        <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
         <section>
               <h2 className="text-3xl font-semibold mb-4">Example</h2>
               <p className="text-neutral-600">

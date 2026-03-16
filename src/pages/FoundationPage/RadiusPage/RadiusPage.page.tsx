@@ -10,7 +10,7 @@ export function RadiusPage() {
           content="Radius defines how rounded UI elements appear across the system. A consistent radius scale creates visual harmony and helps users understand hierarchy and interactivity across components."
         />
 
-        <div className="max-w-[820px] mx-auto">
+        <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
           <section>
             <h2 className="text-3xl font-semibold mb-4">Radius Scale</h2>
             <p className="text-neutral-600 dark:text-neutral-400">

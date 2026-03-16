@@ -9,7 +9,7 @@ export function TypographyPage() {
           heading="Typography"
           content="Our typography system establishes a clear visual hierarchy and ensures readability across all interfaces. Font styles, sizes, and weights are structured to maintain consistency, accessibility, and usability throughout the product."
         />
-        <div className="max-w-[820px] mx-auto">
+        <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
           <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Inter */}
             <div className="rounded-2xl border border-gray-200 p-8">

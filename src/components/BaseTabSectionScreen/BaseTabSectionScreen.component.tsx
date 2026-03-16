@@ -11,9 +11,9 @@ export function BaseTabSectionScreen({
   scrollSpySections,
 }: BaseTabSectionScreenProps) {
   return (
-    <section className="md:flex md:justify-center gap-32">
-      <div className="max-w-[820px] mx-auto">{children}</div>
-      <div className="mt-14 hidden md:block md:w-1/4">
+    <section className="md:flex md:justify-center gap-6 lg:gap-12 xl:gap-20">
+      <div className="w-full max-w-[820px] mx-auto md:mx-0">{children}</div>
+      <div className="mt-14 hidden md:block md:w-[180px] lg:w-[200px] xl:w-[220px] flex-shrink-0">
         <ScrollSpy sections={scrollSpySections} />
       </div>
     </section>

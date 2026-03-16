@@ -10,7 +10,7 @@ export function ValidationPage() {
           content="Validation messages help users understand what went wrong and how to
           fix it when entering information."
         />
-        <div className="max-w-[820px] mx-auto">
+        <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
           <section className="space-y-6 px-4">
             <h2 className="text-3xl font-semibold mb-6 ">Example</h2>
             <p>
@@ -103,8 +103,8 @@ export function ValidationPage() {
               Field validation patterns
             </h2>
 
-            <div className="overflow-hidden rounded-xl border border-neutral-200">
-              <table className="w-full text-left text-sm">
+            <div className="overflow-x-auto rounded-xl border border-neutral-200">
+              <table className="w-full text-left text-sm min-w-[500px]">
                 <thead className="bg-neutral-50 text-neutral-700">
                   <tr>
                     <th className="px-4 py-3 font-medium">Rule</th>

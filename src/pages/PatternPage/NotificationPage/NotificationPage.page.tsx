@@ -10,7 +10,7 @@ export function NotificationPage() {
           heading="Notification"
           content="Notifications provide timely feedback about system events, updates, and user actions without interrupting the workflow."
         />
-        <div className="max-w-[820px] mx-auto">
+        <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
           <section>
             <h2 className="text-3xl font-semibold mb-4">Examples</h2>
             <p className="text-neutral-600">
