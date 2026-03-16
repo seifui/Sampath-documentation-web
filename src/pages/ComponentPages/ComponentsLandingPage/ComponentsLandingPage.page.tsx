@@ -81,11 +81,11 @@ const sampleComponentCardsList: ComponentsPreviewCardProps[] = [
     onClickNavigationPath: "/Components/Accordion",
   },
   {
-    heading: "Alerts",
+    heading: "Alert",
     description:
       "A component used to represent an avatar with an icon or letter.",
     imageUrl: ALERTS_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Components/Alerts",
+    onClickNavigationPath: "/Components/Alert",
   },
   {
     heading: "Breadcrumb",

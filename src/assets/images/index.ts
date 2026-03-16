@@ -104,6 +104,28 @@ import LINK_SIZES from "./link/sizes.png";
 import LINK_ICON from "./link/icon.png";
 import LINK_DODONT_01 from "./link/do&dont_1.png";
 
+import ACCORDION_ANATOMY from "./accordion/anatomy.png";
+import ACCORDION_VARIANTS from "./accordion/variants.png";
+import ACCORDION_DODONT_01 from "./accordion/do&dont_1.png";
+
+import ALERT_ANATOMY from "./alert/anatomy.png";
+import ALERT_VARIANTS from "./alert/variants.png";
+import ALERT_TYPES from "./alert/types.png";
+import ALERT_DODONT_01 from "./alert/do&dont_1.png";
+
+import BREADCRUMB_ANATOMY from "./breadcrumb/anatomy.png";
+import BREADCRUMB_TYPE from "./breadcrumb/type.png";
+
+import PAGINATION_ANATOMY from "./pagination/anatomy.png";
+import PAGINATION_STATES from "./pagination/states.png";
+import PAGINATION_DODONT_01 from "./pagination/do&dont_1.png";
+import PAGINATION_DODONT_02 from "./pagination/do&dont_2.png";
+
+import TAB_ANATOMY from "./tab/anatomy.png";
+import TAB_TYPES from "./tab/types.png";
+import TAB_DODONT_01 from "./tab/do&dont_1.png";
+import TAB_DODONT_02 from "./tab/do&dont_2.png";
+
 
 import COLOR from "./foundation/color.png";
 import TYPOGRAPHY from "./foundation/typo.png";
@@ -285,6 +307,28 @@ export {
   LINK_SIZES,
   LINK_ICON,
   LINK_DODONT_01,
+
+  ACCORDION_ANATOMY,
+  ACCORDION_VARIANTS,
+  ACCORDION_DODONT_01,
+
+  ALERT_ANATOMY,
+  ALERT_VARIANTS,
+  ALERT_TYPES,
+  ALERT_DODONT_01,
+
+  BREADCRUMB_ANATOMY,
+  BREADCRUMB_TYPE,
+
+  PAGINATION_ANATOMY,
+  PAGINATION_STATES,
+  PAGINATION_DODONT_01,
+  PAGINATION_DODONT_02,
+
+  TAB_ANATOMY,
+  TAB_TYPES,
+  TAB_DODONT_01,
+  TAB_DODONT_02,
 
   COLOR,
   TYPOGRAPHY,   

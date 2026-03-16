@@ -1,17 +1,17 @@
 import React from "react";
 import { PageHeader } from "@components";
-import { AccordionUsageTabSection } from "./TabSections/AccordionUsageTabSection.screen";
-import { AccordionCodeTabSection } from "./TabSections/AccordionCodeTabSection.screen";
+import { BreadcrumbUsageTabSection } from "./TabSections/BreadcrumbUsageTabSection.screen";
+import { BreadcrumbCodeTabSection } from "./TabSections/BreadcrumbCodeTabSection.screen";
 
-export function AccordionComponentPage() {
+export function BreadcrumbComponentPage() {
     const preLineTabClassNames =
     "hs-tab-active:font-semibold hs-tab-active:border-brand-600 hs-tab-active:text-brand-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-primary hover:text-brand-500 focus:outline-none focus:text-brand-500 disabled:opacity-50 disabled:pointer-events-none dark:text-primary-dark dark:hover:text-brand-500";
   return (
     <section className="w-full">
       <div className="w-full">
         <PageHeader
-          heading="Accordion"
-          content="A component used to show and hide related content sections, helping organize information and reduce visual clutter"
+          heading="Breadcrumb"
+          content="A navigation component that displays a user’s current location within a hierarchy, helping them understand context and easily move between levels without losing their place."
         />
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="max-w-[820px] mx-auto">
@@ -53,7 +53,7 @@ export function AccordionComponentPage() {
                 role="tabpanel"
                 aria-labelledby="tabs-with-underline-item-1"
               >
-                <AccordionUsageTabSection />
+                <BreadcrumbUsageTabSection />
               </div>
               <div
                 id="tabs-with-underline-2"
@@ -61,7 +61,7 @@ export function AccordionComponentPage() {
                 role="tabpanel"
                 aria-labelledby="tabs-with-underline-item-2"
               >
-                <AccordionCodeTabSection />
+                <BreadcrumbCodeTabSection />
               </div>
             </div>
           </div>

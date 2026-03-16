@@ -10,6 +10,12 @@ import {
   TextareaComponentPage,
   AvatarComponentPage,
   LinkComponentPage,
+  AccordionComponentPage,
+  AlertComponentPage,
+  BreadcrumbComponentPage,
+  PaginationComponentPage,
+  TabComponentPage,
+
 } from "@pages";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
@@ -28,6 +34,12 @@ export function ComponentRoutes() {
         <Route path="Textarea" element={<TextareaComponentPage />} />
         <Route path="Avatar" element={<AvatarComponentPage />} />
         <Route path="Link" element={<LinkComponentPage />}/>
+        <Route path="Accordion" element={<AccordionComponentPage />}/>
+        <Route path="Alert" element={<AlertComponentPage />}/>
+        <Route path="Breadcrumb" element={<BreadcrumbComponentPage />}/>
+        <Route path="Pagination" element={<PaginationComponentPage />}/>
+        <Route path="Tabs" element={<TabComponentPage />}/>
+
       </Route>
     </Routes>
   );
