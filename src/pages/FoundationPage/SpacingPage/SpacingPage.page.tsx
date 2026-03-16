@@ -9,7 +9,7 @@ export function SpacingPage() {
           heading="Spacing"
           content="Spacing defines the consistent gaps and distances between elements in the system. Using spacing tokens ensures alignment, rhythm, and visual balance across components."
         />
-        <div className="max-w-[820px] mx-auto">
+        <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
           {/* Table */}
           <section className="mt-10">
             {/* Header */}

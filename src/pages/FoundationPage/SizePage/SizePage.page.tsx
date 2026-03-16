@@ -10,7 +10,7 @@ export function SizePage() {
           content="Sizes define the visual scale of elements in your design system. Use consistent sizes for components, typography, and icons to maintain balance and clarity."
         />
 
-        <div className="max-w-[820px] mx-auto">
+        <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
           <section>
             <h2 className="text-3xl font-semibold mb-4">Size Scale</h2>
             <p className="text-neutral-600 dark:text-neutral-400">
