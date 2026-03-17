@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Routes, useLocation, Route } from "react-router-dom";
+import { Routes, useLocation, Route, useNavigate } from "react-router-dom";
 import "preline/preline";
 import { IStaticMethods } from "preline/preline";
 
@@ -19,6 +19,7 @@ declare global {
 
 function App() {
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     window.HSStaticMethods.autoInit();
@@ -47,6 +48,10 @@ function App() {
     { name: "Framework", path: "/Resources" },
   ];
 
+  const segments = location.pathname.split("/").filter(Boolean);
+  const isSubPage = segments.length > 1;
+  const parentPath = "/" + segments.slice(0, -1).join("/");
+
   return (
     <div className="bg-white dark:bg-solid-dark-base min-h-screen">
       <div className="flex flex-col">
@@ -55,6 +60,22 @@ function App() {
             <NavBar navBarItemList={navBarItemList} />
           </div>
         </div>
+        {isSubPage && (
+          <div className="w-full lg:hidden">
+            <div className="max-w-[1920px] mx-auto px-4 sm:px-6">
+              <button
+                type="button"
+                onClick={() => navigate(parentPath)}
+                className="flex items-center gap-1.5 py-3 text-sm font-medium text-primary dark:text-gray-dark-600 hover:text-brand-600 dark:hover:text-brand-600 transition-colors"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+                Back
+              </button>
+            </div>
+          </div>
+        )}
       </div>
       <div className="w-full">
         <Routes>
