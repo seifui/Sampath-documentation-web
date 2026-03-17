@@ -40,6 +40,11 @@ function App() {
       .map((s) => sectionMap[s] ?? s.charAt(0).toUpperCase() + s.slice(1))
       .join(" / ");
   };
+
+  const hasSidebar =
+    location.pathname.startsWith("/Foundation") ||
+    location.pathname.startsWith("/Components") ||
+    location.pathname.startsWith("/Patterns");
   return (
     <div className="bg-white dark:bg-solid-dark-base min-h-screen">
       <div className="flex flex-col">
@@ -50,7 +55,7 @@ function App() {
         </div>
         <div className="w-full border-b border-gray-200 dark:border-b-gray-dark-200 lg:hidden">
           <div className="max-w-[1920px] mx-auto px-4 sm:px-6">
-            <SubHeader breadcrumb={getBreadcrumb()} />
+            <SubHeader breadcrumb={getBreadcrumb()} showHamburger={hasSidebar} />
           </div>
         </div>
       </div>
