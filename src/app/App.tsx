@@ -3,7 +3,7 @@ import { Routes, useLocation, Route } from "react-router-dom";
 import "preline/preline";
 import { IStaticMethods } from "preline/preline";
 
-import { NavBar, SubHeader } from "@components";
+import { NavBar } from "@components";
 import { ComponentRoutes } from "routes/ComponentRoutes";
 import { FoundationRoutes } from "routes/FoundationRoutes";
 import { PatternRoutes } from "routes/PatternRoutes";
@@ -24,6 +24,21 @@ function App() {
     window.HSStaticMethods.autoInit();
   }, [location.pathname]);
 
+  // Preline's destroyBackdrop relies on `transitionend` which is unreliable on
+  // mobile Safari. If the event never fires, the backdrop element stays in the DOM
+  // with overflow:hidden on body, causing a stuck gray overlay. This fallback
+  // force-removes any lingering Preline backdrops after the close animation window.
+  useEffect(() => {
+    const handleOverlayClose = () => {
+      setTimeout(() => {
+        document.querySelectorAll("[data-hs-overlay-backdrop-template]").forEach((el) => el.remove());
+        document.body.style.overflow = "";
+      }, 400);
+    };
+    document.addEventListener("close.hs.overlay", handleOverlayClose);
+    return () => document.removeEventListener("close.hs.overlay", handleOverlayClose);
+  }, []);
+
   const navBarItemList: NavBarItem[] = [
     { name: "Design", path: "/" },
     { name: "Foundation", path: "/Foundation" },
@@ -32,30 +47,12 @@ function App() {
     { name: "Framework", path: "/Resources" },
   ];
 
-  const getBreadcrumb = () => {
-    const segments = location.pathname.split("/").filter(Boolean);
-    if (segments.length === 0) return "Design";
-    const sectionMap: Record<string, string> = { Resources: "Framework" };
-    return segments
-      .map((s) => sectionMap[s] ?? s.charAt(0).toUpperCase() + s.slice(1))
-      .join(" / ");
-  };
-
-  const hasSidebar =
-    location.pathname.startsWith("/Foundation") ||
-    location.pathname.startsWith("/Components") ||
-    location.pathname.startsWith("/Patterns");
   return (
     <div className="bg-white dark:bg-solid-dark-base min-h-screen">
       <div className="flex flex-col">
         <div className="w-full border-b border-gray-200 dark:border-gray-dark-200">
           <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8">
             <NavBar navBarItemList={navBarItemList} />
-          </div>
-        </div>
-        <div className="w-full border-b border-gray-200 dark:border-b-gray-dark-200 lg:hidden">
-          <div className="max-w-[1920px] mx-auto px-4 sm:px-6">
-            <SubHeader breadcrumb={getBreadcrumb()} showHamburger={hasSidebar} />
           </div>
         </div>
       </div>

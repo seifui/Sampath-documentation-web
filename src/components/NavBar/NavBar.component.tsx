@@ -59,13 +59,13 @@ export function NavBar({ navBarItemList }: NavBarProps) {
   return (
     <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white text-base dark:bg-solid-dark-base sticky top-0 lg:h-20 items-center z-50">
       <nav
-        className="w-full mx-auto lg:flex lg:items-center lg:justify-between py-4"
+        className="w-full mx-auto lg:flex lg:items-center lg:justify-between lg:py-4"
         aria-label="Global"
       >
         {/* Mobile layout */}
-        <div className="flex flex-col w-full lg:hidden">
+        <div className="flex flex-col w-full lg:hidden py-3">
           {/* Logo row */}
-          <div className="flex items-center justify-between w-full py-2">
+          <div className="flex items-center justify-between w-full pb-5">
             <button type="button" onClick={() => handleNavigation("/")} className="flex items-center">
              <img className="w-32 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
              <img className="w-32 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
@@ -76,8 +76,10 @@ export function NavBar({ navBarItemList }: NavBarProps) {
               </div>
             </div>
           </div>
+          {/* Separator — full bleed to match outer border */}
+          <div className="-mx-4 sm:-mx-6 border-t border-gray-200 dark:border-gray-dark-200" />
           {/* Nav tabs row — horizontally scrollable */}
-          <div className="flex overflow-x-auto gap-1 pb-3 scrollbar-hide">
+          <div className="flex overflow-x-auto gap-1 pt-3 scrollbar-hide">
             {renderMenuList()}
           </div>
         </div>
