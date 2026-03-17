@@ -90,7 +90,6 @@ export function HomePage() {
 
     const scrollWidth = container.scrollWidth;
     const clientWidth = container.clientWidth;
-    const maxScroll = scrollWidth - clientWidth;
     const singleSetWidth = scrollWidth / 2; // Width of one set of channels
     
     // If we've scrolled past the first set, reset to equivalent position in first set
