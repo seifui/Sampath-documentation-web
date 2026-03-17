@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { UserIcon } from "../icons";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { NavBarProps } from "@types";
 import {
   LOGO_WHITE,
@@ -9,8 +9,28 @@ import {
 
 
 export function NavBar({ navBarItemList }: NavBarProps) {
-  const [activeLink, setActiveLink] = useState(0); // State to track active link, initialized with 0
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const getActiveIndex = () => {
+    // Find the nav item whose path best matches the current URL
+    let bestMatch = 0;
+    let bestMatchLength = 0;
+    navBarItemList.forEach((item, index) => {
+      if (item.path === "/") {
+        if (location.pathname === "/" && bestMatchLength === 0) {
+          bestMatch = index;
+          bestMatchLength = 1;
+        }
+      } else if (location.pathname.startsWith(item.path) && item.path.length > bestMatchLength) {
+        bestMatch = index;
+        bestMatchLength = item.path.length;
+      }
+    });
+    return bestMatch;
+  };
+
+  const activeLink = getActiveIndex();
 
   const handleNavigation = (path: string = "") => {
     if (path !== "") {
@@ -20,21 +40,17 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     }
   };
 
-  const handleLinkClick = (path: string, index: number) => {
-    setActiveLink(index); // Update active link state when a link is clicked
-    handleNavigation(path);
-  };
   const renderMenuList = () =>
     navBarItemList.map((navBarItem, index) => (
       <button
         key={index}
         type="button"
         className={`text-sm font-medium px-5 py-2.5 transition-all duration-200 rounded-full ${
-          activeLink === index 
-            ? "bg-brand-600 text-white shadow-sm" 
+          activeLink === index
+            ? "bg-brand-600 text-white shadow-sm"
             : "text-primary dark:text-gray-dark-600 hover:text-brand-600 dark:hover:text-brand-600 hover:bg-gray-50 dark:hover:bg-gray-dark-50"
         }`}
-        onClick={() => handleLinkClick(navBarItem.path, index)}
+        onClick={() => handleNavigation(navBarItem.path)}
       >
         {navBarItem.name}
       </button>
