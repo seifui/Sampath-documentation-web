@@ -57,22 +57,28 @@ export function NavBar({ navBarItemList }: NavBarProps) {
     ));
 
   return (
-    <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white text-base dark:bg-solid-dark-base sticky top-0 h-20 items-center">
+    <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white text-base dark:bg-solid-dark-base sticky top-0 lg:h-20 items-center z-50">
       <nav
         className="w-full mx-auto lg:flex lg:items-center lg:justify-between py-4"
         aria-label="Global"
       >
         {/* Mobile layout */}
-        <div className="flex items-center justify-between w-full lg:hidden">
-          <button type="button" onClick={() => handleNavigation("/")} className="flex items-center">
-           <img className="w-32 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
-           <img className="w-32 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
-          </button>
-          
-          <div className="flex gap-4 items-center">
-            <div className="cursor-pointer">
-              <UserIcon width={"26px"} height={"26px"} />
+        <div className="flex flex-col w-full lg:hidden">
+          {/* Logo row */}
+          <div className="flex items-center justify-between w-full py-2">
+            <button type="button" onClick={() => handleNavigation("/")} className="flex items-center">
+             <img className="w-32 h-auto block dark:hidden" src={LOGO_DARK} alt="logo" />
+             <img className="w-32 h-auto hidden dark:block" src={LOGO_WHITE} alt="logo" />
+            </button>
+            <div className="flex gap-4 items-center">
+              <div className="cursor-pointer">
+                <UserIcon width={"26px"} height={"26px"} />
+              </div>
             </div>
+          </div>
+          {/* Nav tabs row — horizontally scrollable */}
+          <div className="flex overflow-x-auto gap-1 pb-3 scrollbar-hide">
+            {renderMenuList()}
           </div>
         </div>
 

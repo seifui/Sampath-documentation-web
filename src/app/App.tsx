@@ -24,8 +24,6 @@ function App() {
     window.HSStaticMethods.autoInit();
   }, [location.pathname]);
 
-  const pageName = location.pathname.split("/").filter(Boolean).pop() || "Design";
-
   const navBarItemList: NavBarItem[] = [
     { name: "Design", path: "/" },
     { name: "Foundation", path: "/Foundation" },
@@ -33,6 +31,15 @@ function App() {
     { name: "Patterns", path: "/Patterns" },
     { name: "Framework", path: "/Resources" },
   ];
+
+  const getBreadcrumb = () => {
+    const segments = location.pathname.split("/").filter(Boolean);
+    if (segments.length === 0) return "Design";
+    const sectionMap: Record<string, string> = { Resources: "Framework" };
+    return segments
+      .map((s) => sectionMap[s] ?? s.charAt(0).toUpperCase() + s.slice(1))
+      .join(" / ");
+  };
   return (
     <div className="bg-white dark:bg-solid-dark-base min-h-screen">
       <div className="flex flex-col">
@@ -43,7 +50,7 @@ function App() {
         </div>
         <div className="w-full border-b border-gray-200 dark:border-b-gray-dark-200 lg:hidden">
           <div className="max-w-[1920px] mx-auto px-4 sm:px-6">
-            <SubHeader activePage={pageName} />
+            <SubHeader breadcrumb={getBreadcrumb()} />
           </div>
         </div>
       </div>

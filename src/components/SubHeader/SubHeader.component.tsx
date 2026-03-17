@@ -1,10 +1,10 @@
 import React from "react";
 import { HamburgerMenuIcon } from "../icons";
 interface SubHeaderProps {
-  activePage: string;
+  breadcrumb: string;
 }
 
-export function SubHeader({ activePage }: SubHeaderProps) {
+export function SubHeader({ breadcrumb }: SubHeaderProps) {
   return (
     <div className="flex items-center gap-4 h-12 py-2">
       <button
@@ -18,7 +18,7 @@ export function SubHeader({ activePage }: SubHeaderProps) {
       >
         <HamburgerMenuIcon />
       </button>
-      <span className="text-sm font-medium text-primary dark:text-primary-dark">Components / {activePage}</span>
+      <span className="text-sm font-medium text-primary dark:text-primary-dark">{breadcrumb}</span>
     </div>
   );
 }
