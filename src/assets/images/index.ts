@@ -126,6 +126,10 @@ import TAB_TYPES from "./tab/types.png";
 import TAB_DODONT_01 from "./tab/do&dont_1.png";
 import TAB_DODONT_02 from "./tab/do&dont_2.png";
 
+import PROGRESS_STEP_ANATOMY from "./progresssteps/anatomy.png";
+import PROGRESS_STEP_VARIANTS from "./progresssteps/variants.png";
+import PROGRESS_STEP_TYPES from "./progresssteps/types.png";
+
 
 import COLOR from "./foundation/color.png";
 import TYPOGRAPHY from "./foundation/typo.png";
@@ -329,6 +333,10 @@ export {
   TAB_TYPES,
   TAB_DODONT_01,
   TAB_DODONT_02,
+
+  PROGRESS_STEP_ANATOMY,
+  PROGRESS_STEP_VARIANTS,
+  PROGRESS_STEP_TYPES,
 
   COLOR,
   TYPOGRAPHY,   
