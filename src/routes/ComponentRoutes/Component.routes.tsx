@@ -15,6 +15,7 @@ import {
   BreadcrumbComponentPage,
   PaginationComponentPage,
   TabComponentPage,
+  ProgressStepsComponentPage,
 
 } from "@pages";
 import React from "react";
@@ -39,7 +40,7 @@ export function ComponentRoutes() {
         <Route path="Breadcrumb" element={<BreadcrumbComponentPage />}/>
         <Route path="Pagination" element={<PaginationComponentPage />}/>
         <Route path="Tabs" element={<TabComponentPage />}/>
-
+        <Route path="ProgressSteps" element={<ProgressStepsComponentPage />}/>
       </Route>
     </Routes>
   );
