@@ -1,6 +1,5 @@
 import React from "react";
 import { PageHeader } from "@components";
-import { ERROR_PATTERN } from "@assets";
 
 export function NotificationPage() {
   return (

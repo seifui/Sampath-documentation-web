@@ -3,7 +3,7 @@ import { Routes, useLocation, Route } from "react-router-dom";
 import "preline/preline";
 import { IStaticMethods } from "preline/preline";
 
-import { NavBar, SubHeader } from "@components";
+import { NavBar } from "@components";
 import { ComponentRoutes } from "routes/ComponentRoutes";
 import { FoundationRoutes } from "routes/FoundationRoutes";
 import { PatternRoutes } from "routes/PatternRoutes";
@@ -24,7 +24,20 @@ function App() {
     window.HSStaticMethods.autoInit();
   }, [location.pathname]);
 
-  const pageName = location.pathname.split("/").filter(Boolean).pop() || "Design";
+  // Preline's destroyBackdrop relies on `transitionend` which is unreliable on
+  // mobile Safari. If the event never fires, the backdrop element stays in the DOM
+  // with overflow:hidden on body, causing a stuck gray overlay. This fallback
+  // force-removes any lingering Preline backdrops after the close animation window.
+  useEffect(() => {
+    const handleOverlayClose = () => {
+      setTimeout(() => {
+        document.querySelectorAll("[data-hs-overlay-backdrop-template]").forEach((el) => el.remove());
+        document.body.style.overflow = "";
+      }, 400);
+    };
+    document.addEventListener("close.hs.overlay", handleOverlayClose);
+    return () => document.removeEventListener("close.hs.overlay", handleOverlayClose);
+  }, []);
 
   const navBarItemList: NavBarItem[] = [
     { name: "Design", path: "/" },
@@ -33,17 +46,13 @@ function App() {
     { name: "Patterns", path: "/Patterns" },
     { name: "Framework", path: "/Resources" },
   ];
+
   return (
     <div className="bg-white dark:bg-solid-dark-base min-h-screen">
       <div className="flex flex-col">
         <div className="w-full border-b border-gray-200 dark:border-gray-dark-200">
           <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8">
             <NavBar navBarItemList={navBarItemList} />
-          </div>
-        </div>
-        <div className="w-full border-b border-gray-200 dark:border-b-gray-dark-200 lg:hidden">
-          <div className="max-w-[1920px] mx-auto px-4 sm:px-6">
-            <SubHeader activePage={pageName} />
           </div>
         </div>
       </div>

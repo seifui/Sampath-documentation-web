@@ -13,7 +13,7 @@ export function IllustrationPage() {
         <div className="max-w-[820px] mx-auto px-4 sm:px-6 lg:px-8">
           <section>
             <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
-              <img src={ILLUSTRATION_PACK} alt="illustration pack image" />
+              <img src={ILLUSTRATION_PACK} alt="Illustration pack" />
             </div>
           </section>
         </div>

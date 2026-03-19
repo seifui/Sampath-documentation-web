@@ -115,7 +115,7 @@ export function FocusPage() {
                 />
 
                 <a
-                  href="#"
+                  href="#focus-examples"
                   className="
                     px-3 py-2 rounded-md text-brand-600
                     focus-visible:outline-none
