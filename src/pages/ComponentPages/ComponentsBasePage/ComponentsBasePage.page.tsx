@@ -19,7 +19,7 @@ export function ComponentBasePage() {
     { linkName: "No Data Card", linkPath: "NoDataCard" },
     { linkName: "Pagination", linkPath: "Pagination" },
     { linkName: "Tabs", linkPath: "Tabs" },
-    { linkName: "Stepper", linkPath: "Stepper" },
+    { linkName: "Progress Steps", linkPath: "ProgressSteps" },
     { linkName: "Message Box", linkPath: "Message Box" },
     
     { linkName: "Breadcrumb", linkPath: "Breadcrumb" },   

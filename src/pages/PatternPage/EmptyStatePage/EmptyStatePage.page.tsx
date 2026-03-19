@@ -20,7 +20,7 @@ export function EmptyStatePage() {
               data is available.
             </p>
             <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
-              <img src={EMPTY_STATE_PATTERN} alt="Empty state pattern image" />
+              <img src={EMPTY_STATE_PATTERN} alt="Empty state pattern" />
             </div>
           </section>
           

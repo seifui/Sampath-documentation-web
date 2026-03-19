@@ -19,7 +19,7 @@ export function ErrorPatternPage() {
                 recover quickly and confidently.
               </p>
               <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
-              <img src={ERROR_PATTERN} alt="Empty state pattern image" />
+              <img src={ERROR_PATTERN} alt="Error pattern" />
             </div>
             </section>
              {/* Usage Guidelines */}

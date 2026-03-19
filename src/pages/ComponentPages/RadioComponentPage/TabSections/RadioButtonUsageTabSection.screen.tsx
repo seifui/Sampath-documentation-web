@@ -49,6 +49,7 @@ export function RadioButtonUsageTabSection() {
           </p>
           <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
             <img src={RADIOBUTTON_SIZES} alt="BUTTON_USAGE_IMAGE_2" />
+            
           </div>
         </div>
         <hr className="my-8 sm:my-12 bg-gray-200 dark:bg-gray-dark-200" />
