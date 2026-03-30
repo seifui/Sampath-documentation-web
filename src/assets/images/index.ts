@@ -121,6 +121,13 @@ import PAGINATION_STATES from "./pagination/states.png";
 import PAGINATION_DODONT_01 from "./pagination/do&dont_1.png";
 import PAGINATION_DODONT_02 from "./pagination/do&dont_2.png";
 
+import  MESSAGEBOX_ANATOMY from "./messagebox/anatomy.png";
+import  MESSAGEBOX_STATE from "./messagebox/state.png";
+import  MESSAGEBOX_VARIANTS from "./messagebox/variants.png";
+import  MESSAGEBOX_DODONT_01 from "./messagebox/do&dont_1.png";
+import  MESSAGEBOX_DODONT_02 from "./messagebox/do&dont_2.png";
+
+
 import TAB_ANATOMY from "./tab/anatomy.png";
 import TAB_TYPES from "./tab/types.png";
 import TAB_DODONT_01 from "./tab/do&dont_1.png";
@@ -328,6 +335,13 @@ export {
   PAGINATION_STATES,
   PAGINATION_DODONT_01,
   PAGINATION_DODONT_02,
+
+  MESSAGEBOX_ANATOMY,
+  MESSAGEBOX_STATE,
+  MESSAGEBOX_VARIANTS,
+  MESSAGEBOX_DODONT_01,
+  MESSAGEBOX_DODONT_02,
+
 
   TAB_ANATOMY,
   TAB_TYPES,

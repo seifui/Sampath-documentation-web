@@ -16,7 +16,7 @@ export function ComponentBasePage() {
     { linkName: "Link", linkPath: "Link" },
     { linkName: "Accordion", linkPath: "Accordion" },
     { linkName: "Alert", linkPath: "Alert" },
-    { linkName: "No Data Card", linkPath: "NoDataCard" },
+    
     { linkName: "Pagination", linkPath: "Pagination" },
     { linkName: "Tabs", linkPath: "Tabs" },
     { linkName: "Progress Steps", linkPath: "ProgressSteps" },
@@ -30,6 +30,7 @@ export function ComponentBasePage() {
     { linkName: "Table", linkPath: "Table"},
     { linkName: "Header", linkPath: "Header"},
     { linkName: "Side Bar", linkPath: "SideBar"},
+    { linkName: "No Data Card", linkPath: "NoDataCard" },
     { linkName: "Checkbox Card", linkPath: "CheckboxCard"},
     { linkName: "Checkbox Group", linkPath: "CheckboxGroup"},
     { linkName: "Context Menu", linkPath: "ContextMenu"},

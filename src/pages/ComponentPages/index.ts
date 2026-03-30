@@ -15,4 +15,5 @@ export * from "./BreadcrumbComponentPage";
 export * from "./PaginationComponentPage";
 export * from "./TabComponentPage"; 
 export * from "./ProgressStepsComponentPage";
+export * from "./MessageboxComponentPage";
 
