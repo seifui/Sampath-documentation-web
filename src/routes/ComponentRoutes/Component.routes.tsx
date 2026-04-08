@@ -17,6 +17,7 @@ import {
   TabComponentPage,
   ProgressStepsComponentPage,
   MessageboxComponentPage,
+  SelectBoxComponentPage,
 
 } from "@pages";
 import React from "react";
@@ -43,6 +44,7 @@ export function ComponentRoutes() {
         <Route path="Tabs" element={<TabComponentPage />}/>
         <Route path="ProgressSteps" element={<ProgressStepsComponentPage />}/>
         <Route path="Message Box" element={<MessageboxComponentPage />}/>
+        <Route path="Select Box" element={<SelectBoxComponentPage />}/>
 
       </Route>
     </Routes>

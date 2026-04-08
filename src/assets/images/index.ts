@@ -127,6 +127,14 @@ import  MESSAGEBOX_VARIANTS from "./messagebox/variants.png";
 import  MESSAGEBOX_DODONT_01 from "./messagebox/do&dont_1.png";
 import  MESSAGEBOX_DODONT_02 from "./messagebox/do&dont_2.png";
 
+import  SELECTBOX_ANATOMY from "./selectbox/anatomy.png";
+import  SELECTBOX_STATE from "./selectbox/state.png";
+import  SELECTBOX_SIZE from "./selectbox/size.png";
+import  SELECTBOX_PROPERTY from "./selectbox/property.png";
+import  SELECTBOX_DODONT_01 from "./selectbox/do&dont_1.png";
+import  SELECTBOX_DODONT_02 from "./selectbox/do&dont_2.png";
+import  SELECTBOX_DODONT_03 from "./selectbox/do&dont_3.png";
+
 
 import TAB_ANATOMY from "./tab/anatomy.png";
 import TAB_TYPES from "./tab/types.png";
@@ -342,6 +350,13 @@ export {
   MESSAGEBOX_DODONT_01,
   MESSAGEBOX_DODONT_02,
 
+  SELECTBOX_ANATOMY,
+  SELECTBOX_STATE,
+  SELECTBOX_SIZE,
+  SELECTBOX_PROPERTY,
+  SELECTBOX_DODONT_01,
+  SELECTBOX_DODONT_02,
+  SELECTBOX_DODONT_03,
 
   TAB_ANATOMY,
   TAB_TYPES,

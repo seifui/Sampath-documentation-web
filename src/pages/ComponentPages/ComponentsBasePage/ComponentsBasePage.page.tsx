@@ -21,9 +21,9 @@ export function ComponentBasePage() {
     { linkName: "Tabs", linkPath: "Tabs" },
     { linkName: "Progress Steps", linkPath: "ProgressSteps" },
     { linkName: "Message Box", linkPath: "Message Box" },
-    
+    { linkName: "Select Box", linkPath: "Select Box" },
+
     { linkName: "Breadcrumb", linkPath: "Breadcrumb" },   
-    { linkName: "Select", linkPath: "Select" },
     { linkName: "Tooltip", linkPath: "Tooltip" },
     { linkName: "Card", linkPath: "Card" },
   

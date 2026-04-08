@@ -109,6 +109,13 @@ const sampleComponentCardsList: ComponentsPreviewCardProps[] = [
     onClickNavigationPath: "/Components/Messagebox",
   },
   {
+    heading: "Select",
+    description:
+      "A component used to represent an avatar with an icon or letter.",
+    imageUrl: SELECT_COMPONENT_IMAGE,
+    onClickNavigationPath: "/Components/Select Box",
+  },
+  {
     heading: "No Data Card",
     description:
       "A component used to represent an avatar with an icon or letter.",
@@ -122,13 +129,7 @@ const sampleComponentCardsList: ComponentsPreviewCardProps[] = [
     imageUrl: PAGINATION_COMPONENT_IMAGE,
     onClickNavigationPath: "/Components/Pagination",
   },
-  {
-    heading: "Select",
-    description:
-      "A component used to represent an avatar with an icon or letter.",
-    imageUrl: SELECT_COMPONENT_IMAGE,
-    onClickNavigationPath: "/Components/Select",
-  },
+  
   {
     heading: "Stepper",
     description:
