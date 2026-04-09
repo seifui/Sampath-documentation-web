@@ -20,8 +20,8 @@ export function ComponentBasePage() {
     { linkName: "Pagination", linkPath: "Pagination" },
     { linkName: "Tabs", linkPath: "Tabs" },
     { linkName: "Progress Steps", linkPath: "ProgressSteps" },
-    { linkName: "Message Box", linkPath: "Message Box" },
-    { linkName: "Select Box", linkPath: "Select Box" },
+    { linkName: "Message Box", linkPath: "MessageBox" },
+    { linkName: "Select Box", linkPath: "SelectBox" },
 
     { linkName: "Breadcrumb", linkPath: "Breadcrumb" },   
     { linkName: "Tooltip", linkPath: "Tooltip" },

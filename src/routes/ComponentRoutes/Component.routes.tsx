@@ -43,8 +43,8 @@ export function ComponentRoutes() {
         <Route path="Pagination" element={<PaginationComponentPage />}/>
         <Route path="Tabs" element={<TabComponentPage />}/>
         <Route path="ProgressSteps" element={<ProgressStepsComponentPage />}/>
-        <Route path="Message Box" element={<MessageboxComponentPage />}/>
-        <Route path="Select Box" element={<SelectBoxComponentPage />}/>
+        <Route path="MessageBox" element={<MessageboxComponentPage />}/>
+        <Route path="SelectBox" element={<SelectBoxComponentPage />}/>
 
       </Route>
     </Routes>
