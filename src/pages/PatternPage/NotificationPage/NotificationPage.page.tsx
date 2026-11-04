@@ -1,5 +1,6 @@
 import React from "react";
 import { PageHeader } from "@components";
+import { NOTIFICATION_PATTERN } from "@assets";
 
 export function NotificationPage() {
   return (
@@ -19,52 +20,8 @@ export function NotificationPage() {
             </p>
             <div className="my-6">
               <div className="space-y-6">
-                {/* Info */}
-                <div className="rounded-xl bg-blue-50 p-6">
-                  <h3 className="font-semibold text-blue-700 mb-2">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p className="text-sm text-blue-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-
-                {/* Error */}
-                <div className="rounded-xl bg-red-50 p-6">
-                  <h3 className="font-semibold text-red-600 mb-2">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p className="text-sm text-red-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-
-                {/* Success */}   
-                <div className="rounded-xl bg-green-50 p-6">
-                  <h3 className="font-semibold text-green-700 mb-2">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p className="text-sm text-green-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-
-                {/* Warning */}
-                <div className="rounded-xl bg-yellow-50 p-6">
-                  <h3 className="font-semibold text-yellow-700 mb-2">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p className="text-sm text-yellow-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
+                <div className="p-4 bg-gray-200 dark:bg-gray-dark-200 my-6 rounded-[16px]">
+                  <img src={NOTIFICATION_PATTERN} alt="Notification pattern" />
                 </div>
               </div>
             </div>

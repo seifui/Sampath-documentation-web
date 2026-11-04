@@ -168,6 +168,7 @@ import SUCCESS from "./pattern/success.png";
 
 import EMPTY_STATE_PATTERN from "./pattern/emptystate/emptystate.png";
 import ERROR_PATTERN from "./pattern/errorpattern/errorpattern.png";
+import NOTIFICATION_PATTERN from "./pattern/notification/notification.png";
 
 // Homepage Assets
 import HERO_PHONE_1 from "./homepage/hero-phone-1.png";
@@ -389,6 +390,7 @@ export {
 
   EMPTY_STATE_PATTERN,
   ERROR_PATTERN,
+  NOTIFICATION_PATTERN,
 
   // Homepage
   HERO_PHONE_1,
